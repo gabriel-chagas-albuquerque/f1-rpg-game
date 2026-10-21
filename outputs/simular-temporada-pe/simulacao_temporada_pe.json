@@ -1,0 +1,33 @@
+{
+  "finsDeSemana": 24,
+  "perfis": [
+    {
+      "nome": "Neutro",
+      "ratingEmDesviosDoGrid": 0,
+      "peTotal": 167.54747843699002,
+      "pontosAtributoComprados": 13,
+      "saldoPE": 9.214393386516926,
+      "finsDeSemanaComPE": 24,
+      "razaoControle": 1
+    },
+    {
+      "nome": "Um desvio acima do companheiro",
+      "ratingEmDesviosDoGrid": 1,
+      "peTotal": 184.82341898710672,
+      "pontosAtributoComprados": 13,
+      "saldoPE": 13.946488887598512,
+      "finsDeSemanaComPE": 24,
+      "razaoControle": 1.1031107165042398
+    },
+    {
+      "nome": "Dois desvios acima do companheiro",
+      "ratingEmDesviosDoGrid": 2,
+      "peTotal": 196.30878575705,
+      "pontosAtributoComprados": 12,
+      "saldoPE": 27.846984514688774,
+      "finsDeSemanaComPE": 24,
+      "razaoControle": 1.1716606396489357
+    }
+  ],
+  "avisos": []
+}

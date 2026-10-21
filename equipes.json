@@ -1,0 +1,123 @@
+[
+  {
+    "equipe": "Mercedes",
+    "aero_carga": 89,
+    "aero_eficiencia": 95,
+    "chassi": 89,
+    "tracao": 91,
+    "potencia": 95,
+    "operacoes": 92,
+    "gestao_pneus": 89,
+    "durabilidade": 93
+  },
+  {
+    "equipe": "Ferrari",
+    "aero_carga": 94,
+    "aero_eficiencia": 82,
+    "chassi": 96,
+    "tracao": 89,
+    "potencia": 91,
+    "operacoes": 90,
+    "gestao_pneus": 91,
+    "durabilidade": 91
+  },
+  {
+    "equipe": "McLaren",
+    "aero_carga": 87,
+    "aero_eficiencia": 90,
+    "chassi": 86,
+    "tracao": 84,
+    "potencia": 93,
+    "operacoes": 90,
+    "gestao_pneus": 84,
+    "durabilidade": 79
+  },
+  {
+    "equipe": "Red Bull Racing",
+    "aero_carga": 90,
+    "aero_eficiencia": 92,
+    "chassi": 88,
+    "tracao": 78,
+    "potencia": 86,
+    "operacoes": 93,
+    "gestao_pneus": 82,
+    "durabilidade": 70
+  },
+  {
+    "equipe": "Alpine",
+    "aero_carga": 84,
+    "aero_eficiencia": 78,
+    "chassi": 84,
+    "tracao": 76,
+    "potencia": 89,
+    "operacoes": 84,
+    "gestao_pneus": 80,
+    "durabilidade": 76
+  },
+  {
+    "equipe": "Racing Bulls",
+    "aero_carga": 85,
+    "aero_eficiencia": 85,
+    "chassi": 82,
+    "tracao": 80,
+    "potencia": 83,
+    "operacoes": 82,
+    "gestao_pneus": 80,
+    "durabilidade": 68
+  },
+  {
+    "equipe": "Haas",
+    "aero_carga": 78,
+    "aero_eficiencia": 77,
+    "chassi": 80,
+    "tracao": 80,
+    "potencia": 82,
+    "operacoes": 73,
+    "gestao_pneus": 76,
+    "durabilidade": 80
+  },
+  {
+    "equipe": "Audi",
+    "aero_carga": 80,
+    "aero_eficiencia": 77,
+    "chassi": 78,
+    "tracao": 75,
+    "potencia": 66,
+    "operacoes": 83,
+    "gestao_pneus": 75,
+    "durabilidade": 65
+  },
+  {
+    "equipe": "Williams",
+    "aero_carga": 69,
+    "aero_eficiencia": 77,
+    "chassi": 73,
+    "tracao": 71,
+    "potencia": 94,
+    "operacoes": 76,
+    "gestao_pneus": 71,
+    "durabilidade": 56
+  },
+  {
+    "equipe": "Aston Martin",
+    "aero_carga": 69,
+    "aero_eficiencia": 65,
+    "chassi": 63,
+    "tracao": 59,
+    "potencia": 57,
+    "operacoes": 75,
+    "gestao_pneus": 63,
+    "durabilidade": 54
+  },
+  {
+    "equipe": "Cadillac",
+    "aero_carga": 58,
+    "aero_eficiencia": 72,
+    "chassi": 55,
+    "tracao": 58,
+    "potencia": 90,
+    "operacoes": 60,
+    "gestao_pneus": 45,
+    "durabilidade": 35
+  }
+]

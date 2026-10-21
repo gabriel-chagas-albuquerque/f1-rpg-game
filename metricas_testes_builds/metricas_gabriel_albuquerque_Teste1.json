@@ -1,0 +1,109 @@
+{
+  "equipe": "Williams",
+  "corridas": 24,
+  "regras": {
+    "q2PosicaoMaxima": 16,
+    "q3PosicaoMaxima": 10,
+    "top5SubstituiTop10": true,
+    "confrontoCorridaUsaClassificacaoOficial": true,
+    "deltaPositivoSignificaPiorPosicao": true,
+    "ganhoPosicaoPositivoSignificaMelhora": true
+  },
+  "xpBase": {
+    "vitoriaQualy": 20,
+    "vitoriaCorrida": 40,
+    "top10Qualy": 20,
+    "top5Qualy": 50,
+    "top10Corrida": 40,
+    "top5Corrida": 100,
+    "corridaLimpa": 10
+  },
+  "pilotos": [
+    {
+      "piloto": "Gabriel Albuquerque",
+      "equipe": "Williams",
+      "qualificacao": {
+        "diferencaMediaPosicao": -0.87,
+        "vitorias": 13,
+        "taxaVitoriasPercentual": 54.17,
+        "aparicoesQ2": 21,
+        "aparicoesQ3": 5
+      },
+      "corrida": {
+        "diferencaMediaPosicao": -0.33,
+        "vitorias": 11,
+        "taxaVitoriasPercentual": 45.83,
+        "ganhoPosicaoMedio": -0.5,
+        "ganhoPosicaoTotal": -12,
+        "pontos": 17,
+        "top10": 6,
+        "top5": 0
+      },
+      "falhas": {
+        "corridasComFalhaHumana": 4,
+        "taxaFalhasHumanasPercentual": 16.67,
+        "dnfsErroHumano": 0,
+        "dnfsFalhaMecanica": 1
+      },
+      "xp": {
+        "qualificacao": {
+          "vitoriasCompanheiro": 260,
+          "top10": 100,
+          "top5": 0,
+          "total": 360
+        },
+        "corrida": {
+          "vitoriasCompanheiro": 440,
+          "top10": 240,
+          "top5": 0,
+          "corridaLimpa": 200,
+          "total": 880
+        },
+        "total": 1240
+      }
+    },
+    {
+      "piloto": "Carlos Sainz",
+      "equipe": "Williams",
+      "qualificacao": {
+        "diferencaMediaPosicao": 0.88,
+        "vitorias": 11,
+        "taxaVitoriasPercentual": 45.83,
+        "aparicoesQ2": 19,
+        "aparicoesQ3": 6
+      },
+      "corrida": {
+        "diferencaMediaPosicao": 0.33,
+        "vitorias": 13,
+        "taxaVitoriasPercentual": 54.17,
+        "ganhoPosicaoMedio": 0.04,
+        "ganhoPosicaoTotal": 1,
+        "pontos": 37,
+        "top10": 7,
+        "top5": 1
+      },
+      "falhas": {
+        "corridasComFalhaHumana": 3,
+        "taxaFalhasHumanasPercentual": 12.5,
+        "dnfsErroHumano": 1,
+        "dnfsFalhaMecanica": 1
+      },
+      "xp": {
+        "qualificacao": {
+          "vitoriasCompanheiro": 220,
+          "top10": 120,
+          "top5": 0,
+          "total": 340
+        },
+        "corrida": {
+          "vitoriasCompanheiro": 520,
+          "top10": 240,
+          "top5": 100,
+          "corridaLimpa": 210,
+          "total": 1070
+        },
+        "total": 1410
+      }
+    }
+  ]
+}

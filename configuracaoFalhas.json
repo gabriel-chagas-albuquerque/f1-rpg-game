@@ -1,0 +1,19 @@
+{
+  "_comentario": "Faixa de probabilidade de falha por tipo. A faixa define a diferença entre pilotos/equipes; o fator base de cada pista (calculado pelo gerador) define o nível. 'humana' usa a consistência do piloto; 'mecanica' usa a durabilidade da equipe. Regra prática: centro = ponto médio entre atributoMinimo e atributoMaximo; escala = (atributoMaximo - atributoMinimo) / 5. Grid atual: consistência de 70 a 92 (média 84,77). Em 'humana', o intervalo 60-99 deixa folga para builds baixas e evolução por PE; ajuste com 'node descritoresParaPesosV2.js --estatisticas'.",
+  "mecanica": {
+    "porcentagemMinima": 15,
+    "porcentagemMaxima": 45,
+    "atributoMinimo": 35,
+    "atributoMaximo": 94,
+    "centro": 64.5,
+    "escala": 12
+  },
+  "humana": {
+    "porcentagemMinima": 8,
+    "porcentagemMaxima": 45,
+    "atributoMinimo": 60,
+    "atributoMaximo": 99,
+    "centro": 79.5,
+    "escala": 8
+  }
+}

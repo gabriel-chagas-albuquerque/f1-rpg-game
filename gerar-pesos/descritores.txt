@@ -1,0 +1,1 @@
+Este arquivo de referência foi descontinuado. Use descritores.json como fonte única.

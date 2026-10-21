@@ -1,0 +1,101 @@
+[
+  {
+    "equipe": "Mercedes",
+    "chassi": 93,
+    "durabilidade": 87,
+    "budget": 95,
+    "aero_carga": 92,
+    "potencia": 93,
+    "operacoes": 92
+  },
+  {
+    "equipe": "Ferrari",
+    "chassi": 91,
+    "durabilidade": 92,
+    "budget": 99,
+    "aero_carga": 92,
+    "potencia": 92,
+    "operacoes": 91
+  },
+  {
+    "equipe": "McLaren",
+    "chassi": 90,
+    "durabilidade": 94,
+    "budget": 92,
+    "aero_carga": 93,
+    "potencia": 91,
+    "operacoes": 92
+  },
+  {
+    "equipe": "Red Bull Racing",
+    "chassi": 92,
+    "durabilidade": 86,
+    "budget": 93,
+    "aero_carga": 91,
+    "potencia": 91,
+    "operacoes": 93
+  },
+  {
+    "equipe": "Racing Bulls",
+    "chassi": 83,
+    "durabilidade": 83,
+    "budget": 59,
+    "aero_carga": 85,
+    "potencia": 84,
+    "operacoes": 84
+  },
+  {
+    "equipe": "Alpine",
+    "chassi": 87,
+    "durabilidade": 85,
+    "budget": 67,
+    "aero_carga": 88,
+    "potencia": 88,
+    "operacoes": 89
+  },
+  {
+    "equipe": "Haas",
+    "chassi": 89,
+    "durabilidade": 91,
+    "budget": 58,
+    "aero_carga": 87,
+    "potencia": 87,
+    "operacoes": 88
+  },
+  {
+    "equipe": "Audi",
+    "chassi": 85,
+    "durabilidade": 93,
+    "budget": 83,
+    "aero_carga": 85,
+    "potencia": 85,
+    "operacoes": 87
+  },
+  {
+    "equipe": "Williams",
+    "chassi": 82,
+    "durabilidade": 84,
+    "budget": 61,
+    "aero_carga": 80,
+    "potencia": 82,
+    "operacoes": 83
+  },
+  {
+    "equipe": "Aston Martin",
+    "chassi": 81,
+    "durabilidade": 79,
+    "budget": 91,
+    "aero_carga": 84,
+    "potencia": 79,
+    "operacoes": 80
+  },
+  {
+    "equipe": "Cadillac",
+    "chassi": 83,
+    "durabilidade": 80,
+    "budget": 79,
+    "aero_carga": 82,
+    "potencia": 81,
+    "operacoes": 82
+  }
+]

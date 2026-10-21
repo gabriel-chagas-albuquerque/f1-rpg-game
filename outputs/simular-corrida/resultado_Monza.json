@@ -1,0 +1,545 @@
+{
+  "GP": "Monza",
+  "condicao": "seco",
+  "safetyCar": [],
+  "linhaDoTempo": [
+    {
+      "tipo": "incidente",
+      "id": 7,
+      "grupoId": 7,
+      "categoria": "posicaoMediaReal",
+      "volta": 12,
+      "pilotos": [
+        {
+          "piloto": "Esteban Ocon",
+          "dnf": true,
+          "falhas": [
+            "mecanica"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "incidente",
+      "id": 6,
+      "grupoId": 6,
+      "categoria": "posicaoMediaReal",
+      "volta": 43,
+      "pilotos": [
+        {
+          "piloto": "Max Verstappen",
+          "dnf": false,
+          "falhas": [
+            "mecanica"
+          ]
+        },
+        {
+          "piloto": "Oscar Piastri",
+          "dnf": false,
+          "falhas": [
+            "humana"
+          ]
+        },
+        {
+          "piloto": "George Russell",
+          "dnf": true,
+          "falhas": [
+            "mecanica"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "incidente",
+      "id": 8,
+      "grupoId": 8,
+      "categoria": "posicaoMediaReal",
+      "volta": 47,
+      "pilotos": [
+        {
+          "piloto": "Nico Hulkenberg",
+          "dnf": false,
+          "falhas": [
+            "mecanica"
+          ]
+        },
+        {
+          "piloto": "Fernando Alonso",
+          "dnf": false,
+          "falhas": [
+            "humana"
+          ]
+        },
+        {
+          "piloto": "Lance Stroll",
+          "dnf": false,
+          "falhas": [
+            "humana"
+          ]
+        }
+      ]
+    }
+  ],
+  "classificacao": [
+    {
+      "piloto": "Kimi Antonelli",
+      "equipe": "Mercedes",
+      "largada": 2,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 1,
+      "posicaoMediaReal": 1.5,
+      "scoreRitmoBase": 1.5304383819774312,
+      "scoreTotal": 1.5304383819774312,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 1,
+      "status": "finalizado",
+      "pontos": 25
+    },
+    {
+      "piloto": "Lando Norris",
+      "equipe": "McLaren",
+      "largada": 4,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 2,
+      "posicaoMediaReal": 3,
+      "scoreRitmoBase": 1.0971677246096556,
+      "scoreTotal": 1.0971677246096556,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 2,
+      "status": "finalizado",
+      "pontos": 18
+    },
+    {
+      "piloto": "Charles Leclerc",
+      "equipe": "Ferrari",
+      "largada": 3,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 3,
+      "posicaoMediaReal": 3,
+      "scoreRitmoBase": 1.0465164909257259,
+      "scoreTotal": 1.0465164909257259,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 3,
+      "status": "finalizado",
+      "pontos": 15
+    },
+    {
+      "piloto": "Lewis Hamilton",
+      "equipe": "Ferrari",
+      "largada": 6,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 4,
+      "posicaoMediaReal": 5,
+      "scoreRitmoBase": 1.0186441448804118,
+      "scoreTotal": 1.0186441448804118,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 4,
+      "status": "finalizado",
+      "pontos": 12
+    },
+    {
+      "piloto": "Isack Hadjar",
+      "equipe": "Red Bull Racing",
+      "largada": 7,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 5,
+      "posicaoMediaReal": 6,
+      "scoreRitmoBase": 0.9559515870472306,
+      "scoreTotal": 0.9559515870472306,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 5,
+      "status": "finalizado",
+      "pontos": 10
+    },
+    {
+      "piloto": "Oscar Piastri",
+      "equipe": "McLaren",
+      "largada": 5,
+      "falhaHumana": true,
+      "falhaHumanaModerada": true,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 7,
+      "posicaoMediaReal": 6,
+      "scoreRitmoBase": 0.34225671064493457,
+      "scoreTotal": 0.34225671064493457,
+      "penalidadeScore": {
+        "aplicada": true,
+        "valor": 0.8603156693739056,
+        "motivo": "falhaHumana"
+      },
+      "posicao": 6,
+      "status": "finalizado",
+      "pontos": 8
+    },
+    {
+      "piloto": "Franco Colapinto",
+      "equipe": "Alpine",
+      "largada": 12,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 8,
+      "posicaoMediaReal": 10,
+      "scoreRitmoBase": 0.26383997331541065,
+      "scoreTotal": 0.26383997331541065,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 7,
+      "status": "finalizado",
+      "pontos": 6
+    },
+    {
+      "piloto": "Pierre Gasly",
+      "equipe": "Alpine",
+      "largada": 9,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 9,
+      "posicaoMediaReal": 9,
+      "scoreRitmoBase": 0.20369506465723686,
+      "scoreTotal": 0.20369506465723686,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 8,
+      "status": "finalizado",
+      "pontos": 4
+    },
+    {
+      "piloto": "Max Verstappen",
+      "equipe": "Red Bull Racing",
+      "largada": 1,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": true,
+      "falhaMecanicaModerada": true,
+      "posicaoRitmo": 10,
+      "posicaoMediaReal": 5.5,
+      "scoreRitmoBase": 0.16724471424020093,
+      "scoreTotal": 0.16724471424020093,
+      "penalidadeScore": {
+        "aplicada": true,
+        "valor": 1.2826616962485327,
+        "motivo": "falhaMecanica"
+      },
+      "posicao": 9,
+      "status": "finalizado",
+      "pontos": 2
+    },
+    {
+      "piloto": "Liam Lawson",
+      "equipe": "Racing Bulls",
+      "largada": 11,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 11,
+      "posicaoMediaReal": 11,
+      "scoreRitmoBase": 0.14613299195417845,
+      "scoreTotal": 0.14613299195417845,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 10,
+      "status": "finalizado",
+      "pontos": 1
+    },
+    {
+      "piloto": "Carlos Sainz",
+      "equipe": "Williams",
+      "largada": 10,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 12,
+      "posicaoMediaReal": 11,
+      "scoreRitmoBase": -0.01257644020470408,
+      "scoreTotal": -0.01257644020470408,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 11,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Arvid Lindblad",
+      "equipe": "Racing Bulls",
+      "largada": 16,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 13,
+      "posicaoMediaReal": 14.5,
+      "scoreRitmoBase": -0.12456535875232866,
+      "scoreTotal": -0.12456535875232866,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 12,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Valtteri Bottas",
+      "equipe": "Cadillac",
+      "largada": 13,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 14,
+      "posicaoMediaReal": 13.5,
+      "scoreRitmoBase": -0.4678970338126215,
+      "scoreTotal": -0.4678970338126215,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 13,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Oliver Bearman",
+      "equipe": "Haas",
+      "largada": 14,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 16,
+      "posicaoMediaReal": 15,
+      "scoreRitmoBase": -0.5465235422217447,
+      "scoreTotal": -0.5465235422217447,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 14,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Alexander Albon",
+      "equipe": "Williams",
+      "largada": 18,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 17,
+      "posicaoMediaReal": 17.5,
+      "scoreRitmoBase": -0.5989896498850436,
+      "scoreTotal": -0.5989896498850436,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 15,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Gabriel Bortoleto",
+      "equipe": "Audi",
+      "largada": 15,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 18,
+      "posicaoMediaReal": 16.5,
+      "scoreRitmoBase": -0.6613998328223022,
+      "scoreTotal": -0.6613998328223022,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 16,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Nico Hulkenberg",
+      "equipe": "Audi",
+      "largada": 20,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": true,
+      "falhaMecanicaModerada": true,
+      "posicaoRitmo": 19,
+      "posicaoMediaReal": 19.5,
+      "scoreRitmoBase": -1.433474158456073,
+      "scoreTotal": -1.433474158456073,
+      "penalidadeScore": {
+        "aplicada": true,
+        "valor": 0.774247650851418,
+        "motivo": "falhaMecanica"
+      },
+      "posicao": 17,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Sergio Perez",
+      "equipe": "Cadillac",
+      "largada": 19,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 20,
+      "posicaoMediaReal": 19.5,
+      "scoreRitmoBase": -1.556046187641746,
+      "scoreTotal": -1.556046187641746,
+      "penalidadeScore": {
+        "aplicada": false,
+        "valor": 0,
+        "motivo": null
+      },
+      "posicao": 18,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Fernando Alonso",
+      "equipe": "Aston Martin",
+      "largada": 22,
+      "falhaHumana": true,
+      "falhaHumanaModerada": true,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 21,
+      "posicaoMediaReal": 21.5,
+      "scoreRitmoBase": -2.356695353690526,
+      "scoreTotal": -2.356695353690526,
+      "penalidadeScore": {
+        "aplicada": true,
+        "valor": 0.876920932557043,
+        "motivo": "falhaHumana"
+      },
+      "posicao": 19,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "Lance Stroll",
+      "equipe": "Aston Martin",
+      "largada": 21,
+      "falhaHumana": true,
+      "falhaHumanaModerada": true,
+      "falhaMecanica": false,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 22,
+      "posicaoMediaReal": 21.5,
+      "scoreRitmoBase": -2.7426170018910163,
+      "scoreTotal": -2.7426170018910163,
+      "penalidadeScore": {
+        "aplicada": true,
+        "valor": 1.0191351687830297,
+        "motivo": "falhaHumana"
+      },
+      "posicao": 20,
+      "status": "finalizado",
+      "pontos": 0
+    },
+    {
+      "piloto": "George Russell",
+      "equipe": "Mercedes",
+      "largada": 8,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": true,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 6,
+      "posicaoMediaReal": 7,
+      "scoreRitmoBase": 0.8512163467179437,
+      "scoreTotal": 0.8512163467179437,
+      "motivo": "falha mecânica",
+      "voltaAbandono": 43,
+      "posicao": 21,
+      "status": "dnf",
+      "pontos": 0
+    },
+    {
+      "piloto": "Esteban Ocon",
+      "equipe": "Haas",
+      "largada": 17,
+      "falhaHumana": false,
+      "falhaHumanaModerada": false,
+      "falhaMecanica": true,
+      "falhaMecanicaModerada": false,
+      "posicaoRitmo": 15,
+      "posicaoMediaReal": 16,
+      "scoreRitmoBase": -0.5387663826383697,
+      "scoreTotal": -0.5387663826383697,
+      "motivo": "falha mecânica",
+      "voltaAbandono": 12,
+      "posicao": 22,
+      "status": "dnf",
+      "pontos": 0
+    }
+  ],
+  "progressoPE": {
+    "status": "aguardando_piloto_jogador",
+    "pilotos": []
+  }
+}

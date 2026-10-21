@@ -1,0 +1,8095 @@
+{
+  "GP": "Monaco",
+  "quantidadeSimulacoes": 10000,
+  "penalidadeZFalhaCarroMinima": 2.408,
+  "penalidadeZFalhaCarroMaxima": 7.284,
+  "limitePenalidadeZDNF": 5,
+  "informacoesGerais": {
+    "qualificacao": {
+      "mediaUltrapassagens": 0,
+      "mediaFalhas": 1.9476,
+      "qualysNaChuva": 1508,
+      "contagemCondicoesClima": {
+        "seco": 8492,
+        "garoa": 768,
+        "chuva": 553,
+        "tempestade": 187
+      }
+    },
+    "corrida": {
+      "mediaUltrapassagens": 14.3884,
+      "mediaFalhas": 10.1279,
+      "contagemCondicoesClima": {
+        "seco": 8490,
+        "garoa": 755,
+        "chuva": 528,
+        "tempestade": 227
+      },
+      "combinacoesClima": {
+        "secoSeco": 8120,
+        "qualiMolhadaCorridaSeca": 370,
+        "qualiSecaCorridaMolhada": 372,
+        "molhadoMolhado": 1138
+      },
+      "estatisticasPorCondicao": {
+        "seco": {
+          "simulacoes": 8490,
+          "vitoriasPorPosicaoLargada": [
+            {
+              "posicaoLargada": 1,
+              "vitorias": 5621,
+              "porcentagem": 66.21
+            },
+            {
+              "posicaoLargada": 2,
+              "vitorias": 2133,
+              "porcentagem": 25.12
+            },
+            {
+              "posicaoLargada": 3,
+              "vitorias": 598,
+              "porcentagem": 7.04
+            },
+            {
+              "posicaoLargada": 4,
+              "vitorias": 123,
+              "porcentagem": 1.45
+            },
+            {
+              "posicaoLargada": 5,
+              "vitorias": 15,
+              "porcentagem": 0.18
+            },
+            {
+              "posicaoLargada": 6,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 7,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 8,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 9,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 10,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 11,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 12,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 13,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 14,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 15,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 16,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 17,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 18,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 19,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 20,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 21,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 22,
+              "vitorias": 0,
+              "porcentagem": 0
+            }
+          ],
+          "posicaoFinalMedia": 11.5,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "desvioMedioPosicaoFinal": 2.86,
+          "participacoes": 186780,
+          "dnf": 31157,
+          "percentualDNF": 16.68
+        },
+        "garoa": {
+          "simulacoes": 755,
+          "vitoriasPorPosicaoLargada": [
+            {
+              "posicaoLargada": 1,
+              "vitorias": 380,
+              "porcentagem": 50.33
+            },
+            {
+              "posicaoLargada": 2,
+              "vitorias": 218,
+              "porcentagem": 28.87
+            },
+            {
+              "posicaoLargada": 3,
+              "vitorias": 107,
+              "porcentagem": 14.17
+            },
+            {
+              "posicaoLargada": 4,
+              "vitorias": 40,
+              "porcentagem": 5.3
+            },
+            {
+              "posicaoLargada": 5,
+              "vitorias": 10,
+              "porcentagem": 1.32
+            },
+            {
+              "posicaoLargada": 6,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 7,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 8,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 9,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 10,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 11,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 12,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 13,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 14,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 15,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 16,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 17,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 18,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 19,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 20,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 21,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 22,
+              "vitorias": 0,
+              "porcentagem": 0
+            }
+          ],
+          "posicaoFinalMedia": 11.5,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "desvioMedioPosicaoFinal": 3.06,
+          "participacoes": 16610,
+          "dnf": 3008,
+          "percentualDNF": 18.11
+        },
+        "chuva": {
+          "simulacoes": 528,
+          "vitoriasPorPosicaoLargada": [
+            {
+              "posicaoLargada": 1,
+              "vitorias": 253,
+              "porcentagem": 47.92
+            },
+            {
+              "posicaoLargada": 2,
+              "vitorias": 143,
+              "porcentagem": 27.08
+            },
+            {
+              "posicaoLargada": 3,
+              "vitorias": 78,
+              "porcentagem": 14.77
+            },
+            {
+              "posicaoLargada": 4,
+              "vitorias": 35,
+              "porcentagem": 6.63
+            },
+            {
+              "posicaoLargada": 5,
+              "vitorias": 14,
+              "porcentagem": 2.65
+            },
+            {
+              "posicaoLargada": 6,
+              "vitorias": 4,
+              "porcentagem": 0.76
+            },
+            {
+              "posicaoLargada": 7,
+              "vitorias": 1,
+              "porcentagem": 0.19
+            },
+            {
+              "posicaoLargada": 8,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 9,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 10,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 11,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 12,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 13,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 14,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 15,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 16,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 17,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 18,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 19,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 20,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 21,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 22,
+              "vitorias": 0,
+              "porcentagem": 0
+            }
+          ],
+          "posicaoFinalMedia": 11.5,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "desvioMedioPosicaoFinal": 3.33,
+          "participacoes": 11616,
+          "dnf": 2187,
+          "percentualDNF": 18.83
+        },
+        "tempestade": {
+          "simulacoes": 227,
+          "vitoriasPorPosicaoLargada": [
+            {
+              "posicaoLargada": 1,
+              "vitorias": 72,
+              "porcentagem": 31.72
+            },
+            {
+              "posicaoLargada": 2,
+              "vitorias": 72,
+              "porcentagem": 31.72
+            },
+            {
+              "posicaoLargada": 3,
+              "vitorias": 36,
+              "porcentagem": 15.86
+            },
+            {
+              "posicaoLargada": 4,
+              "vitorias": 27,
+              "porcentagem": 11.89
+            },
+            {
+              "posicaoLargada": 5,
+              "vitorias": 8,
+              "porcentagem": 3.52
+            },
+            {
+              "posicaoLargada": 6,
+              "vitorias": 5,
+              "porcentagem": 2.2
+            },
+            {
+              "posicaoLargada": 7,
+              "vitorias": 5,
+              "porcentagem": 2.2
+            },
+            {
+              "posicaoLargada": 8,
+              "vitorias": 2,
+              "porcentagem": 0.88
+            },
+            {
+              "posicaoLargada": 9,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 10,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 11,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 12,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 13,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 14,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 15,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 16,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 17,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 18,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 19,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 20,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 21,
+              "vitorias": 0,
+              "porcentagem": 0
+            },
+            {
+              "posicaoLargada": 22,
+              "vitorias": 0,
+              "porcentagem": 0
+            }
+          ],
+          "posicaoFinalMedia": 11.5,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "desvioMedioPosicaoFinal": 3.58,
+          "participacoes": 4994,
+          "dnf": 1042,
+          "percentualDNF": 20.87
+        }
+      },
+      "comparativoSecoChuva": {
+        "seco": {
+          "simulacoes": 8490,
+          "vitoriasDaPole": 5621,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioMedioPosicaoFinal": 2.86,
+          "posicaoFinalMedia": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "participacoes": 186780,
+          "dnf": 31157,
+          "percentualDNF": 16.68
+        },
+        "chuva": {
+          "simulacoes": 1510,
+          "vitoriasDaPole": 705,
+          "posicaoFinalMediaPorPiloto": 11.5,
+          "desvioMedioPosicaoFinal": 3.25,
+          "posicaoFinalMedia": 11.5,
+          "desvioPadraoPosicaoFinal": 6.34,
+          "participacoes": 33220,
+          "dnf": 6237,
+          "percentualDNF": 18.77
+        }
+      },
+      "dnf": {
+        "total": 37394,
+        "percentualParticipacoes": 17,
+        "porFalhaDurabilidade": 22739,
+        "porFalhaHumana": 16496
+      },
+      "corridasComChuva": 1510,
+      "vitoriasPorPiloto": [
+        {
+          "piloto": "Kimi Antonelli",
+          "equipe": "Mercedes",
+          "vitorias": 2984,
+          "porcentagem": 29.84
+        },
+        {
+          "piloto": "George Russell",
+          "equipe": "Mercedes",
+          "vitorias": 2640,
+          "porcentagem": 26.4
+        },
+        {
+          "piloto": "Max Verstappen",
+          "equipe": "Red Bull Racing",
+          "vitorias": 2136,
+          "porcentagem": 21.36
+        },
+        {
+          "piloto": "Charles Leclerc",
+          "equipe": "Ferrari",
+          "vitorias": 1486,
+          "porcentagem": 14.86
+        },
+        {
+          "piloto": "Oscar Piastri",
+          "equipe": "McLaren",
+          "vitorias": 335,
+          "porcentagem": 3.35
+        },
+        {
+          "piloto": "Lewis Hamilton",
+          "equipe": "Ferrari",
+          "vitorias": 312,
+          "porcentagem": 3.12
+        },
+        {
+          "piloto": "Lando Norris",
+          "equipe": "McLaren",
+          "vitorias": 97,
+          "porcentagem": 0.97
+        },
+        {
+          "piloto": "Isack Hadjar",
+          "equipe": "Red Bull Racing",
+          "vitorias": 9,
+          "porcentagem": 0.09
+        },
+        {
+          "piloto": "Franco Colapinto",
+          "equipe": "Alpine",
+          "vitorias": 1,
+          "porcentagem": 0.01
+        }
+      ],
+      "vitoriasPorPosicaoLargada": [
+        {
+          "posicaoLargada": 1,
+          "vitorias": 6326,
+          "porcentagem": 63.26
+        },
+        {
+          "posicaoLargada": 2,
+          "vitorias": 2566,
+          "porcentagem": 25.66
+        },
+        {
+          "posicaoLargada": 3,
+          "vitorias": 819,
+          "porcentagem": 8.19
+        },
+        {
+          "posicaoLargada": 4,
+          "vitorias": 225,
+          "porcentagem": 2.25
+        }
+      ]
+    }
+  },
+  "resultadosCorrida": [
+    {
+      "piloto": "George Russell",
+      "equipe": "Mercedes",
+      "posicaoMediaLargada": 3.2439,
+      "posicaoMediaFinal": 3.3389,
+      "variacaoPosicoesMedia": -0.095,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1333,
+        "percentual": 13.33,
+        "porFalhaDurabilidade": 967,
+        "porFalhaHumana": 400
+      },
+      "posicoesQualificacao": {
+        "1": 2531,
+        "2": 2595,
+        "3": 2057,
+        "4": 1354,
+        "5": 589,
+        "6": 212,
+        "7": 89,
+        "8": 54,
+        "9": 48,
+        "10": 32,
+        "11": 44,
+        "12": 30,
+        "13": 30,
+        "14": 37,
+        "15": 59,
+        "16": 29,
+        "17": 36,
+        "18": 48,
+        "19": 44,
+        "20": 38,
+        "21": 34,
+        "22": 10
+      },
+      "posicoesCorrida": {
+        "1": 2640,
+        "2": 2334,
+        "3": 1697,
+        "4": 1240,
+        "5": 745,
+        "6": 445,
+        "7": 261,
+        "8": 125,
+        "9": 79,
+        "10": 61,
+        "11": 44,
+        "12": 46,
+        "13": 51,
+        "14": 41,
+        "15": 53,
+        "16": 43,
+        "17": 38,
+        "18": 24,
+        "19": 15,
+        "20": 12,
+        "21": 4,
+        "22": 2
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 2271,
+          "2": 2053,
+          "3": 1459,
+          "4": 1045,
+          "5": 634,
+          "6": 341,
+          "7": 201,
+          "8": 81,
+          "9": 53,
+          "10": 42,
+          "11": 30,
+          "12": 38,
+          "13": 42,
+          "14": 32,
+          "15": 45,
+          "16": 37,
+          "17": 37,
+          "18": 21,
+          "19": 15,
+          "20": 10,
+          "21": 2,
+          "22": 1
+        },
+        "garoa": {
+          "1": 201,
+          "2": 146,
+          "3": 121,
+          "4": 104,
+          "5": 41,
+          "6": 50,
+          "7": 26,
+          "8": 20,
+          "9": 7,
+          "10": 9,
+          "11": 2,
+          "12": 3,
+          "13": 7,
+          "14": 6,
+          "15": 3,
+          "16": 2,
+          "17": 1,
+          "18": 2,
+          "19": 0,
+          "20": 2,
+          "21": 1,
+          "22": 1
+        },
+        "chuva": {
+          "1": 123,
+          "2": 97,
+          "3": 84,
+          "4": 63,
+          "5": 50,
+          "6": 39,
+          "7": 20,
+          "8": 12,
+          "9": 13,
+          "10": 5,
+          "11": 7,
+          "12": 4,
+          "13": 1,
+          "14": 3,
+          "15": 4,
+          "16": 2,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 1,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 45,
+          "2": 38,
+          "3": 33,
+          "4": 28,
+          "5": 20,
+          "6": 15,
+          "7": 14,
+          "8": 12,
+          "9": 6,
+          "10": 5,
+          "11": 5,
+          "12": 1,
+          "13": 1,
+          "14": 0,
+          "15": 1,
+          "16": 2,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 2271,
+          "2": 2053,
+          "3": 1459,
+          "4": 1045,
+          "5": 634,
+          "6": 341,
+          "7": 201,
+          "8": 81,
+          "9": 53,
+          "10": 42,
+          "11": 30,
+          "12": 38,
+          "13": 42,
+          "14": 32,
+          "15": 45,
+          "16": 37,
+          "17": 37,
+          "18": 21,
+          "19": 15,
+          "20": 10,
+          "21": 2,
+          "22": 1
+        },
+        "chuva": {
+          "1": 369,
+          "2": 281,
+          "3": 238,
+          "4": 195,
+          "5": 111,
+          "6": 104,
+          "7": 60,
+          "8": 44,
+          "9": 26,
+          "10": 19,
+          "11": 14,
+          "12": 8,
+          "13": 9,
+          "14": 9,
+          "15": 8,
+          "16": 6,
+          "17": 1,
+          "18": 3,
+          "19": 0,
+          "20": 2,
+          "21": 2,
+          "22": 1
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 3.26,
+          "desvioPadraoPosicaoFinal": 2.91
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 3.6,
+          "desvioPadraoPosicaoFinal": 3.15
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 3.79,
+          "desvioPadraoPosicaoFinal": 2.98
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 4.25,
+          "desvioPadraoPosicaoFinal": 3.18
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 1.338,
+          "scorePilotoMedioChuva": 1.291,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.047
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.807,
+          "scorePilotoMedioChuva": 0.666,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.14
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 1.331,
+          "scoreEquipe": 1.186,
+          "scorePilotoBruto": 93.95,
+          "scoreEquipeBruto": 92.7,
+          "contribuicaoPiloto": 0.808,
+          "contribuicaoEquipe": 0.466,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.03,
+            "probabilidade": 0.04,
+            "penalidade": 0.191,
+            "penalidadeZMinima": 2.417,
+            "penalidadeZMaxima": 7.217
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 2.18,
+            "probabilidade": 0.02,
+            "penalidade": 0.083,
+            "penalidadeZMinima": 1.957,
+            "penalidadeZMaxima": 5.842
+          },
+          "scoreAntesRNG": 1.274,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.751,
+              "valor": 0.001
+            },
+            "carro": {
+              "limite": 0.8,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 3.024,
+              "valor": 0.012
+            },
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": 0.001
+          },
+          "scoreTotal": 1.275
+        },
+        "corrida": {
+          "scorePosInicial": 1.301,
+          "contribuicaoPosInicial": 1.087,
+          "scorePiloto": 0.785,
+          "scoreEquipe": 0.312,
+          "scorePilotoBruto": 92.24,
+          "scoreEquipeBruto": 92.54,
+          "contribuicaoPiloto": 0.085,
+          "contribuicaoEquipe": 0.017,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 21.08,
+            "probabilidade": 0.22,
+            "penalidade": 1.018,
+            "penalidadeZMinima": 2.434,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 12.76,
+            "probabilidade": 0.12,
+            "penalidade": 0.537,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": 1.189,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.975,
+              "valor": 0.001
+            },
+            "carro": {
+              "limite": 3.532,
+              "valor": -0.016
+            },
+            "staff": {
+              "limite": 6.204,
+              "valor": -0.035
+            },
+            "largada": {
+              "limite": 0.37,
+              "valor": -0.001
+            },
+            "contribuicaoLargada": -0.001,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.002
+          },
+          "scoreTotal": 1.187
+        }
+      }
+    },
+    {
+      "piloto": "Kimi Antonelli",
+      "equipe": "Mercedes",
+      "posicaoMediaLargada": 3.1671,
+      "posicaoMediaFinal": 3.3606,
+      "variacaoPosicoesMedia": -0.1935,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1468,
+        "percentual": 14.68,
+        "porFalhaDurabilidade": 1022,
+        "porFalhaHumana": 498
+      },
+      "posicoesQualificacao": {
+        "1": 3360,
+        "2": 2400,
+        "3": 1756,
+        "4": 1061,
+        "5": 465,
+        "6": 195,
+        "7": 80,
+        "8": 78,
+        "9": 55,
+        "10": 35,
+        "11": 40,
+        "12": 33,
+        "13": 36,
+        "14": 40,
+        "15": 50,
+        "16": 56,
+        "17": 58,
+        "18": 50,
+        "19": 46,
+        "20": 48,
+        "21": 31,
+        "22": 27
+      },
+      "posicoesCorrida": {
+        "1": 2984,
+        "2": 2223,
+        "3": 1627,
+        "4": 1073,
+        "5": 684,
+        "6": 406,
+        "7": 260,
+        "8": 141,
+        "9": 88,
+        "10": 61,
+        "11": 48,
+        "12": 52,
+        "13": 50,
+        "14": 56,
+        "15": 67,
+        "16": 50,
+        "17": 37,
+        "18": 41,
+        "19": 19,
+        "20": 20,
+        "21": 8,
+        "22": 5
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 2601,
+          "2": 1921,
+          "3": 1397,
+          "4": 907,
+          "5": 571,
+          "6": 322,
+          "7": 184,
+          "8": 91,
+          "9": 64,
+          "10": 46,
+          "11": 34,
+          "12": 42,
+          "13": 43,
+          "14": 46,
+          "15": 60,
+          "16": 44,
+          "17": 34,
+          "18": 36,
+          "19": 19,
+          "20": 17,
+          "21": 6,
+          "22": 5
+        },
+        "garoa": {
+          "1": 207,
+          "2": 157,
+          "3": 132,
+          "4": 81,
+          "5": 58,
+          "6": 36,
+          "7": 28,
+          "8": 15,
+          "9": 7,
+          "10": 8,
+          "11": 4,
+          "12": 3,
+          "13": 2,
+          "14": 4,
+          "15": 2,
+          "16": 2,
+          "17": 0,
+          "18": 5,
+          "19": 0,
+          "20": 2,
+          "21": 2,
+          "22": 0
+        },
+        "chuva": {
+          "1": 134,
+          "2": 99,
+          "3": 64,
+          "4": 58,
+          "5": 36,
+          "6": 36,
+          "7": 35,
+          "8": 26,
+          "9": 10,
+          "10": 6,
+          "11": 7,
+          "12": 1,
+          "13": 5,
+          "14": 4,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "18": 0,
+          "19": 0,
+          "20": 1,
+          "21": 0,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 42,
+          "2": 46,
+          "3": 34,
+          "4": 27,
+          "5": 19,
+          "6": 12,
+          "7": 13,
+          "8": 9,
+          "9": 7,
+          "10": 1,
+          "11": 3,
+          "12": 6,
+          "13": 0,
+          "14": 2,
+          "15": 3,
+          "16": 2,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 2601,
+          "2": 1921,
+          "3": 1397,
+          "4": 907,
+          "5": 571,
+          "6": 322,
+          "7": 184,
+          "8": 91,
+          "9": 64,
+          "10": 46,
+          "11": 34,
+          "12": 42,
+          "13": 43,
+          "14": 46,
+          "15": 60,
+          "16": 44,
+          "17": 34,
+          "18": 36,
+          "19": 19,
+          "20": 17,
+          "21": 6,
+          "22": 5
+        },
+        "chuva": {
+          "1": 383,
+          "2": 302,
+          "3": 230,
+          "4": 166,
+          "5": 113,
+          "6": 84,
+          "7": 76,
+          "8": 50,
+          "9": 24,
+          "10": 15,
+          "11": 14,
+          "12": 10,
+          "13": 7,
+          "14": 10,
+          "15": 7,
+          "16": 6,
+          "17": 3,
+          "18": 5,
+          "19": 0,
+          "20": 3,
+          "21": 2,
+          "22": 0
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 3.29,
+          "desvioPadraoPosicaoFinal": 3.21
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 3.45,
+          "desvioPadraoPosicaoFinal": 3.07
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 3.94,
+          "desvioPadraoPosicaoFinal": 3.19
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 4.29,
+          "desvioPadraoPosicaoFinal": 3.43
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 1.368,
+          "scorePilotoMedioChuva": 1.322,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.047
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.687,
+          "scorePilotoMedioChuva": 0.575,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.112
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 1.361,
+          "scoreEquipe": 1.178,
+          "scorePilotoBruto": 94.32,
+          "scoreEquipeBruto": 92.7,
+          "contribuicaoPiloto": 0.827,
+          "contribuicaoEquipe": 0.462,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.17,
+            "probabilidade": 0.04,
+            "penalidade": 0.199,
+            "penalidadeZMinima": 2.408,
+            "penalidadeZMaxima": 7.196
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.14,
+            "probabilidade": 0.03,
+            "penalidade": 0.123,
+            "penalidadeZMinima": 1.965,
+            "penalidadeZMaxima": 5.839
+          },
+          "scoreAntesRNG": 1.289,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.834,
+              "valor": -0.001
+            },
+            "carro": {
+              "limite": 0.8,
+              "valor": -0.002
+            },
+            "staff": {
+              "limite": 3.024,
+              "valor": 0.013
+            },
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.001
+          },
+          "scoreTotal": 1.288
+        },
+        "corrida": {
+          "scorePosInicial": 1.313,
+          "contribuicaoPosInicial": 1.096,
+          "scorePiloto": 0.67,
+          "scoreEquipe": 0.27,
+          "scorePilotoBruto": 92.31,
+          "scoreEquipeBruto": 92.54,
+          "contribuicaoPiloto": 0.073,
+          "contribuicaoEquipe": 0.014,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 21.89,
+            "probabilidade": 0.22,
+            "penalidade": 1.06,
+            "penalidadeZMinima": 2.431,
+            "penalidadeZMaxima": 7.277
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 15.93,
+            "probabilidade": 0.16,
+            "penalidade": 0.668,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.293
+          },
+          "scoreAntesRNG": 1.183,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.083,
+              "valor": 0.006
+            },
+            "carro": {
+              "limite": 3.532,
+              "valor": 0.014
+            },
+            "staff": {
+              "limite": 6.204,
+              "valor": -0.024
+            },
+            "largada": {
+              "limite": 0.324,
+              "valor": 0
+            },
+            "contribuicaoLargada": 0,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": 0
+          },
+          "scoreTotal": 1.183
+        }
+      }
+    },
+    {
+      "piloto": "Max Verstappen",
+      "equipe": "Red Bull Racing",
+      "posicaoMediaLargada": 3.5993,
+      "posicaoMediaFinal": 3.8302,
+      "variacaoPosicoesMedia": -0.2309,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1597,
+        "percentual": 15.97,
+        "porFalhaDurabilidade": 1120,
+        "porFalhaHumana": 529
+      },
+      "posicoesQualificacao": {
+        "1": 2394,
+        "2": 2263,
+        "3": 2027,
+        "4": 1409,
+        "5": 707,
+        "6": 356,
+        "7": 123,
+        "8": 79,
+        "9": 44,
+        "10": 29,
+        "11": 43,
+        "12": 34,
+        "13": 40,
+        "14": 39,
+        "15": 55,
+        "16": 51,
+        "17": 54,
+        "18": 56,
+        "19": 54,
+        "20": 65,
+        "21": 50,
+        "22": 28
+      },
+      "posicoesCorrida": {
+        "1": 2136,
+        "2": 2059,
+        "3": 1760,
+        "4": 1316,
+        "5": 893,
+        "6": 592,
+        "7": 379,
+        "8": 188,
+        "9": 100,
+        "10": 59,
+        "11": 53,
+        "12": 60,
+        "13": 52,
+        "14": 65,
+        "15": 62,
+        "16": 56,
+        "17": 51,
+        "18": 50,
+        "19": 39,
+        "20": 19,
+        "21": 5,
+        "22": 6
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 1835,
+          "2": 1785,
+          "3": 1536,
+          "4": 1151,
+          "5": 746,
+          "6": 471,
+          "7": 298,
+          "8": 138,
+          "9": 69,
+          "10": 39,
+          "11": 31,
+          "12": 44,
+          "13": 39,
+          "14": 49,
+          "15": 56,
+          "16": 52,
+          "17": 42,
+          "18": 47,
+          "19": 35,
+          "20": 17,
+          "21": 4,
+          "22": 6
+        },
+        "garoa": {
+          "1": 155,
+          "2": 158,
+          "3": 117,
+          "4": 88,
+          "5": 59,
+          "6": 68,
+          "7": 37,
+          "8": 24,
+          "9": 9,
+          "10": 4,
+          "11": 6,
+          "12": 4,
+          "13": 5,
+          "14": 7,
+          "15": 1,
+          "16": 2,
+          "17": 6,
+          "18": 2,
+          "19": 1,
+          "20": 1,
+          "21": 1,
+          "22": 0
+        },
+        "chuva": {
+          "1": 97,
+          "2": 86,
+          "3": 86,
+          "4": 59,
+          "5": 63,
+          "6": 26,
+          "7": 29,
+          "8": 18,
+          "9": 14,
+          "10": 9,
+          "11": 9,
+          "12": 10,
+          "13": 7,
+          "14": 5,
+          "15": 4,
+          "16": 0,
+          "17": 2,
+          "18": 0,
+          "19": 3,
+          "20": 1,
+          "21": 0,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 49,
+          "2": 30,
+          "3": 21,
+          "4": 18,
+          "5": 25,
+          "6": 27,
+          "7": 15,
+          "8": 8,
+          "9": 8,
+          "10": 7,
+          "11": 7,
+          "12": 2,
+          "13": 1,
+          "14": 4,
+          "15": 1,
+          "16": 2,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 1835,
+          "2": 1785,
+          "3": 1536,
+          "4": 1151,
+          "5": 746,
+          "6": 471,
+          "7": 298,
+          "8": 138,
+          "9": 69,
+          "10": 39,
+          "11": 31,
+          "12": 44,
+          "13": 39,
+          "14": 49,
+          "15": 56,
+          "16": 52,
+          "17": 42,
+          "18": 47,
+          "19": 35,
+          "20": 17,
+          "21": 4,
+          "22": 6
+        },
+        "chuva": {
+          "1": 301,
+          "2": 274,
+          "3": 224,
+          "4": 165,
+          "5": 147,
+          "6": 121,
+          "7": 81,
+          "8": 50,
+          "9": 31,
+          "10": 20,
+          "11": 22,
+          "12": 16,
+          "13": 13,
+          "14": 16,
+          "15": 6,
+          "16": 4,
+          "17": 9,
+          "18": 3,
+          "19": 4,
+          "20": 2,
+          "21": 1,
+          "22": 0
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 3.76,
+          "desvioPadraoPosicaoFinal": 3.32
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 3.94,
+          "desvioPadraoPosicaoFinal": 3.21
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 4.45,
+          "desvioPadraoPosicaoFinal": 3.51
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 4.82,
+          "desvioPadraoPosicaoFinal": 3.64
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 1.367,
+          "scorePilotoMedioChuva": 1.398,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.031
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.617,
+          "scorePilotoMedioChuva": 0.416,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.202
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 1.372,
+          "scoreEquipe": 0.988,
+          "scorePilotoBruto": 94.5,
+          "scoreEquipeBruto": 91.86,
+          "contribuicaoPiloto": 0.833,
+          "contribuicaoEquipe": 0.388,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 3.88,
+            "probabilidade": 0.04,
+            "penalidade": 0.188,
+            "penalidadeZMinima": 2.443,
+            "penalidadeZMaxima": 7.221
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.77,
+            "probabilidade": 0.03,
+            "penalidade": 0.148,
+            "penalidadeZMinima": 1.956,
+            "penalidadeZMaxima": 5.843
+          },
+          "scoreAntesRNG": 1.221,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.876,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 0.835,
+              "valor": -0.002
+            },
+            "staff": {
+              "limite": 2.856,
+              "valor": -0.003
+            },
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0
+          },
+          "scoreTotal": 1.222
+        },
+        "corrida": {
+          "scorePosInicial": 1.245,
+          "contribuicaoPosInicial": 1.039,
+          "scorePiloto": 0.587,
+          "scoreEquipe": 0.04,
+          "scorePilotoBruto": 92.15,
+          "scoreEquipeBruto": 92.01,
+          "contribuicaoPiloto": 0.063,
+          "contribuicaoEquipe": 0.001,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 23.86,
+            "probabilidade": 0.23,
+            "penalidade": 1.162,
+            "penalidadeZMinima": 2.433,
+            "penalidadeZMaxima": 7.282
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 17.08,
+            "probabilidade": 0.17,
+            "penalidade": 0.717,
+            "penalidadeZMinima": 2.103,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": 1.103,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.138,
+              "valor": -0.007
+            },
+            "carro": {
+              "limite": 3.686,
+              "valor": -0.006
+            },
+            "staff": {
+              "limite": 5.859,
+              "valor": -0.024
+            },
+            "largada": {
+              "limite": 0.324,
+              "valor": 0.001
+            },
+            "contribuicaoLargada": 0.001,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.001
+          },
+          "scoreTotal": 1.102
+        }
+      }
+    },
+    {
+      "piloto": "Charles Leclerc",
+      "equipe": "Ferrari",
+      "posicaoMediaLargada": 4.0021,
+      "posicaoMediaFinal": 4.149,
+      "variacaoPosicoesMedia": -0.1469,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1191,
+        "percentual": 11.91,
+        "porFalhaDurabilidade": 654,
+        "porFalhaHumana": 572
+      },
+      "posicoesQualificacao": {
+        "1": 1413,
+        "2": 1847,
+        "3": 2126,
+        "4": 1966,
+        "5": 1190,
+        "6": 611,
+        "7": 230,
+        "8": 73,
+        "9": 30,
+        "10": 33,
+        "11": 19,
+        "12": 28,
+        "13": 38,
+        "14": 30,
+        "15": 35,
+        "16": 48,
+        "17": 41,
+        "18": 50,
+        "19": 47,
+        "20": 58,
+        "21": 54,
+        "22": 33
+      },
+      "posicoesCorrida": {
+        "1": 1486,
+        "2": 1782,
+        "3": 1829,
+        "4": 1557,
+        "5": 1152,
+        "6": 831,
+        "7": 506,
+        "8": 227,
+        "9": 116,
+        "10": 53,
+        "11": 42,
+        "12": 44,
+        "13": 44,
+        "14": 58,
+        "15": 61,
+        "16": 57,
+        "17": 51,
+        "18": 34,
+        "19": 44,
+        "20": 16,
+        "21": 9,
+        "22": 1
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 1256,
+          "2": 1521,
+          "3": 1606,
+          "4": 1373,
+          "5": 987,
+          "6": 702,
+          "7": 406,
+          "8": 157,
+          "9": 73,
+          "10": 32,
+          "11": 31,
+          "12": 35,
+          "13": 34,
+          "14": 40,
+          "15": 48,
+          "16": 47,
+          "17": 47,
+          "18": 32,
+          "19": 41,
+          "20": 14,
+          "21": 7,
+          "22": 1
+        },
+        "garoa": {
+          "1": 106,
+          "2": 150,
+          "3": 120,
+          "4": 98,
+          "5": 96,
+          "6": 65,
+          "7": 47,
+          "8": 22,
+          "9": 15,
+          "10": 3,
+          "11": 3,
+          "12": 2,
+          "13": 2,
+          "14": 9,
+          "15": 5,
+          "16": 5,
+          "17": 1,
+          "18": 0,
+          "19": 2,
+          "20": 2,
+          "21": 2,
+          "22": 0
+        },
+        "chuva": {
+          "1": 94,
+          "2": 77,
+          "3": 69,
+          "4": 57,
+          "5": 48,
+          "6": 50,
+          "7": 35,
+          "8": 30,
+          "9": 17,
+          "10": 14,
+          "11": 5,
+          "12": 6,
+          "13": 6,
+          "14": 8,
+          "15": 3,
+          "16": 4,
+          "17": 2,
+          "18": 2,
+          "19": 1,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 30,
+          "2": 34,
+          "3": 34,
+          "4": 29,
+          "5": 21,
+          "6": 14,
+          "7": 18,
+          "8": 18,
+          "9": 11,
+          "10": 4,
+          "11": 3,
+          "12": 1,
+          "13": 2,
+          "14": 1,
+          "15": 5,
+          "16": 1,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 1256,
+          "2": 1521,
+          "3": 1606,
+          "4": 1373,
+          "5": 987,
+          "6": 702,
+          "7": 406,
+          "8": 157,
+          "9": 73,
+          "10": 32,
+          "11": 31,
+          "12": 35,
+          "13": 34,
+          "14": 40,
+          "15": 48,
+          "16": 47,
+          "17": 47,
+          "18": 32,
+          "19": 41,
+          "20": 14,
+          "21": 7,
+          "22": 1
+        },
+        "chuva": {
+          "1": 230,
+          "2": 261,
+          "3": 223,
+          "4": 184,
+          "5": 165,
+          "6": 129,
+          "7": 100,
+          "8": 70,
+          "9": 43,
+          "10": 21,
+          "11": 11,
+          "12": 9,
+          "13": 10,
+          "14": 18,
+          "15": 13,
+          "16": 10,
+          "17": 4,
+          "18": 2,
+          "19": 3,
+          "20": 2,
+          "21": 2,
+          "22": 0
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 4.08,
+          "desvioPadraoPosicaoFinal": 3.15
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 4.24,
+          "desvioPadraoPosicaoFinal": 3.18
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 4.77,
+          "desvioPadraoPosicaoFinal": 3.56
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 4.88,
+          "desvioPadraoPosicaoFinal": 3.39
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 1.333,
+          "scorePilotoMedioChuva": 1.324,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.009
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.451,
+          "scorePilotoMedioChuva": 0.165,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.286
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 1.332,
+          "scoreEquipe": 0.924,
+          "scorePilotoBruto": 94.3,
+          "scoreEquipeBruto": 91.29,
+          "contribuicaoPiloto": 0.809,
+          "contribuicaoEquipe": 0.363,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.33,
+            "probabilidade": 0.02,
+            "penalidade": 0.115,
+            "penalidadeZMinima": 2.42,
+            "penalidadeZMaxima": 7.198
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.89,
+            "probabilidade": 0.04,
+            "penalidade": 0.15,
+            "penalidadeZMinima": 1.95,
+            "penalidadeZMaxima": 5.836
+          },
+          "scoreAntesRNG": 1.172,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.918,
+              "valor": -0.001
+            },
+            "carro": {
+              "limite": 0.626,
+              "valor": 0.001
+            },
+            "staff": {
+              "limite": 3.192,
+              "valor": -0.009
+            },
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.001
+          },
+          "scoreTotal": 1.171
+        },
+        "corrida": {
+          "scorePosInicial": 1.182,
+          "contribuicaoPosInicial": 0.986,
+          "scorePiloto": 0.408,
+          "scoreEquipe": 0.348,
+          "scorePilotoBruto": 91.64,
+          "scoreEquipeBruto": 91.24,
+          "contribuicaoPiloto": 0.042,
+          "contribuicaoEquipe": 0.019,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 13.63,
+            "probabilidade": 0.13,
+            "penalidade": 0.665,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.277
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 18.76,
+            "probabilidade": 0.19,
+            "penalidade": 0.789,
+            "penalidadeZMinima": 2.103,
+            "penalidadeZMaxima": 6.297
+          },
+          "scoreAntesRNG": 1.047,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.192,
+              "valor": 0.004
+            },
+            "carro": {
+              "limite": 2.765,
+              "valor": 0.012
+            },
+            "staff": {
+              "limite": 6.549,
+              "valor": -0.007
+            },
+            "largada": {
+              "limite": 0.347,
+              "valor": 0.002
+            },
+            "contribuicaoLargada": 0.001,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": 0.002
+          },
+          "scoreTotal": 1.049
+        }
+      }
+    },
+    {
+      "piloto": "Lewis Hamilton",
+      "equipe": "Ferrari",
+      "posicaoMediaLargada": 5.6689,
+      "posicaoMediaFinal": 5.3199,
+      "variacaoPosicoesMedia": 0.349,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1005,
+        "percentual": 10.05,
+        "porFalhaDurabilidade": 621,
+        "porFalhaHumana": 414
+      },
+      "posicoesQualificacao": {
+        "1": 115,
+        "2": 347,
+        "3": 805,
+        "4": 1709,
+        "5": 2561,
+        "6": 2353,
+        "7": 1306,
+        "8": 319,
+        "9": 16,
+        "10": 32,
+        "11": 23,
+        "12": 22,
+        "13": 23,
+        "14": 24,
+        "15": 32,
+        "16": 47,
+        "17": 46,
+        "18": 38,
+        "19": 41,
+        "20": 65,
+        "21": 53,
+        "22": 23
+      },
+      "posicoesCorrida": {
+        "1": 312,
+        "2": 690,
+        "3": 1242,
+        "4": 1787,
+        "5": 1962,
+        "6": 1722,
+        "7": 1125,
+        "8": 450,
+        "9": 200,
+        "10": 88,
+        "11": 57,
+        "12": 48,
+        "13": 33,
+        "14": 41,
+        "15": 47,
+        "16": 60,
+        "17": 48,
+        "18": 50,
+        "19": 20,
+        "20": 10,
+        "21": 7,
+        "22": 1
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 209,
+          "2": 539,
+          "3": 1015,
+          "4": 1527,
+          "5": 1725,
+          "6": 1545,
+          "7": 999,
+          "8": 388,
+          "9": 151,
+          "10": 56,
+          "11": 33,
+          "12": 34,
+          "13": 21,
+          "14": 30,
+          "15": 35,
+          "16": 55,
+          "17": 44,
+          "18": 47,
+          "19": 20,
+          "20": 10,
+          "21": 6,
+          "22": 1
+        },
+        "garoa": {
+          "1": 45,
+          "2": 61,
+          "3": 98,
+          "4": 141,
+          "5": 142,
+          "6": 93,
+          "7": 66,
+          "8": 34,
+          "9": 20,
+          "10": 12,
+          "11": 10,
+          "12": 4,
+          "13": 6,
+          "14": 7,
+          "15": 6,
+          "16": 3,
+          "17": 3,
+          "18": 3,
+          "19": 0,
+          "20": 0,
+          "21": 1,
+          "22": 0
+        },
+        "chuva": {
+          "1": 31,
+          "2": 65,
+          "3": 84,
+          "4": 96,
+          "5": 66,
+          "6": 68,
+          "7": 40,
+          "8": 18,
+          "9": 20,
+          "10": 11,
+          "11": 7,
+          "12": 7,
+          "13": 5,
+          "14": 3,
+          "15": 5,
+          "16": 2,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 27,
+          "2": 25,
+          "3": 45,
+          "4": 23,
+          "5": 29,
+          "6": 16,
+          "7": 20,
+          "8": 10,
+          "9": 9,
+          "10": 9,
+          "11": 7,
+          "12": 3,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 209,
+          "2": 539,
+          "3": 1015,
+          "4": 1527,
+          "5": 1725,
+          "6": 1545,
+          "7": 999,
+          "8": 388,
+          "9": 151,
+          "10": 56,
+          "11": 33,
+          "12": 34,
+          "13": 21,
+          "14": 30,
+          "15": 35,
+          "16": 55,
+          "17": 44,
+          "18": 47,
+          "19": 20,
+          "20": 10,
+          "21": 6,
+          "22": 1
+        },
+        "chuva": {
+          "1": 103,
+          "2": 151,
+          "3": 227,
+          "4": 260,
+          "5": 237,
+          "6": 177,
+          "7": 126,
+          "8": 62,
+          "9": 49,
+          "10": 32,
+          "11": 24,
+          "12": 14,
+          "13": 12,
+          "14": 11,
+          "15": 12,
+          "16": 5,
+          "17": 4,
+          "18": 3,
+          "19": 0,
+          "20": 0,
+          "21": 1,
+          "22": 0
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 5.36,
+          "desvioPadraoPosicaoFinal": 2.76
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 5.2,
+          "desvioPadraoPosicaoFinal": 2.98
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 4.97,
+          "desvioPadraoPosicaoFinal": 2.89
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 4.88,
+          "desvioPadraoPosicaoFinal": 3.11
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 0.975,
+          "scorePilotoMedioChuva": 0.996,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.021
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.747,
+          "scorePilotoMedioChuva": 0.624,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.123
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 0.978,
+          "scoreEquipe": 0.925,
+          "scorePilotoBruto": 92.25,
+          "scoreEquipeBruto": 91.29,
+          "contribuicaoPiloto": 0.594,
+          "contribuicaoEquipe": 0.364,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.44,
+            "probabilidade": 0.02,
+            "penalidade": 0.113,
+            "penalidadeZMinima": 2.412,
+            "penalidadeZMaxima": 7.209
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 2.69,
+            "probabilidade": 0.03,
+            "penalidade": 0.103,
+            "penalidadeZMinima": 1.953,
+            "penalidadeZMaxima": 5.84
+          },
+          "scoreAntesRNG": 0.958,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.793,
+              "valor": 0.003
+            },
+            "carro": {
+              "limite": 0.626,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 3.192,
+              "valor": -0.001
+            },
+            "contribuicaoPiloto": 0.002,
+            "contribuicaoEquipe": 0,
+            "valor": 0.002
+          },
+          "scoreTotal": 0.96
+        },
+        "corrida": {
+          "scorePosInicial": 0.919,
+          "contribuicaoPosInicial": 0.767,
+          "scorePiloto": 0.728,
+          "scoreEquipe": 0.377,
+          "scorePilotoBruto": 92.19,
+          "scoreEquipeBruto": 91.24,
+          "contribuicaoPiloto": 0.079,
+          "contribuicaoEquipe": 0.021,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 12.98,
+            "probabilidade": 0.13,
+            "penalidade": 0.637,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.281
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 14.05,
+            "probabilidade": 0.14,
+            "penalidade": 0.585,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.297
+          },
+          "scoreAntesRNG": 0.867,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.029,
+              "valor": -0.011
+            },
+            "carro": {
+              "limite": 2.765,
+              "valor": -0.011
+            },
+            "staff": {
+              "limite": 6.549,
+              "valor": -0.009
+            },
+            "largada": {
+              "limite": 0.44,
+              "valor": 0.002
+            },
+            "contribuicaoLargada": 0.002,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0
+          },
+          "scoreTotal": 0.866
+        }
+      }
+    },
+    {
+      "piloto": "Oscar Piastri",
+      "equipe": "McLaren",
+      "posicaoMediaLargada": 5.7683,
+      "posicaoMediaFinal": 5.6216,
+      "variacaoPosicoesMedia": 0.1467,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1073,
+        "percentual": 10.73,
+        "porFalhaDurabilidade": 476,
+        "porFalhaHumana": 627
+      },
+      "posicoesQualificacao": {
+        "1": 162,
+        "2": 425,
+        "3": 851,
+        "4": 1539,
+        "5": 2319,
+        "6": 2213,
+        "7": 1526,
+        "8": 425,
+        "9": 33,
+        "10": 24,
+        "11": 23,
+        "12": 30,
+        "13": 14,
+        "14": 35,
+        "15": 31,
+        "16": 38,
+        "17": 44,
+        "18": 41,
+        "19": 53,
+        "20": 66,
+        "21": 77,
+        "22": 31
+      },
+      "posicoesCorrida": {
+        "1": 335,
+        "2": 604,
+        "3": 1063,
+        "4": 1529,
+        "5": 1846,
+        "6": 1786,
+        "7": 1389,
+        "8": 603,
+        "9": 225,
+        "10": 124,
+        "11": 61,
+        "12": 52,
+        "13": 42,
+        "14": 46,
+        "15": 55,
+        "16": 55,
+        "17": 56,
+        "18": 47,
+        "19": 39,
+        "20": 24,
+        "21": 17,
+        "22": 2
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 255,
+          "2": 465,
+          "3": 889,
+          "4": 1316,
+          "5": 1627,
+          "6": 1585,
+          "7": 1202,
+          "8": 505,
+          "9": 168,
+          "10": 82,
+          "11": 37,
+          "12": 33,
+          "13": 28,
+          "14": 33,
+          "15": 42,
+          "16": 48,
+          "17": 51,
+          "18": 46,
+          "19": 37,
+          "20": 23,
+          "21": 17,
+          "22": 1
+        },
+        "garoa": {
+          "1": 31,
+          "2": 46,
+          "3": 83,
+          "4": 112,
+          "5": 116,
+          "6": 123,
+          "7": 106,
+          "8": 50,
+          "9": 27,
+          "10": 19,
+          "11": 8,
+          "12": 7,
+          "13": 3,
+          "14": 8,
+          "15": 5,
+          "16": 3,
+          "17": 5,
+          "18": 1,
+          "19": 1,
+          "20": 1,
+          "21": 0,
+          "22": 0
+        },
+        "chuva": {
+          "1": 30,
+          "2": 66,
+          "3": 65,
+          "4": 73,
+          "5": 67,
+          "6": 57,
+          "7": 62,
+          "8": 36,
+          "9": 20,
+          "10": 15,
+          "11": 9,
+          "12": 5,
+          "13": 9,
+          "14": 3,
+          "15": 6,
+          "16": 3,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0,
+          "22": 1
+        },
+        "tempestade": {
+          "1": 19,
+          "2": 27,
+          "3": 26,
+          "4": 28,
+          "5": 36,
+          "6": 21,
+          "7": 19,
+          "8": 12,
+          "9": 10,
+          "10": 8,
+          "11": 7,
+          "12": 7,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 255,
+          "2": 465,
+          "3": 889,
+          "4": 1316,
+          "5": 1627,
+          "6": 1585,
+          "7": 1202,
+          "8": 505,
+          "9": 168,
+          "10": 82,
+          "11": 37,
+          "12": 33,
+          "13": 28,
+          "14": 33,
+          "15": 42,
+          "16": 48,
+          "17": 51,
+          "18": 46,
+          "19": 37,
+          "20": 23,
+          "21": 17,
+          "22": 1
+        },
+        "chuva": {
+          "1": 80,
+          "2": 139,
+          "3": 174,
+          "4": 213,
+          "5": 219,
+          "6": 201,
+          "7": 187,
+          "8": 98,
+          "9": 57,
+          "10": 42,
+          "11": 24,
+          "12": 19,
+          "13": 14,
+          "14": 13,
+          "15": 13,
+          "16": 7,
+          "17": 5,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "21": 0,
+          "22": 1
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 5.63,
+          "desvioPadraoPosicaoFinal": 2.97
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 5.7,
+          "desvioPadraoPosicaoFinal": 2.94
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 5.45,
+          "desvioPadraoPosicaoFinal": 3.22
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 5.41,
+          "desvioPadraoPosicaoFinal": 3.26
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 0.992,
+          "scorePilotoMedioChuva": 1.01,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.018
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.373,
+          "scorePilotoMedioChuva": 0.054,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.319
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 0.994,
+          "scoreEquipe": 0.854,
+          "scorePilotoBruto": 92.53,
+          "scoreEquipeBruto": 90.9,
+          "contribuicaoPiloto": 0.604,
+          "contribuicaoEquipe": 0.335,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 1.89,
+            "probabilidade": 0.02,
+            "penalidade": 0.09,
+            "penalidadeZMinima": 2.467,
+            "penalidadeZMaxima": 7.183
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.68,
+            "probabilidade": 0.04,
+            "penalidade": 0.14,
+            "penalidadeZMinima": 1.958,
+            "penalidadeZMaxima": 5.846
+          },
+          "scoreAntesRNG": 0.94,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.918,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 0.557,
+              "valor": 0.002
+            },
+            "staff": {
+              "limite": 3.024,
+              "valor": -0.013
+            },
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": 0.001
+          },
+          "scoreTotal": 0.941
+        },
+        "corrida": {
+          "scorePosInicial": 0.903,
+          "contribuicaoPosInicial": 0.753,
+          "scorePiloto": 0.325,
+          "scoreEquipe": 0.504,
+          "scorePilotoBruto": 91.28,
+          "scoreEquipeBruto": 91.15,
+          "contribuicaoPiloto": 0.033,
+          "contribuicaoEquipe": 0.028,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 10.03,
+            "probabilidade": 0.1,
+            "penalidade": 0.489,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.281
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 18.58,
+            "probabilidade": 0.19,
+            "penalidade": 0.796,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": 0.814,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.192,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 2.457,
+              "valor": 0.001
+            },
+            "staff": {
+              "limite": 6.204,
+              "valor": -0.002
+            },
+            "largada": {
+              "limite": 0.393,
+              "valor": 0.001
+            },
+            "contribuicaoLargada": 0,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": 0
+          },
+          "scoreTotal": 0.815
+        }
+      }
+    },
+    {
+      "piloto": "Lando Norris",
+      "equipe": "McLaren",
+      "posicaoMediaLargada": 6.5649,
+      "posicaoMediaFinal": 6.1961,
+      "variacaoPosicoesMedia": 0.3688,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 911,
+        "percentual": 9.11,
+        "porFalhaDurabilidade": 440,
+        "porFalhaHumana": 494
+      },
+      "posicoesQualificacao": {
+        "1": 22,
+        "2": 110,
+        "3": 328,
+        "4": 812,
+        "5": 1718,
+        "6": 2708,
+        "7": 2906,
+        "8": 888,
+        "9": 22,
+        "10": 8,
+        "11": 17,
+        "12": 18,
+        "13": 22,
+        "14": 22,
+        "15": 33,
+        "16": 36,
+        "17": 29,
+        "18": 51,
+        "19": 38,
+        "20": 83,
+        "21": 86,
+        "22": 43
+      },
+      "posicoesCorrida": {
+        "1": 97,
+        "2": 272,
+        "3": 657,
+        "4": 1208,
+        "5": 1898,
+        "6": 2234,
+        "7": 1853,
+        "8": 826,
+        "9": 311,
+        "10": 118,
+        "11": 71,
+        "12": 51,
+        "13": 43,
+        "14": 45,
+        "15": 48,
+        "16": 68,
+        "17": 64,
+        "18": 58,
+        "19": 40,
+        "20": 19,
+        "21": 15,
+        "22": 4
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 56,
+          "2": 183,
+          "3": 507,
+          "4": 981,
+          "5": 1616,
+          "6": 1999,
+          "7": 1668,
+          "8": 731,
+          "9": 242,
+          "10": 87,
+          "11": 45,
+          "12": 32,
+          "13": 27,
+          "14": 30,
+          "15": 37,
+          "16": 60,
+          "17": 62,
+          "18": 54,
+          "19": 37,
+          "20": 18,
+          "21": 14,
+          "22": 4
+        },
+        "garoa": {
+          "1": 10,
+          "2": 31,
+          "3": 69,
+          "4": 96,
+          "5": 154,
+          "6": 134,
+          "7": 109,
+          "8": 61,
+          "9": 37,
+          "10": 10,
+          "11": 8,
+          "12": 10,
+          "13": 6,
+          "14": 5,
+          "15": 3,
+          "16": 5,
+          "17": 2,
+          "18": 3,
+          "19": 2,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        },
+        "chuva": {
+          "1": 19,
+          "2": 37,
+          "3": 57,
+          "4": 82,
+          "5": 100,
+          "6": 73,
+          "7": 58,
+          "8": 26,
+          "9": 21,
+          "10": 10,
+          "11": 13,
+          "12": 6,
+          "13": 10,
+          "14": 6,
+          "15": 4,
+          "16": 2,
+          "17": 0,
+          "18": 1,
+          "19": 1,
+          "20": 1,
+          "21": 1,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 12,
+          "2": 21,
+          "3": 24,
+          "4": 49,
+          "5": 28,
+          "6": 28,
+          "7": 18,
+          "8": 8,
+          "9": 11,
+          "10": 11,
+          "11": 5,
+          "12": 3,
+          "13": 0,
+          "14": 4,
+          "15": 4,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 56,
+          "2": 183,
+          "3": 507,
+          "4": 981,
+          "5": 1616,
+          "6": 1999,
+          "7": 1668,
+          "8": 731,
+          "9": 242,
+          "10": 87,
+          "11": 45,
+          "12": 32,
+          "13": 27,
+          "14": 30,
+          "15": 37,
+          "16": 60,
+          "17": 62,
+          "18": 54,
+          "19": 37,
+          "20": 18,
+          "21": 14,
+          "22": 4
+        },
+        "chuva": {
+          "1": 41,
+          "2": 89,
+          "3": 150,
+          "4": 227,
+          "5": 282,
+          "6": 235,
+          "7": 185,
+          "8": 95,
+          "9": 69,
+          "10": 31,
+          "11": 26,
+          "12": 19,
+          "13": 16,
+          "14": 15,
+          "15": 11,
+          "16": 8,
+          "17": 2,
+          "18": 4,
+          "19": 3,
+          "20": 1,
+          "21": 1,
+          "22": 0
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 6.26,
+          "desvioPadraoPosicaoFinal": 2.78
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 6,
+          "desvioPadraoPosicaoFinal": 2.74
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 5.74,
+          "desvioPadraoPosicaoFinal": 3.13
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 5.52,
+          "desvioPadraoPosicaoFinal": 3.16
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 0.804,
+          "scorePilotoMedioChuva": 0.785,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.019
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": 0.47,
+          "scorePilotoMedioChuva": 0.293,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.177
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 0.801,
+          "scoreEquipe": 0.862,
+          "scorePilotoBruto": 91.52,
+          "scoreEquipeBruto": 90.9,
+          "contribuicaoPiloto": 0.487,
+          "contribuicaoEquipe": 0.338,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 1.68,
+            "probabilidade": 0.02,
+            "penalidade": 0.082,
+            "penalidadeZMinima": 2.418,
+            "penalidadeZMaxima": 7.2
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.46,
+            "probabilidade": 0.03,
+            "penalidade": 0.137,
+            "penalidadeZMinima": 1.953,
+            "penalidadeZMaxima": 5.824
+          },
+          "scoreAntesRNG": 0.825,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.834,
+              "valor": 0.004
+            },
+            "carro": {
+              "limite": 0.557,
+              "valor": -0.003
+            },
+            "staff": {
+              "limite": 3.024,
+              "valor": 0.006
+            },
+            "contribuicaoPiloto": 0.002,
+            "contribuicaoEquipe": 0,
+            "valor": 0.002
+          },
+          "scoreTotal": 0.827
+        },
+        "corrida": {
+          "scorePosInicial": 0.778,
+          "contribuicaoPosInicial": 0.648,
+          "scorePiloto": 0.443,
+          "scoreEquipe": 0.519,
+          "scorePilotoBruto": 91.19,
+          "scoreEquipeBruto": 91.15,
+          "contribuicaoPiloto": 0.047,
+          "contribuicaoEquipe": 0.029,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 9.92,
+            "probabilidade": 0.1,
+            "penalidade": 0.473,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.276
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 15.64,
+            "probabilidade": 0.16,
+            "penalidade": 0.66,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": 0.724,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.083,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 2.457,
+              "valor": 0.012
+            },
+            "staff": {
+              "limite": 6.204,
+              "valor": -0.038
+            },
+            "largada": {
+              "limite": 0.37,
+              "valor": 0.002
+            },
+            "contribuicaoLargada": 0.002,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": 0.002
+          },
+          "scoreTotal": 0.726
+        }
+      }
+    },
+    {
+      "piloto": "Isack Hadjar",
+      "equipe": "Red Bull Racing",
+      "posicaoMediaLargada": 8.1426,
+      "posicaoMediaFinal": 8.2525,
+      "variacaoPosicoesMedia": -0.1099,
+      "melhorPosicaoLargada": 1,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1630,
+        "percentual": 16.3,
+        "porFalhaDurabilidade": 1070,
+        "porFalhaHumana": 617
+      },
+      "posicoesQualificacao": {
+        "1": 3,
+        "2": 13,
+        "3": 50,
+        "4": 149,
+        "5": 431,
+        "6": 1222,
+        "7": 2896,
+        "8": 4084,
+        "9": 275,
+        "10": 50,
+        "11": 29,
+        "12": 27,
+        "13": 21,
+        "14": 33,
+        "15": 44,
+        "16": 52,
+        "17": 71,
+        "18": 78,
+        "19": 85,
+        "20": 110,
+        "21": 145,
+        "22": 132
+      },
+      "posicoesCorrida": {
+        "1": 9,
+        "2": 31,
+        "3": 115,
+        "4": 244,
+        "5": 634,
+        "6": 1323,
+        "7": 2258,
+        "8": 2538,
+        "9": 1045,
+        "10": 533,
+        "11": 268,
+        "12": 146,
+        "13": 109,
+        "14": 76,
+        "15": 83,
+        "16": 118,
+        "17": 103,
+        "18": 119,
+        "19": 89,
+        "20": 79,
+        "21": 58,
+        "22": 22
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 7,
+          "2": 23,
+          "3": 76,
+          "4": 174,
+          "5": 504,
+          "6": 1107,
+          "7": 1998,
+          "8": 2303,
+          "9": 900,
+          "10": 438,
+          "11": 198,
+          "12": 103,
+          "13": 62,
+          "14": 56,
+          "15": 51,
+          "16": 89,
+          "17": 83,
+          "18": 100,
+          "19": 78,
+          "20": 70,
+          "21": 50,
+          "22": 20
+        },
+        "garoa": {
+          "1": 0,
+          "2": 5,
+          "3": 14,
+          "4": 28,
+          "5": 64,
+          "6": 107,
+          "7": 144,
+          "8": 136,
+          "9": 75,
+          "10": 47,
+          "11": 29,
+          "12": 21,
+          "13": 22,
+          "14": 7,
+          "15": 12,
+          "16": 9,
+          "17": 8,
+          "18": 9,
+          "19": 7,
+          "20": 3,
+          "21": 7,
+          "22": 1
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 29,
+          "5": 49,
+          "6": 71,
+          "7": 90,
+          "8": 76,
+          "9": 55,
+          "10": 36,
+          "11": 25,
+          "12": 14,
+          "13": 15,
+          "14": 8,
+          "15": 11,
+          "16": 13,
+          "17": 8,
+          "18": 4,
+          "19": 3,
+          "20": 2,
+          "21": 1,
+          "22": 0
+        },
+        "tempestade": {
+          "1": 2,
+          "2": 3,
+          "3": 7,
+          "4": 13,
+          "5": 17,
+          "6": 38,
+          "7": 26,
+          "8": 23,
+          "9": 15,
+          "10": 12,
+          "11": 16,
+          "12": 8,
+          "13": 10,
+          "14": 5,
+          "15": 9,
+          "16": 7,
+          "17": 4,
+          "18": 6,
+          "19": 1,
+          "20": 4,
+          "21": 0,
+          "22": 1
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 7,
+          "2": 23,
+          "3": 76,
+          "4": 174,
+          "5": 504,
+          "6": 1107,
+          "7": 1998,
+          "8": 2303,
+          "9": 900,
+          "10": 438,
+          "11": 198,
+          "12": 103,
+          "13": 62,
+          "14": 56,
+          "15": 51,
+          "16": 89,
+          "17": 83,
+          "18": 100,
+          "19": 78,
+          "20": 70,
+          "21": 50,
+          "22": 20
+        },
+        "chuva": {
+          "1": 2,
+          "2": 8,
+          "3": 39,
+          "4": 70,
+          "5": 130,
+          "6": 216,
+          "7": 260,
+          "8": 235,
+          "9": 145,
+          "10": 95,
+          "11": 70,
+          "12": 43,
+          "13": 47,
+          "14": 20,
+          "15": 32,
+          "16": 29,
+          "17": 20,
+          "18": 19,
+          "19": 11,
+          "20": 9,
+          "21": 8,
+          "22": 2
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 8.22,
+          "desvioPadraoPosicaoFinal": 3.12
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 8.35,
+          "desvioPadraoPosicaoFinal": 3.46
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 8.3,
+          "desvioPadraoPosicaoFinal": 3.44
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 8.95,
+          "desvioPadraoPosicaoFinal": 4.29
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": 0.233,
+          "scorePilotoMedioChuva": 0.098,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.135
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -0.627,
+          "scorePilotoMedioChuva": -0.94,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.313
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": 0.213,
+          "scoreEquipe": 0.96,
+          "scorePilotoBruto": 88.64,
+          "scoreEquipeBruto": 91.86,
+          "contribuicaoPiloto": 0.128,
+          "contribuicaoEquipe": 0.377,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.42,
+            "probabilidade": 0.04,
+            "penalidade": 0.215,
+            "penalidadeZMinima": 2.413,
+            "penalidadeZMaxima": 7.22
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 4.11,
+            "probabilidade": 0.04,
+            "penalidade": 0.162,
+            "penalidadeZMinima": 1.952,
+            "penalidadeZMaxima": 5.837
+          },
+          "scoreAntesRNG": 0.505,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.001,
+              "valor": -0.002
+            },
+            "carro": {
+              "limite": 0.835,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 2.856,
+              "valor": -0.004
+            },
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.002
+          },
+          "scoreTotal": 0.503
+        },
+        "corrida": {
+          "scorePosInicial": 0.529,
+          "contribuicaoPosInicial": 0.441,
+          "scorePiloto": -0.674,
+          "scoreEquipe": 0.09,
+          "scorePilotoBruto": 86.96,
+          "scoreEquipeBruto": 92.01,
+          "contribuicaoPiloto": -0.078,
+          "contribuicaoEquipe": 0.004,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 22.9,
+            "probabilidade": 0.23,
+            "penalidade": 1.111,
+            "penalidadeZMinima": 2.431,
+            "penalidadeZMaxima": 7.282
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 21.5,
+            "probabilidade": 0.22,
+            "penalidade": 0.892,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.298
+          },
+          "scoreAntesRNG": 0.368,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.3,
+              "valor": 0.008
+            },
+            "carro": {
+              "limite": 3.686,
+              "valor": -0.02
+            },
+            "staff": {
+              "limite": 5.859,
+              "valor": 0.026
+            },
+            "largada": {
+              "limite": 0.486,
+              "valor": -0.002
+            },
+            "contribuicaoLargada": -0.001,
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.001
+          },
+          "scoreTotal": 0.367
+        }
+      }
+    },
+    {
+      "piloto": "Pierre Gasly",
+      "equipe": "Alpine",
+      "posicaoMediaLargada": 10.145,
+      "posicaoMediaFinal": 10.2341,
+      "variacaoPosicoesMedia": -0.0891,
+      "melhorPosicaoLargada": 4,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 2,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1703,
+        "percentual": 17.03,
+        "porFalhaDurabilidade": 1160,
+        "porFalhaHumana": 620
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 12,
+        "6": 68,
+        "7": 441,
+        "8": 2040,
+        "9": 3805,
+        "10": 1521,
+        "11": 663,
+        "12": 323,
+        "13": 163,
+        "14": 73,
+        "15": 38,
+        "16": 31,
+        "17": 51,
+        "18": 54,
+        "19": 96,
+        "20": 174,
+        "21": 215,
+        "22": 231
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 5,
+        "3": 8,
+        "4": 24,
+        "5": 81,
+        "6": 284,
+        "7": 856,
+        "8": 1861,
+        "9": 2232,
+        "10": 1488,
+        "11": 949,
+        "12": 607,
+        "13": 348,
+        "14": 218,
+        "15": 155,
+        "16": 127,
+        "17": 128,
+        "18": 136,
+        "19": 151,
+        "20": 147,
+        "21": 125,
+        "22": 70
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 11,
+          "5": 39,
+          "6": 197,
+          "7": 723,
+          "8": 1660,
+          "9": 2015,
+          "10": 1299,
+          "11": 817,
+          "12": 477,
+          "13": 278,
+          "14": 162,
+          "15": 101,
+          "16": 84,
+          "17": 90,
+          "18": 104,
+          "19": 132,
+          "20": 121,
+          "21": 113,
+          "22": 63
+        },
+        "garoa": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 13,
+          "6": 29,
+          "7": 73,
+          "8": 116,
+          "9": 129,
+          "10": 100,
+          "11": 69,
+          "12": 62,
+          "13": 35,
+          "14": 29,
+          "15": 18,
+          "16": 22,
+          "17": 9,
+          "18": 17,
+          "19": 8,
+          "20": 12,
+          "21": 4,
+          "22": 4
+        },
+        "chuva": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 5,
+          "5": 17,
+          "6": 41,
+          "7": 40,
+          "8": 65,
+          "9": 65,
+          "10": 65,
+          "11": 45,
+          "12": 51,
+          "13": 25,
+          "14": 14,
+          "15": 25,
+          "16": 15,
+          "17": 20,
+          "18": 10,
+          "19": 7,
+          "20": 9,
+          "21": 5,
+          "22": 2
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 3,
+          "3": 2,
+          "4": 4,
+          "5": 12,
+          "6": 17,
+          "7": 20,
+          "8": 20,
+          "9": 23,
+          "10": 24,
+          "11": 18,
+          "12": 17,
+          "13": 10,
+          "14": 13,
+          "15": 11,
+          "16": 6,
+          "17": 9,
+          "18": 5,
+          "19": 4,
+          "20": 5,
+          "21": 3,
+          "22": 1
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 11,
+          "5": 39,
+          "6": 197,
+          "7": 723,
+          "8": 1660,
+          "9": 2015,
+          "10": 1299,
+          "11": 817,
+          "12": 477,
+          "13": 278,
+          "14": 162,
+          "15": 101,
+          "16": 84,
+          "17": 90,
+          "18": 104,
+          "19": 132,
+          "20": 121,
+          "21": 113,
+          "22": 63
+        },
+        "chuva": {
+          "1": 0,
+          "2": 5,
+          "3": 4,
+          "4": 13,
+          "5": 42,
+          "6": 87,
+          "7": 133,
+          "8": 201,
+          "9": 217,
+          "10": 189,
+          "11": 132,
+          "12": 130,
+          "13": 70,
+          "14": 56,
+          "15": 54,
+          "16": 43,
+          "17": 38,
+          "18": 32,
+          "19": 19,
+          "20": 26,
+          "21": 12,
+          "22": 7
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 10.18,
+          "desvioPadraoPosicaoFinal": 3.25
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 10.42,
+          "desvioPadraoPosicaoFinal": 3.44
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 10.64,
+          "desvioPadraoPosicaoFinal": 3.82
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 10.64,
+          "desvioPadraoPosicaoFinal": 4.28
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.074,
+          "scorePilotoMedioChuva": -0.074,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -0.836,
+          "scorePilotoMedioChuva": -1.13,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.294
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.074,
+          "scoreEquipe": -0.092,
+          "scorePilotoBruto": 87.14,
+          "scoreEquipeBruto": 87.6,
+          "contribuicaoPiloto": -0.045,
+          "contribuicaoEquipe": -0.036,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.94,
+            "probabilidade": 0.05,
+            "penalidade": 0.241,
+            "penalidadeZMinima": 2.414,
+            "penalidadeZMaxima": 7.21
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 3.93,
+            "probabilidade": 0.04,
+            "penalidade": 0.156,
+            "penalidadeZMinima": 1.961,
+            "penalidadeZMaxima": 5.835
+          },
+          "scoreAntesRNG": -0.081,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.001,
+              "valor": 0.001
+            },
+            "carro": {
+              "limite": 0.87,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 3.529,
+              "valor": -0.006
+            },
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0
+          },
+          "scoreTotal": -0.081
+        },
+        "corrida": {
+          "scorePosInicial": 0.214,
+          "contribuicaoPosInicial": 0.179,
+          "scorePiloto": -0.88,
+          "scoreEquipe": -1.034,
+          "scorePilotoBruto": 85.93,
+          "scoreEquipeBruto": 87.75,
+          "contribuicaoPiloto": -0.1,
+          "contribuicaoEquipe": -0.058,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 24.94,
+            "probabilidade": 0.25,
+            "penalidade": 1.201,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.279
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 21.05,
+            "probabilidade": 0.22,
+            "penalidade": 0.882,
+            "penalidadeZMinima": 2.104,
+            "penalidadeZMaxima": 6.295
+          },
+          "scoreAntesRNG": 0.021,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.3,
+              "valor": 0.006
+            },
+            "carro": {
+              "limite": 3.84,
+              "valor": -0.018
+            },
+            "staff": {
+              "limite": 7.238,
+              "valor": 0.003
+            },
+            "largada": {
+              "limite": 0.555,
+              "valor": 0.001
+            },
+            "contribuicaoLargada": 0.001,
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0.001
+          },
+          "scoreTotal": 0.022
+        }
+      }
+    },
+    {
+      "piloto": "Oliver Bearman",
+      "equipe": "Haas",
+      "posicaoMediaLargada": 11.6994,
+      "posicaoMediaFinal": 11.743,
+      "variacaoPosicoesMedia": -0.0436,
+      "melhorPosicaoLargada": 5,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 3,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1441,
+        "percentual": 14.41,
+        "porFalhaDurabilidade": 688,
+        "porFalhaHumana": 812
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 22,
+        "7": 125,
+        "8": 593,
+        "9": 1629,
+        "10": 1995,
+        "11": 1676,
+        "12": 1185,
+        "13": 913,
+        "14": 545,
+        "15": 309,
+        "16": 172,
+        "17": 77,
+        "18": 47,
+        "19": 65,
+        "20": 125,
+        "21": 250,
+        "22": 270
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 31,
+        "6": 111,
+        "7": 311,
+        "8": 836,
+        "9": 1312,
+        "10": 1540,
+        "11": 1419,
+        "12": 1155,
+        "13": 917,
+        "14": 635,
+        "15": 421,
+        "16": 336,
+        "17": 209,
+        "18": 188,
+        "19": 185,
+        "20": 172,
+        "21": 138,
+        "22": 80
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 15,
+          "6": 68,
+          "7": 248,
+          "8": 696,
+          "9": 1147,
+          "10": 1360,
+          "11": 1243,
+          "12": 1030,
+          "13": 781,
+          "14": 543,
+          "15": 332,
+          "16": 260,
+          "17": 155,
+          "18": 144,
+          "19": 143,
+          "20": 139,
+          "21": 111,
+          "22": 72
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 16,
+          "7": 23,
+          "8": 72,
+          "9": 98,
+          "10": 100,
+          "11": 104,
+          "12": 66,
+          "13": 67,
+          "14": 43,
+          "15": 38,
+          "16": 30,
+          "17": 23,
+          "18": 20,
+          "19": 19,
+          "20": 17,
+          "21": 13,
+          "22": 4
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11,
+          "6": 17,
+          "7": 25,
+          "8": 47,
+          "9": 47,
+          "10": 54,
+          "11": 60,
+          "12": 42,
+          "13": 44,
+          "14": 35,
+          "15": 39,
+          "16": 29,
+          "17": 21,
+          "18": 17,
+          "19": 14,
+          "20": 9,
+          "21": 12,
+          "22": 4
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 10,
+          "7": 15,
+          "8": 21,
+          "9": 20,
+          "10": 26,
+          "11": 12,
+          "12": 17,
+          "13": 25,
+          "14": 14,
+          "15": 12,
+          "16": 17,
+          "17": 10,
+          "18": 7,
+          "19": 9,
+          "20": 7,
+          "21": 2,
+          "22": 0
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 15,
+          "6": 68,
+          "7": 248,
+          "8": 696,
+          "9": 1147,
+          "10": 1360,
+          "11": 1243,
+          "12": 1030,
+          "13": 781,
+          "14": 543,
+          "15": 332,
+          "16": 260,
+          "17": 155,
+          "18": 144,
+          "19": 143,
+          "20": 139,
+          "21": 111,
+          "22": 72
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 16,
+          "6": 43,
+          "7": 63,
+          "8": 140,
+          "9": 165,
+          "10": 180,
+          "11": 176,
+          "12": 125,
+          "13": 136,
+          "14": 92,
+          "15": 89,
+          "16": 76,
+          "17": 54,
+          "18": 44,
+          "19": 42,
+          "20": 33,
+          "21": 27,
+          "22": 8
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 11.69,
+          "desvioPadraoPosicaoFinal": 3.22
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 11.92,
+          "desvioPadraoPosicaoFinal": 3.57
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 12.12,
+          "desvioPadraoPosicaoFinal": 3.91
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 12.1,
+          "desvioPadraoPosicaoFinal": 3.94
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.667,
+          "scorePilotoMedioChuva": -0.672,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.005
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.579,
+          "scorePilotoMedioChuva": -1.774,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.195
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.667,
+          "scoreEquipe": 0.17,
+          "scorePilotoBruto": 84.29,
+          "scoreEquipeBruto": 88.26,
+          "contribuicaoPiloto": -0.405,
+          "contribuicaoEquipe": 0.067,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.85,
+            "probabilidade": 0.03,
+            "penalidade": 0.139,
+            "penalidadeZMinima": 2.437,
+            "penalidadeZMaxima": 7.185
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.04,
+            "probabilidade": 0.05,
+            "penalidade": 0.194,
+            "penalidadeZMinima": 1.953,
+            "penalidadeZMaxima": 5.848
+          },
+          "scoreAntesRNG": -0.339,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.126,
+              "valor": 0
+            },
+            "carro": {
+              "limite": 0.661,
+              "valor": 0.003
+            },
+            "staff": {
+              "limite": 3.697,
+              "valor": 0.005
+            },
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0.001,
+            "valor": 0.001
+          },
+          "scoreTotal": -0.337
+        },
+        "corrida": {
+          "scorePosInicial": -0.031,
+          "contribuicaoPosInicial": -0.026,
+          "scorePiloto": -1.609,
+          "scoreEquipe": -0.426,
+          "scorePilotoBruto": 83.53,
+          "scoreEquipeBruto": 88.26,
+          "contribuicaoPiloto": -0.18,
+          "contribuicaoEquipe": -0.024,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 14.8,
+            "probabilidade": 0.15,
+            "penalidade": 0.715,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.281
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 26.3,
+            "probabilidade": 0.26,
+            "penalidade": 1.107,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.298
+          },
+          "scoreAntesRNG": -0.229,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.463,
+              "valor": -0.008
+            },
+            "carro": {
+              "limite": 2.918,
+              "valor": -0.008
+            },
+            "staff": {
+              "limite": 7.583,
+              "valor": -0.023
+            },
+            "largada": {
+              "limite": 0.625,
+              "valor": 0.004
+            },
+            "contribuicaoLargada": 0.004,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0.002
+          },
+          "scoreTotal": -0.227
+        }
+      }
+    },
+    {
+      "piloto": "Franco Colapinto",
+      "equipe": "Alpine",
+      "posicaoMediaLargada": 11.6588,
+      "posicaoMediaFinal": 11.7538,
+      "variacaoPosicoesMedia": -0.095,
+      "melhorPosicaoLargada": 5,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 1,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1982,
+        "percentual": 19.82,
+        "porFalhaDurabilidade": 1236,
+        "porFalhaHumana": 843
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 26,
+        "7": 158,
+        "8": 698,
+        "9": 1806,
+        "10": 2045,
+        "11": 1541,
+        "12": 1116,
+        "13": 757,
+        "14": 473,
+        "15": 252,
+        "16": 146,
+        "17": 75,
+        "18": 45,
+        "19": 94,
+        "20": 160,
+        "21": 297,
+        "22": 309
+      },
+      "posicoesCorrida": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 9,
+        "5": 30,
+        "6": 134,
+        "7": 307,
+        "8": 815,
+        "9": 1415,
+        "10": 1570,
+        "11": 1400,
+        "12": 1099,
+        "13": 819,
+        "14": 615,
+        "15": 411,
+        "16": 272,
+        "17": 223,
+        "18": 244,
+        "19": 170,
+        "20": 195,
+        "21": 175,
+        "22": 95
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 12,
+          "6": 90,
+          "7": 243,
+          "8": 698,
+          "9": 1265,
+          "10": 1416,
+          "11": 1234,
+          "12": 949,
+          "13": 682,
+          "14": 494,
+          "15": 333,
+          "16": 205,
+          "17": 159,
+          "18": 175,
+          "19": 135,
+          "20": 157,
+          "21": 152,
+          "22": 89
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 3,
+          "6": 17,
+          "7": 38,
+          "8": 71,
+          "9": 83,
+          "10": 85,
+          "11": 83,
+          "12": 86,
+          "13": 74,
+          "14": 51,
+          "15": 34,
+          "16": 24,
+          "17": 31,
+          "18": 22,
+          "19": 18,
+          "20": 17,
+          "21": 12,
+          "22": 4
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 10,
+          "6": 19,
+          "7": 16,
+          "8": 36,
+          "9": 50,
+          "10": 48,
+          "11": 60,
+          "12": 44,
+          "13": 48,
+          "14": 47,
+          "15": 31,
+          "16": 27,
+          "17": 26,
+          "18": 31,
+          "19": 13,
+          "20": 11,
+          "21": 8,
+          "22": 1
+        },
+        "tempestade": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 3,
+          "5": 5,
+          "6": 8,
+          "7": 10,
+          "8": 10,
+          "9": 17,
+          "10": 21,
+          "11": 23,
+          "12": 20,
+          "13": 15,
+          "14": 23,
+          "15": 13,
+          "16": 16,
+          "17": 7,
+          "18": 16,
+          "19": 4,
+          "20": 10,
+          "21": 3,
+          "22": 1
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 12,
+          "6": 90,
+          "7": 243,
+          "8": 698,
+          "9": 1265,
+          "10": 1416,
+          "11": 1234,
+          "12": 949,
+          "13": 682,
+          "14": 494,
+          "15": 333,
+          "16": 205,
+          "17": 159,
+          "18": 175,
+          "19": 135,
+          "20": 157,
+          "21": 152,
+          "22": 89
+        },
+        "chuva": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 7,
+          "5": 18,
+          "6": 44,
+          "7": 64,
+          "8": 117,
+          "9": 150,
+          "10": 154,
+          "11": 166,
+          "12": 150,
+          "13": 137,
+          "14": 121,
+          "15": 78,
+          "16": 67,
+          "17": 64,
+          "18": 69,
+          "19": 35,
+          "20": 38,
+          "21": 23,
+          "22": 6
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 11.68,
+          "desvioPadraoPosicaoFinal": 3.36
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 11.94,
+          "desvioPadraoPosicaoFinal": 3.64
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 12.36,
+          "desvioPadraoPosicaoFinal": 3.82
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 12.47,
+          "desvioPadraoPosicaoFinal": 4.17
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.524,
+          "scorePilotoMedioChuva": -0.522,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.002
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.283,
+          "scorePilotoMedioChuva": -1.552,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.269
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.524,
+          "scoreEquipe": -0.069,
+          "scorePilotoBruto": 85.09,
+          "scoreEquipeBruto": 87.6,
+          "contribuicaoPiloto": -0.318,
+          "contribuicaoEquipe": -0.027,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.5,
+            "probabilidade": 0.05,
+            "penalidade": 0.218,
+            "penalidadeZMinima": 2.41,
+            "penalidadeZMaxima": 7.19
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.32,
+            "probabilidade": 0.05,
+            "penalidade": 0.206,
+            "penalidadeZMinima": 1.962,
+            "penalidadeZMaxima": 5.84
+          },
+          "scoreAntesRNG": -0.345,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.126,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 0.87,
+              "valor": 0.002
+            },
+            "staff": {
+              "limite": 3.529,
+              "valor": -0.019
+            },
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": 0.001
+          },
+          "scoreTotal": -0.344
+        },
+        "corrida": {
+          "scorePosInicial": -0.025,
+          "contribuicaoPosInicial": -0.02,
+          "scorePiloto": -1.323,
+          "scoreEquipe": -1.043,
+          "scorePilotoBruto": 84.98,
+          "scoreEquipeBruto": 87.75,
+          "contribuicaoPiloto": -0.149,
+          "contribuicaoEquipe": -0.058,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 24.62,
+            "probabilidade": 0.25,
+            "penalidade": 1.21,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 26.83,
+            "probabilidade": 0.26,
+            "penalidade": 1.127,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -0.227,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.463,
+              "valor": 0.005
+            },
+            "carro": {
+              "limite": 3.84,
+              "valor": 0.004
+            },
+            "staff": {
+              "limite": 7.238,
+              "valor": -0.017
+            },
+            "largada": {
+              "limite": 0.532,
+              "valor": -0.001
+            },
+            "contribuicaoLargada": 0,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": -0.001
+          },
+          "scoreTotal": -0.228
+        }
+      }
+    },
+    {
+      "piloto": "Nico Hulkenberg",
+      "equipe": "Audi",
+      "posicaoMediaLargada": 12.8923,
+      "posicaoMediaFinal": 12.4991,
+      "variacaoPosicoesMedia": 0.3932,
+      "melhorPosicaoLargada": 5,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 4,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1113,
+        "percentual": 11.13,
+        "porFalhaDurabilidade": 524,
+        "porFalhaHumana": 621
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 20,
+        "8": 153,
+        "9": 540,
+        "10": 1113,
+        "11": 1518,
+        "12": 1704,
+        "13": 1591,
+        "14": 1273,
+        "15": 808,
+        "16": 440,
+        "17": 169,
+        "18": 57,
+        "19": 50,
+        "20": 106,
+        "21": 222,
+        "22": 232
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 10,
+        "6": 32,
+        "7": 143,
+        "8": 415,
+        "9": 859,
+        "10": 1230,
+        "11": 1416,
+        "12": 1461,
+        "13": 1212,
+        "14": 1036,
+        "15": 707,
+        "16": 447,
+        "17": 300,
+        "18": 220,
+        "19": 186,
+        "20": 164,
+        "21": 94,
+        "22": 64
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 3,
+          "6": 15,
+          "7": 89,
+          "8": 311,
+          "9": 708,
+          "10": 1081,
+          "11": 1241,
+          "12": 1267,
+          "13": 1063,
+          "14": 901,
+          "15": 604,
+          "16": 375,
+          "17": 240,
+          "18": 166,
+          "19": 149,
+          "20": 138,
+          "21": 83,
+          "22": 55
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 4,
+          "6": 5,
+          "7": 21,
+          "8": 38,
+          "9": 75,
+          "10": 86,
+          "11": 93,
+          "12": 103,
+          "13": 86,
+          "14": 70,
+          "15": 51,
+          "16": 36,
+          "17": 26,
+          "18": 20,
+          "19": 14,
+          "20": 15,
+          "21": 6,
+          "22": 5
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 3,
+          "6": 9,
+          "7": 21,
+          "8": 42,
+          "9": 54,
+          "10": 45,
+          "11": 57,
+          "12": 69,
+          "13": 44,
+          "14": 47,
+          "15": 30,
+          "16": 26,
+          "17": 26,
+          "18": 26,
+          "19": 13,
+          "20": 7,
+          "21": 5,
+          "22": 3
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 3,
+          "7": 12,
+          "8": 24,
+          "9": 22,
+          "10": 18,
+          "11": 25,
+          "12": 22,
+          "13": 19,
+          "14": 18,
+          "15": 22,
+          "16": 10,
+          "17": 8,
+          "18": 8,
+          "19": 10,
+          "20": 4,
+          "21": 0,
+          "22": 1
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 3,
+          "6": 15,
+          "7": 89,
+          "8": 311,
+          "9": 708,
+          "10": 1081,
+          "11": 1241,
+          "12": 1267,
+          "13": 1063,
+          "14": 901,
+          "15": 604,
+          "16": 375,
+          "17": 240,
+          "18": 166,
+          "19": 149,
+          "20": 138,
+          "21": 83,
+          "22": 55
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 3,
+          "5": 7,
+          "6": 17,
+          "7": 54,
+          "8": 104,
+          "9": 151,
+          "10": 149,
+          "11": 175,
+          "12": 194,
+          "13": 149,
+          "14": 135,
+          "15": 103,
+          "16": 72,
+          "17": 60,
+          "18": 54,
+          "19": 37,
+          "20": 26,
+          "21": 11,
+          "22": 9
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 12.53,
+          "desvioPadraoPosicaoFinal": 2.95
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 12.37,
+          "desvioPadraoPosicaoFinal": 3.25
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 12.33,
+          "desvioPadraoPosicaoFinal": 3.56
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 12.23,
+          "desvioPadraoPosicaoFinal": 3.59
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.469,
+          "scorePilotoMedioChuva": -0.45,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.019
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -0.902,
+          "scorePilotoMedioChuva": -1.092,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.19
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.466,
+          "scoreEquipe": -0.508,
+          "scorePilotoBruto": 85.16,
+          "scoreEquipeBruto": 85.31,
+          "contribuicaoPiloto": -0.283,
+          "contribuicaoEquipe": -0.199,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.14,
+            "probabilidade": 0.02,
+            "penalidade": 0.105,
+            "penalidadeZMinima": 2.441,
+            "penalidadeZMaxima": 7.198
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 4.15,
+            "probabilidade": 0.04,
+            "penalidade": 0.161,
+            "penalidadeZMinima": 1.956,
+            "penalidadeZMaxima": 5.846
+          },
+          "scoreAntesRNG": -0.483,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 0.959,
+              "valor": -0.002
+            },
+            "carro": {
+              "limite": 0.591,
+              "valor": 0.001
+            },
+            "staff": {
+              "limite": 3.865,
+              "valor": -0.029
+            },
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": -0.002,
+            "valor": -0.002
+          },
+          "scoreTotal": -0.485
+        },
+        "corrida": {
+          "scorePosInicial": -0.219,
+          "contribuicaoPosInicial": -0.183,
+          "scorePiloto": -0.93,
+          "scoreEquipe": -0.908,
+          "scorePilotoBruto": 85.45,
+          "scoreEquipeBruto": 85.51,
+          "contribuicaoPiloto": -0.105,
+          "contribuicaoEquipe": -0.051,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 10.9,
+            "probabilidade": 0.12,
+            "penalidade": 0.53,
+            "penalidadeZMinima": 2.43,
+            "penalidadeZMaxima": 7.273
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 19.7,
+            "probabilidade": 0.2,
+            "penalidade": 0.83,
+            "penalidadeZMinima": 2.101,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": -0.339,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.246,
+              "valor": -0.008
+            },
+            "carro": {
+              "limite": 2.611,
+              "valor": 0.008
+            },
+            "staff": {
+              "limite": 7.927,
+              "valor": -0.015
+            },
+            "largada": {
+              "limite": 0.555,
+              "valor": -0.003
+            },
+            "contribuicaoLargada": -0.003,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.004
+          },
+          "scoreTotal": -0.343
+        }
+      }
+    },
+    {
+      "piloto": "Gabriel Bortoleto",
+      "equipe": "Audi",
+      "posicaoMediaLargada": 12.8191,
+      "posicaoMediaFinal": 12.7041,
+      "variacaoPosicoesMedia": 0.115,
+      "melhorPosicaoLargada": 5,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 4,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1255,
+        "percentual": 12.55,
+        "porFalhaDurabilidade": 495,
+        "porFalhaHumana": 800
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 5,
+        "7": 40,
+        "8": 215,
+        "9": 709,
+        "10": 1165,
+        "11": 1564,
+        "12": 1562,
+        "13": 1391,
+        "14": 1203,
+        "15": 774,
+        "16": 423,
+        "17": 213,
+        "18": 64,
+        "19": 73,
+        "20": 117,
+        "21": 191,
+        "22": 289
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 17,
+        "6": 44,
+        "7": 162,
+        "8": 412,
+        "9": 837,
+        "10": 1099,
+        "11": 1340,
+        "12": 1340,
+        "13": 1241,
+        "14": 984,
+        "15": 761,
+        "16": 547,
+        "17": 337,
+        "18": 244,
+        "19": 230,
+        "20": 176,
+        "21": 134,
+        "22": 91
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 7,
+          "6": 26,
+          "7": 115,
+          "8": 316,
+          "9": 698,
+          "10": 920,
+          "11": 1175,
+          "12": 1185,
+          "13": 1096,
+          "14": 861,
+          "15": 668,
+          "16": 463,
+          "17": 271,
+          "18": 191,
+          "19": 172,
+          "20": 141,
+          "21": 110,
+          "22": 75
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 5,
+          "7": 22,
+          "8": 42,
+          "9": 68,
+          "10": 98,
+          "11": 93,
+          "12": 89,
+          "13": 75,
+          "14": 63,
+          "15": 51,
+          "16": 34,
+          "17": 27,
+          "18": 26,
+          "19": 28,
+          "20": 20,
+          "21": 9,
+          "22": 4
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 4,
+          "6": 8,
+          "7": 15,
+          "8": 39,
+          "9": 44,
+          "10": 64,
+          "11": 56,
+          "12": 49,
+          "13": 47,
+          "14": 44,
+          "15": 30,
+          "16": 29,
+          "17": 28,
+          "18": 18,
+          "19": 23,
+          "20": 14,
+          "21": 6,
+          "22": 8
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 5,
+          "6": 5,
+          "7": 10,
+          "8": 15,
+          "9": 27,
+          "10": 17,
+          "11": 16,
+          "12": 17,
+          "13": 23,
+          "14": 16,
+          "15": 12,
+          "16": 21,
+          "17": 11,
+          "18": 9,
+          "19": 7,
+          "20": 1,
+          "21": 9,
+          "22": 4
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 7,
+          "6": 26,
+          "7": 115,
+          "8": 316,
+          "9": 698,
+          "10": 920,
+          "11": 1175,
+          "12": 1185,
+          "13": 1096,
+          "14": 861,
+          "15": 668,
+          "16": 463,
+          "17": 271,
+          "18": 191,
+          "19": 172,
+          "20": 141,
+          "21": 110,
+          "22": 75
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 4,
+          "5": 10,
+          "6": 18,
+          "7": 47,
+          "8": 96,
+          "9": 139,
+          "10": 179,
+          "11": 165,
+          "12": 155,
+          "13": 145,
+          "14": 123,
+          "15": 93,
+          "16": 84,
+          "17": 66,
+          "18": 53,
+          "19": 58,
+          "20": 35,
+          "21": 24,
+          "22": 16
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 12.72,
+          "desvioPadraoPosicaoFinal": 3.1
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 12.6,
+          "desvioPadraoPosicaoFinal": 3.45
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 12.68,
+          "desvioPadraoPosicaoFinal": 3.82
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 12.62,
+          "desvioPadraoPosicaoFinal": 4.17
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.448,
+          "scorePilotoMedioChuva": -0.532,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.085
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.312,
+          "scorePilotoMedioChuva": -1.576,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.263
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.46,
+          "scoreEquipe": -0.516,
+          "scorePilotoBruto": 85.27,
+          "scoreEquipeBruto": 85.31,
+          "contribuicaoPiloto": -0.28,
+          "contribuicaoEquipe": -0.203,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.34,
+            "probabilidade": 0.02,
+            "penalidade": 0.113,
+            "penalidadeZMinima": 2.419,
+            "penalidadeZMaxima": 7.204
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 4.58,
+            "probabilidade": 0.05,
+            "penalidade": 0.178,
+            "penalidadeZMinima": 1.96,
+            "penalidadeZMaxima": 5.842
+          },
+          "scoreAntesRNG": -0.483,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.085,
+              "valor": 0.003
+            },
+            "carro": {
+              "limite": 0.591,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 3.865,
+              "valor": -0.005
+            },
+            "contribuicaoPiloto": 0.002,
+            "contribuicaoEquipe": -0.001,
+            "valor": 0.001
+          },
+          "scoreTotal": -0.482
+        },
+        "corrida": {
+          "scorePosInicial": -0.208,
+          "contribuicaoPosInicial": -0.173,
+          "scorePiloto": -1.352,
+          "scoreEquipe": -0.901,
+          "scorePilotoBruto": 84.55,
+          "scoreEquipeBruto": 85.51,
+          "contribuicaoPiloto": -0.152,
+          "contribuicaoEquipe": -0.05,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 10.88,
+            "probabilidade": 0.12,
+            "penalidade": 0.523,
+            "penalidadeZMinima": 2.432,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 25.48,
+            "probabilidade": 0.25,
+            "penalidade": 1.065,
+            "penalidadeZMinima": 2.103,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": -0.375,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.408,
+              "valor": 0.005
+            },
+            "carro": {
+              "limite": 2.611,
+              "valor": 0.006
+            },
+            "staff": {
+              "limite": 7.927,
+              "valor": -0.007
+            },
+            "largada": {
+              "limite": 0.602,
+              "valor": -0.002
+            },
+            "contribuicaoLargada": -0.002,
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.001
+          },
+          "scoreTotal": -0.376
+        }
+      }
+    },
+    {
+      "piloto": "Esteban Ocon",
+      "equipe": "Haas",
+      "posicaoMediaLargada": 13.3861,
+      "posicaoMediaFinal": 13.6829,
+      "variacaoPosicoesMedia": -0.2968,
+      "melhorPosicaoLargada": 5,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 5,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1651,
+        "percentual": 16.51,
+        "porFalhaDurabilidade": 725,
+        "porFalhaHumana": 1006
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 36,
+        "8": 194,
+        "9": 586,
+        "10": 990,
+        "11": 1253,
+        "12": 1391,
+        "13": 1369,
+        "14": 1212,
+        "15": 909,
+        "16": 687,
+        "17": 334,
+        "18": 150,
+        "19": 92,
+        "20": 152,
+        "21": 275,
+        "22": 366
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8,
+        "6": 31,
+        "7": 103,
+        "8": 287,
+        "9": 555,
+        "10": 829,
+        "11": 1022,
+        "12": 1134,
+        "13": 1210,
+        "14": 1061,
+        "15": 996,
+        "16": 767,
+        "17": 594,
+        "18": 394,
+        "19": 321,
+        "20": 265,
+        "21": 240,
+        "22": 183
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 4,
+          "6": 15,
+          "7": 75,
+          "8": 231,
+          "9": 467,
+          "10": 726,
+          "11": 906,
+          "12": 997,
+          "13": 1086,
+          "14": 937,
+          "15": 855,
+          "16": 632,
+          "17": 473,
+          "18": 312,
+          "19": 236,
+          "20": 194,
+          "21": 197,
+          "22": 147
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 5,
+          "7": 9,
+          "8": 30,
+          "9": 45,
+          "10": 60,
+          "11": 68,
+          "12": 82,
+          "13": 57,
+          "14": 68,
+          "15": 71,
+          "16": 73,
+          "17": 48,
+          "18": 38,
+          "19": 39,
+          "20": 31,
+          "21": 16,
+          "22": 14
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 7,
+          "7": 17,
+          "8": 15,
+          "9": 33,
+          "10": 29,
+          "11": 38,
+          "12": 37,
+          "13": 48,
+          "14": 40,
+          "15": 48,
+          "16": 45,
+          "17": 48,
+          "18": 29,
+          "19": 31,
+          "20": 26,
+          "21": 20,
+          "22": 16
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 4,
+          "7": 2,
+          "8": 11,
+          "9": 10,
+          "10": 14,
+          "11": 10,
+          "12": 18,
+          "13": 19,
+          "14": 16,
+          "15": 22,
+          "16": 17,
+          "17": 25,
+          "18": 15,
+          "19": 15,
+          "20": 14,
+          "21": 7,
+          "22": 6
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 4,
+          "6": 15,
+          "7": 75,
+          "8": 231,
+          "9": 467,
+          "10": 726,
+          "11": 906,
+          "12": 997,
+          "13": 1086,
+          "14": 937,
+          "15": 855,
+          "16": 632,
+          "17": 473,
+          "18": 312,
+          "19": 236,
+          "20": 194,
+          "21": 197,
+          "22": 147
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 4,
+          "6": 16,
+          "7": 28,
+          "8": 56,
+          "9": 88,
+          "10": 103,
+          "11": 116,
+          "12": 137,
+          "13": 124,
+          "14": 124,
+          "15": 141,
+          "16": 135,
+          "17": 121,
+          "18": 82,
+          "19": 85,
+          "20": 71,
+          "21": 43,
+          "22": 36
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 13.6,
+          "desvioPadraoPosicaoFinal": 3.31
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 13.92,
+          "desvioPadraoPosicaoFinal": 3.67
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 14.35,
+          "desvioPadraoPosicaoFinal": 4.01
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 14.56,
+          "desvioPadraoPosicaoFinal": 4.01
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -1.044,
+          "scorePilotoMedioChuva": -1.118,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.075
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -2.344,
+          "scorePilotoMedioChuva": -2.641,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.296
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -1.055,
+          "scoreEquipe": 0.18,
+          "scorePilotoBruto": 82.57,
+          "scoreEquipeBruto": 88.26,
+          "contribuicaoPiloto": -0.642,
+          "contribuicaoEquipe": 0.07,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 2.71,
+            "probabilidade": 0.03,
+            "penalidade": 0.129,
+            "penalidadeZMinima": 2.42,
+            "penalidadeZMaxima": 7.22
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 6.29,
+            "probabilidade": 0.06,
+            "penalidade": 0.244,
+            "penalidadeZMinima": 1.966,
+            "penalidadeZMaxima": 5.831
+          },
+          "scoreAntesRNG": -0.571,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.251,
+              "valor": -0.003
+            },
+            "carro": {
+              "limite": 0.661,
+              "valor": -0.002
+            },
+            "staff": {
+              "limite": 3.697,
+              "valor": -0.013
+            },
+            "contribuicaoPiloto": -0.002,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.003
+          },
+          "scoreTotal": -0.575
+        },
+        "corrida": {
+          "scorePosInicial": -0.297,
+          "contribuicaoPosInicial": -0.247,
+          "scorePiloto": -2.389,
+          "scoreEquipe": -0.449,
+          "scorePilotoBruto": 80.76,
+          "scoreEquipeBruto": 88.26,
+          "contribuicaoPiloto": -0.267,
+          "contribuicaoEquipe": -0.025,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 15.1,
+            "probabilidade": 0.15,
+            "penalidade": 0.738,
+            "penalidadeZMinima": 2.433,
+            "penalidadeZMaxima": 7.282
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 31.03,
+            "probabilidade": 0.31,
+            "penalidade": 1.307,
+            "penalidadeZMinima": 2.104,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -0.538,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.625,
+              "valor": -0.002
+            },
+            "carro": {
+              "limite": 2.918,
+              "valor": 0.027
+            },
+            "staff": {
+              "limite": 7.583,
+              "valor": 0.02
+            },
+            "largada": {
+              "limite": 0.717,
+              "valor": -0.003
+            },
+            "contribuicaoLargada": -0.003,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0.001,
+            "valor": -0.001
+          },
+          "scoreTotal": -0.54
+        }
+      }
+    },
+    {
+      "piloto": "Arvid Lindblad",
+      "equipe": "Racing Bulls",
+      "posicaoMediaLargada": 14.6481,
+      "posicaoMediaFinal": 14.6618,
+      "variacaoPosicoesMedia": -0.0137,
+      "melhorPosicaoLargada": 6,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 4,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2036,
+        "percentual": 20.36,
+        "porFalhaDurabilidade": 1326,
+        "porFalhaHumana": 810
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 10,
+        "8": 58,
+        "9": 204,
+        "10": 443,
+        "11": 673,
+        "12": 1002,
+        "13": 1270,
+        "14": 1491,
+        "15": 1491,
+        "16": 1186,
+        "17": 755,
+        "18": 329,
+        "19": 153,
+        "20": 171,
+        "21": 315,
+        "22": 446
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 4,
+        "6": 9,
+        "7": 40,
+        "8": 105,
+        "9": 296,
+        "10": 456,
+        "11": 682,
+        "12": 935,
+        "13": 1190,
+        "14": 1302,
+        "15": 1270,
+        "16": 1047,
+        "17": 805,
+        "18": 585,
+        "19": 431,
+        "20": 335,
+        "21": 284,
+        "22": 223
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 4,
+          "7": 20,
+          "8": 80,
+          "9": 235,
+          "10": 364,
+          "11": 559,
+          "12": 793,
+          "13": 1033,
+          "14": 1146,
+          "15": 1130,
+          "16": 908,
+          "17": 686,
+          "18": 482,
+          "19": 347,
+          "20": 277,
+          "21": 230,
+          "22": 196
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 4,
+          "9": 27,
+          "10": 43,
+          "11": 68,
+          "12": 74,
+          "13": 80,
+          "14": 79,
+          "15": 74,
+          "16": 76,
+          "17": 66,
+          "18": 51,
+          "19": 39,
+          "20": 31,
+          "21": 29,
+          "22": 12
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 4,
+          "7": 12,
+          "8": 15,
+          "9": 24,
+          "10": 32,
+          "11": 41,
+          "12": 56,
+          "13": 50,
+          "14": 53,
+          "15": 45,
+          "16": 46,
+          "17": 33,
+          "18": 34,
+          "19": 36,
+          "20": 18,
+          "21": 16,
+          "22": 11
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 2,
+          "6": 1,
+          "7": 6,
+          "8": 6,
+          "9": 10,
+          "10": 17,
+          "11": 14,
+          "12": 12,
+          "13": 27,
+          "14": 24,
+          "15": 21,
+          "16": 17,
+          "17": 20,
+          "18": 18,
+          "19": 9,
+          "20": 9,
+          "21": 9,
+          "22": 4
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 4,
+          "7": 20,
+          "8": 80,
+          "9": 235,
+          "10": 364,
+          "11": 559,
+          "12": 793,
+          "13": 1033,
+          "14": 1146,
+          "15": 1130,
+          "16": 908,
+          "17": 686,
+          "18": 482,
+          "19": 347,
+          "20": 277,
+          "21": 230,
+          "22": 196
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 4,
+          "6": 5,
+          "7": 20,
+          "8": 25,
+          "9": 61,
+          "10": 92,
+          "11": 123,
+          "12": 142,
+          "13": 157,
+          "14": 156,
+          "15": 140,
+          "16": 139,
+          "17": 119,
+          "18": 103,
+          "19": 84,
+          "20": 58,
+          "21": 54,
+          "22": 27
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 14.7,
+          "desvioPadraoPosicaoFinal": 3.11
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 14.7,
+          "desvioPadraoPosicaoFinal": 3.31
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 14.2,
+          "desvioPadraoPosicaoFinal": 3.74
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 14.25,
+          "desvioPadraoPosicaoFinal": 3.84
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.547,
+          "scorePilotoMedioChuva": -0.585,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.038
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.316,
+          "scorePilotoMedioChuva": -1.55,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.234
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.553,
+          "scoreEquipe": -1.071,
+          "scorePilotoBruto": 84.88,
+          "scoreEquipeBruto": 83.6,
+          "contribuicaoPiloto": -0.336,
+          "contribuicaoEquipe": -0.42,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 5.28,
+            "probabilidade": 0.05,
+            "penalidade": 0.255,
+            "penalidadeZMinima": 2.411,
+            "penalidadeZMaxima": 7.218
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 4.93,
+            "probabilidade": 0.05,
+            "penalidade": 0.195,
+            "penalidadeZMinima": 1.95,
+            "penalidadeZMaxima": 5.841
+          },
+          "scoreAntesRNG": -0.757,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.085,
+              "valor": 0.009
+            },
+            "carro": {
+              "limite": 0.939,
+              "valor": 0.004
+            },
+            "staff": {
+              "limite": 4.369,
+              "valor": 0.007
+            },
+            "contribuicaoPiloto": 0.006,
+            "contribuicaoEquipe": 0.002,
+            "valor": 0.007
+          },
+          "scoreTotal": -0.749
+        },
+        "corrida": {
+          "scorePosInicial": -0.496,
+          "contribuicaoPosInicial": -0.414,
+          "scorePiloto": -1.351,
+          "scoreEquipe": -2.215,
+          "scorePilotoBruto": 84.53,
+          "scoreEquipeBruto": 83.7,
+          "contribuicaoPiloto": -0.152,
+          "contribuicaoEquipe": -0.123,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 28.82,
+            "probabilidade": 0.28,
+            "penalidade": 1.397,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.284
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 25.13,
+            "probabilidade": 0.25,
+            "penalidade": 1.06,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": -0.689,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.408,
+              "valor": -0.003
+            },
+            "carro": {
+              "limite": 4.147,
+              "valor": -0.016
+            },
+            "staff": {
+              "limite": 8.961,
+              "valor": -0.015
+            },
+            "largada": {
+              "limite": 0.532,
+              "valor": 0
+            },
+            "contribuicaoLargada": -0.001,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.002
+          },
+          "scoreTotal": -0.691
+        }
+      }
+    },
+    {
+      "piloto": "Liam Lawson",
+      "equipe": "Racing Bulls",
+      "posicaoMediaLargada": 15.2623,
+      "posicaoMediaFinal": 14.9528,
+      "variacaoPosicoesMedia": 0.3095,
+      "melhorPosicaoLargada": 7,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 5,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 1907,
+        "percentual": 19.07,
+        "porFalhaDurabilidade": 1296,
+        "porFalhaHumana": 710
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 6,
+        "8": 29,
+        "9": 114,
+        "10": 218,
+        "11": 407,
+        "12": 738,
+        "13": 1092,
+        "14": 1405,
+        "15": 1703,
+        "16": 1543,
+        "17": 1065,
+        "18": 491,
+        "19": 226,
+        "20": 210,
+        "21": 292,
+        "22": 461
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 9,
+        "7": 25,
+        "8": 89,
+        "9": 180,
+        "10": 359,
+        "11": 567,
+        "12": 835,
+        "13": 1129,
+        "14": 1332,
+        "15": 1391,
+        "16": 1195,
+        "17": 906,
+        "18": 648,
+        "19": 505,
+        "20": 388,
+        "21": 284,
+        "22": 155
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 13,
+          "8": 57,
+          "9": 135,
+          "10": 282,
+          "11": 462,
+          "12": 713,
+          "13": 977,
+          "14": 1174,
+          "15": 1218,
+          "16": 1050,
+          "17": 758,
+          "18": 552,
+          "19": 415,
+          "20": 317,
+          "21": 235,
+          "22": 131
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 2,
+          "7": 2,
+          "8": 9,
+          "9": 20,
+          "10": 36,
+          "11": 50,
+          "12": 55,
+          "13": 82,
+          "14": 91,
+          "15": 100,
+          "16": 76,
+          "17": 79,
+          "18": 50,
+          "19": 41,
+          "20": 34,
+          "21": 14,
+          "22": 13
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 6,
+          "8": 16,
+          "9": 18,
+          "10": 31,
+          "11": 39,
+          "12": 45,
+          "13": 49,
+          "14": 49,
+          "15": 54,
+          "16": 51,
+          "17": 46,
+          "18": 34,
+          "19": 32,
+          "20": 24,
+          "21": 24,
+          "22": 8
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 4,
+          "7": 4,
+          "8": 7,
+          "9": 7,
+          "10": 10,
+          "11": 16,
+          "12": 22,
+          "13": 21,
+          "14": 18,
+          "15": 19,
+          "16": 18,
+          "17": 23,
+          "18": 12,
+          "19": 17,
+          "20": 13,
+          "21": 11,
+          "22": 3
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 13,
+          "8": 57,
+          "9": 135,
+          "10": 282,
+          "11": 462,
+          "12": 713,
+          "13": 977,
+          "14": 1174,
+          "15": 1218,
+          "16": 1050,
+          "17": 758,
+          "18": 552,
+          "19": 415,
+          "20": 317,
+          "21": 235,
+          "22": 131
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 8,
+          "7": 12,
+          "8": 32,
+          "9": 45,
+          "10": 77,
+          "11": 105,
+          "12": 122,
+          "13": 152,
+          "14": 158,
+          "15": 173,
+          "16": 145,
+          "17": 148,
+          "18": 96,
+          "19": 90,
+          "20": 71,
+          "21": 49,
+          "22": 24
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 14.99,
+          "desvioPadraoPosicaoFinal": 2.93
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 14.82,
+          "desvioPadraoPosicaoFinal": 3.18
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 14.65,
+          "desvioPadraoPosicaoFinal": 3.61
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 14.56,
+          "desvioPadraoPosicaoFinal": 3.92
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.654,
+          "scorePilotoMedioChuva": -0.734,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.08
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -0.949,
+          "scorePilotoMedioChuva": -1.202,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.253
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.666,
+          "scoreEquipe": -1.055,
+          "scorePilotoBruto": 84.25,
+          "scoreEquipeBruto": 83.6,
+          "contribuicaoPiloto": -0.405,
+          "contribuicaoEquipe": -0.414,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 5.05,
+            "probabilidade": 0.05,
+            "penalidade": 0.24,
+            "penalidadeZMinima": 2.408,
+            "penalidadeZMaxima": 7.191
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 4.74,
+            "probabilidade": 0.05,
+            "penalidade": 0.184,
+            "penalidadeZMinima": 1.956,
+            "penalidadeZMaxima": 5.848
+          },
+          "scoreAntesRNG": -0.819,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.043,
+              "valor": -0.001
+            },
+            "carro": {
+              "limite": 0.939,
+              "valor": -0.001
+            },
+            "staff": {
+              "limite": 4.369,
+              "valor": 0.032
+            },
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0.002,
+            "valor": 0.001
+          },
+          "scoreTotal": -0.818
+        },
+        "corrida": {
+          "scorePosInicial": -0.593,
+          "contribuicaoPosInicial": -0.495,
+          "scorePiloto": -0.987,
+          "scoreEquipe": -2.175,
+          "scorePilotoBruto": 85.82,
+          "scoreEquipeBruto": 83.7,
+          "contribuicaoPiloto": -0.112,
+          "contribuicaoEquipe": -0.122,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 28.08,
+            "probabilidade": 0.28,
+            "penalidade": 1.356,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 22.95,
+            "probabilidade": 0.23,
+            "penalidade": 0.965,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.298
+          },
+          "scoreAntesRNG": -0.728,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.354,
+              "valor": 0.006
+            },
+            "carro": {
+              "limite": 4.147,
+              "valor": 0.002
+            },
+            "staff": {
+              "limite": 8.961,
+              "valor": 0
+            },
+            "largada": {
+              "limite": 0.555,
+              "valor": 0.001
+            },
+            "contribuicaoLargada": 0.001,
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": 0.002
+          },
+          "scoreTotal": -0.727
+        }
+      }
+    },
+    {
+      "piloto": "Carlos Sainz",
+      "equipe": "Williams",
+      "posicaoMediaLargada": 15.6057,
+      "posicaoMediaFinal": 15.7289,
+      "variacaoPosicoesMedia": -0.1232,
+      "melhorPosicaoLargada": 7,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 4,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2055,
+        "percentual": 20.55,
+        "porFalhaDurabilidade": 1312,
+        "porFalhaHumana": 854
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 7,
+        "8": 16,
+        "9": 81,
+        "10": 241,
+        "11": 398,
+        "12": 603,
+        "13": 853,
+        "14": 1248,
+        "15": 1651,
+        "16": 1599,
+        "17": 1191,
+        "18": 655,
+        "19": 341,
+        "20": 248,
+        "21": 355,
+        "22": 513
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 7,
+        "7": 20,
+        "8": 69,
+        "9": 125,
+        "10": 265,
+        "11": 376,
+        "12": 606,
+        "13": 839,
+        "14": 1135,
+        "15": 1282,
+        "16": 1310,
+        "17": 1145,
+        "18": 895,
+        "19": 675,
+        "20": 542,
+        "21": 418,
+        "22": 289
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 7,
+          "8": 42,
+          "9": 92,
+          "10": 194,
+          "11": 308,
+          "12": 511,
+          "13": 713,
+          "14": 982,
+          "15": 1133,
+          "16": 1155,
+          "17": 1020,
+          "18": 755,
+          "19": 564,
+          "20": 435,
+          "21": 334,
+          "22": 243
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 9,
+          "9": 13,
+          "10": 26,
+          "11": 35,
+          "12": 50,
+          "13": 65,
+          "14": 84,
+          "15": 82,
+          "16": 92,
+          "17": 65,
+          "18": 67,
+          "19": 58,
+          "20": 46,
+          "21": 38,
+          "22": 23
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 1,
+          "7": 7,
+          "8": 10,
+          "9": 14,
+          "10": 36,
+          "11": 18,
+          "12": 34,
+          "13": 41,
+          "14": 51,
+          "15": 46,
+          "16": 48,
+          "17": 46,
+          "18": 51,
+          "19": 37,
+          "20": 39,
+          "21": 31,
+          "22": 17
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 4,
+          "7": 4,
+          "8": 8,
+          "9": 6,
+          "10": 9,
+          "11": 15,
+          "12": 11,
+          "13": 20,
+          "14": 18,
+          "15": 21,
+          "16": 15,
+          "17": 14,
+          "18": 22,
+          "19": 16,
+          "20": 22,
+          "21": 15,
+          "22": 6
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 7,
+          "8": 42,
+          "9": 92,
+          "10": 194,
+          "11": 308,
+          "12": 511,
+          "13": 713,
+          "14": 982,
+          "15": 1133,
+          "16": 1155,
+          "17": 1020,
+          "18": 755,
+          "19": 564,
+          "20": 435,
+          "21": 334,
+          "22": 243
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 1,
+          "6": 5,
+          "7": 13,
+          "8": 27,
+          "9": 33,
+          "10": 71,
+          "11": 68,
+          "12": 95,
+          "13": 126,
+          "14": 153,
+          "15": 149,
+          "16": 155,
+          "17": 125,
+          "18": 140,
+          "19": 111,
+          "20": 107,
+          "21": 84,
+          "22": 46
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 15.77,
+          "desvioPadraoPosicaoFinal": 2.97
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 15.64,
+          "desvioPadraoPosicaoFinal": 3.31
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 15.43,
+          "desvioPadraoPosicaoFinal": 3.75
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 15.21,
+          "desvioPadraoPosicaoFinal": 4.13
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -0.502,
+          "scorePilotoMedioChuva": -0.563,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.061
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.495,
+          "scorePilotoMedioChuva": -1.795,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.3
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -0.512,
+          "scoreEquipe": -1.471,
+          "scorePilotoBruto": 85.25,
+          "scoreEquipeBruto": 81.85,
+          "contribuicaoPiloto": -0.311,
+          "contribuicaoEquipe": -0.578,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 4.88,
+            "probabilidade": 0.05,
+            "penalidade": 0.236,
+            "penalidadeZMinima": 2.408,
+            "penalidadeZMaxima": 7.218
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.67,
+            "probabilidade": 0.06,
+            "penalidade": 0.225,
+            "penalidadeZMinima": 1.96,
+            "penalidadeZMaxima": 5.845
+          },
+          "scoreAntesRNG": -0.889,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.168,
+              "valor": 0.002
+            },
+            "carro": {
+              "limite": 0.904,
+              "valor": 0.001
+            },
+            "staff": {
+              "limite": 4.537,
+              "valor": -0.009
+            },
+            "contribuicaoPiloto": 0.001,
+            "contribuicaoEquipe": 0,
+            "valor": 0.001
+          },
+          "scoreTotal": -0.888
+        },
+        "corrida": {
+          "scorePosInicial": -0.647,
+          "contribuicaoPosInicial": -0.541,
+          "scorePiloto": -1.54,
+          "scoreEquipe": -2.597,
+          "scorePilotoBruto": 84.08,
+          "scoreEquipeBruto": 81.86,
+          "contribuicaoPiloto": -0.173,
+          "contribuicaoEquipe": -0.144,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 27.21,
+            "probabilidade": 0.27,
+            "penalidade": 1.332,
+            "penalidadeZMinima": 2.43,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 27.47,
+            "probabilidade": 0.28,
+            "penalidade": 1.154,
+            "penalidadeZMinima": 2.101,
+            "penalidadeZMaxima": 6.294
+          },
+          "scoreAntesRNG": -0.858,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.517,
+              "valor": -0.007
+            },
+            "carro": {
+              "limite": 3.993,
+              "valor": 0.003
+            },
+            "staff": {
+              "limite": 9.306,
+              "valor": 0.047
+            },
+            "largada": {
+              "limite": 0.625,
+              "valor": 0.001
+            },
+            "contribuicaoLargada": 0.001,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0.001,
+            "valor": 0
+          },
+          "scoreTotal": -0.858
+        }
+      }
+    },
+    {
+      "piloto": "Alexander Albon",
+      "equipe": "Williams",
+      "posicaoMediaLargada": 17.781,
+      "posicaoMediaFinal": 17.7493,
+      "variacaoPosicoesMedia": 0.0317,
+      "melhorPosicaoLargada": 7,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 7,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2052,
+        "percentual": 20.52,
+        "porFalhaDurabilidade": 1252,
+        "porFalhaHumana": 922
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 3,
+        "9": 2,
+        "10": 17,
+        "11": 42,
+        "12": 85,
+        "13": 189,
+        "14": 361,
+        "15": 680,
+        "16": 1278,
+        "17": 1840,
+        "18": 1968,
+        "19": 1398,
+        "20": 857,
+        "21": 594,
+        "22": 685
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 8,
+        "9": 11,
+        "10": 29,
+        "11": 93,
+        "12": 152,
+        "13": 278,
+        "14": 508,
+        "15": 792,
+        "16": 1136,
+        "17": 1448,
+        "18": 1451,
+        "19": 1355,
+        "20": 1202,
+        "21": 907,
+        "22": 629
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 4,
+          "9": 4,
+          "10": 13,
+          "11": 63,
+          "12": 109,
+          "13": 209,
+          "14": 419,
+          "15": 673,
+          "16": 995,
+          "17": 1271,
+          "18": 1255,
+          "19": 1157,
+          "20": 1052,
+          "21": 756,
+          "22": 509
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 5,
+          "11": 9,
+          "12": 16,
+          "13": 38,
+          "14": 40,
+          "15": 70,
+          "16": 78,
+          "17": 97,
+          "18": 98,
+          "19": 102,
+          "20": 79,
+          "21": 75,
+          "22": 48
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 4,
+          "10": 7,
+          "11": 11,
+          "12": 16,
+          "13": 23,
+          "14": 35,
+          "15": 37,
+          "16": 44,
+          "17": 56,
+          "18": 71,
+          "19": 70,
+          "20": 47,
+          "21": 57,
+          "22": 49
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 3,
+          "9": 3,
+          "10": 4,
+          "11": 10,
+          "12": 11,
+          "13": 8,
+          "14": 14,
+          "15": 12,
+          "16": 19,
+          "17": 24,
+          "18": 27,
+          "19": 26,
+          "20": 24,
+          "21": 19,
+          "22": 23
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 4,
+          "9": 4,
+          "10": 13,
+          "11": 63,
+          "12": 109,
+          "13": 209,
+          "14": 419,
+          "15": 673,
+          "16": 995,
+          "17": 1271,
+          "18": 1255,
+          "19": 1157,
+          "20": 1052,
+          "21": 756,
+          "22": 509
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 4,
+          "9": 7,
+          "10": 16,
+          "11": 30,
+          "12": 43,
+          "13": 69,
+          "14": 89,
+          "15": 119,
+          "16": 141,
+          "17": 177,
+          "18": 196,
+          "19": 198,
+          "20": 150,
+          "21": 151,
+          "22": 120
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 17.8,
+          "desvioPadraoPosicaoFinal": 2.47
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 17.56,
+          "desvioPadraoPosicaoFinal": 2.74
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 17.52,
+          "desvioPadraoPosicaoFinal": 3.11
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 17.14,
+          "desvioPadraoPosicaoFinal": 3.52
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -1.079,
+          "scorePilotoMedioChuva": -1.128,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.049
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.957,
+          "scorePilotoMedioChuva": -2.207,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.25
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -1.086,
+          "scoreEquipe": -1.479,
+          "scorePilotoBruto": 82.32,
+          "scoreEquipeBruto": 81.85,
+          "contribuicaoPiloto": -0.66,
+          "contribuicaoEquipe": -0.58,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 5,
+            "probabilidade": 0.05,
+            "penalidade": 0.244,
+            "penalidadeZMinima": 2.416,
+            "penalidadeZMaxima": 7.222
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.83,
+            "probabilidade": 0.06,
+            "penalidade": 0.227,
+            "penalidadeZMinima": 1.95,
+            "penalidadeZMaxima": 5.848
+          },
+          "scoreAntesRNG": -1.241,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.168,
+              "valor": 0.008
+            },
+            "carro": {
+              "limite": 0.904,
+              "valor": 0.003
+            },
+            "staff": {
+              "limite": 4.537,
+              "valor": 0.003
+            },
+            "contribuicaoPiloto": 0.005,
+            "contribuicaoEquipe": 0.001,
+            "valor": 0.006
+          },
+          "scoreTotal": -1.235
+        },
+        "corrida": {
+          "scorePosInicial": -0.99,
+          "contribuicaoPosInicial": -0.826,
+          "scorePiloto": -1.995,
+          "scoreEquipe": -2.543,
+          "scorePilotoBruto": 82.08,
+          "scoreEquipeBruto": 81.86,
+          "contribuicaoPiloto": -0.223,
+          "contribuicaoEquipe": -0.142,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 26.12,
+            "probabilidade": 0.27,
+            "penalidade": 1.277,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 27.99,
+            "probabilidade": 0.28,
+            "penalidade": 1.191,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -1.191,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.517,
+              "valor": 0.003
+            },
+            "carro": {
+              "limite": 3.993,
+              "valor": -0.003
+            },
+            "staff": {
+              "limite": 9.306,
+              "valor": -0.01
+            },
+            "largada": {
+              "limite": 0.694,
+              "valor": 0
+            },
+            "contribuicaoLargada": 0,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0,
+            "valor": 0
+          },
+          "scoreTotal": -1.191
+        }
+      }
+    },
+    {
+      "piloto": "Sergio Perez",
+      "equipe": "Cadillac",
+      "posicaoMediaLargada": 18.644,
+      "posicaoMediaFinal": 18.3742,
+      "variacaoPosicoesMedia": 0.2698,
+      "melhorPosicaoLargada": 10,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 5,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2251,
+        "percentual": 22.51,
+        "porFalhaDurabilidade": 1562,
+        "porFalhaHumana": 834
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 3,
+        "11": 9,
+        "12": 26,
+        "13": 64,
+        "14": 157,
+        "15": 372,
+        "16": 738,
+        "17": 1328,
+        "18": 1848,
+        "19": 2032,
+        "20": 1585,
+        "21": 1003,
+        "22": 835
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 6,
+        "10": 14,
+        "11": 38,
+        "12": 63,
+        "13": 174,
+        "14": 303,
+        "15": 506,
+        "16": 924,
+        "17": 1299,
+        "18": 1561,
+        "19": 1649,
+        "20": 1469,
+        "21": 1219,
+        "22": 772
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 7,
+          "11": 22,
+          "12": 31,
+          "13": 124,
+          "14": 229,
+          "15": 416,
+          "16": 782,
+          "17": 1128,
+          "18": 1361,
+          "19": 1431,
+          "20": 1281,
+          "21": 1028,
+          "22": 647
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 5,
+          "12": 6,
+          "13": 23,
+          "14": 35,
+          "15": 46,
+          "16": 79,
+          "17": 84,
+          "18": 114,
+          "19": 109,
+          "20": 90,
+          "21": 102,
+          "22": 61
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 1,
+          "11": 7,
+          "12": 12,
+          "13": 16,
+          "14": 26,
+          "15": 34,
+          "16": 45,
+          "17": 64,
+          "18": 65,
+          "19": 75,
+          "20": 73,
+          "21": 67,
+          "22": 40
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 5,
+          "11": 4,
+          "12": 14,
+          "13": 11,
+          "14": 13,
+          "15": 10,
+          "16": 18,
+          "17": 23,
+          "18": 21,
+          "19": 34,
+          "20": 25,
+          "21": 22,
+          "22": 24
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 7,
+          "11": 22,
+          "12": 31,
+          "13": 124,
+          "14": 229,
+          "15": 416,
+          "16": 782,
+          "17": 1128,
+          "18": 1361,
+          "19": 1431,
+          "20": 1281,
+          "21": 1028,
+          "22": 647
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 4,
+          "10": 7,
+          "11": 16,
+          "12": 32,
+          "13": 50,
+          "14": 74,
+          "15": 90,
+          "16": 142,
+          "17": 171,
+          "18": 200,
+          "19": 218,
+          "20": 188,
+          "21": 191,
+          "22": 125
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 18.44,
+          "desvioPadraoPosicaoFinal": 2.23
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 18.17,
+          "desvioPadraoPosicaoFinal": 2.53
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 17.97,
+          "desvioPadraoPosicaoFinal": 2.77
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 17.41,
+          "desvioPadraoPosicaoFinal": 3.43
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -1.41,
+          "scorePilotoMedioChuva": -1.48,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.069
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.793,
+          "scorePilotoMedioChuva": -2.113,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.32
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -1.421,
+          "scoreEquipe": -1.359,
+          "scorePilotoBruto": 80.59,
+          "scoreEquipeBruto": 82.41,
+          "contribuicaoPiloto": -0.864,
+          "contribuicaoEquipe": -0.533,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 5.4,
+            "probabilidade": 0.06,
+            "penalidade": 0.258,
+            "penalidadeZMinima": 2.414,
+            "penalidadeZMaxima": 7.214
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.74,
+            "probabilidade": 0.06,
+            "penalidade": 0.224,
+            "penalidadeZMinima": 1.961,
+            "penalidadeZMaxima": 5.835
+          },
+          "scoreAntesRNG": -1.397,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.168,
+              "valor": -0.009
+            },
+            "carro": {
+              "limite": 1.044,
+              "valor": 0.008
+            },
+            "staff": {
+              "limite": 4.705,
+              "valor": -0.01
+            },
+            "contribuicaoPiloto": -0.005,
+            "contribuicaoEquipe": 0.002,
+            "valor": -0.003
+          },
+          "scoreTotal": -1.401
+        },
+        "corrida": {
+          "scorePosInicial": -1.126,
+          "contribuicaoPosInicial": -0.939,
+          "scorePiloto": -1.842,
+          "scoreEquipe": -2.733,
+          "scorePilotoBruto": 82.65,
+          "scoreEquipeBruto": 82.46,
+          "contribuicaoPiloto": -0.207,
+          "contribuicaoEquipe": -0.152,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 33.19,
+            "probabilidade": 0.33,
+            "penalidade": 1.613,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 27.67,
+            "probabilidade": 0.28,
+            "penalidade": 1.156,
+            "penalidadeZMinima": 2.101,
+            "penalidadeZMaxima": 6.299
+          },
+          "scoreAntesRNG": -1.299,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.517,
+              "valor": -0.002
+            },
+            "carro": {
+              "limite": 4.608,
+              "valor": 0.017
+            },
+            "staff": {
+              "limite": 9.651,
+              "valor": 0.008
+            },
+            "largada": {
+              "limite": 0.625,
+              "valor": 0.002
+            },
+            "contribuicaoLargada": 0.002,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0.001,
+            "valor": 0.002
+          },
+          "scoreTotal": -1.296
+        }
+      }
+    },
+    {
+      "piloto": "Fernando Alonso",
+      "equipe": "Aston Martin",
+      "posicaoMediaLargada": 18.4931,
+      "posicaoMediaFinal": 18.3952,
+      "variacaoPosicoesMedia": 0.0979,
+      "melhorPosicaoLargada": 8,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 8,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2393,
+        "percentual": 23.93,
+        "porFalhaDurabilidade": 1622,
+        "porFalhaHumana": 924
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 6,
+        "11": 15,
+        "12": 31,
+        "13": 89,
+        "14": 197,
+        "15": 450,
+        "16": 888,
+        "17": 1407,
+        "18": 1845,
+        "19": 1838,
+        "20": 1380,
+        "21": 951,
+        "22": 901
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 3,
+        "9": 8,
+        "10": 17,
+        "11": 43,
+        "12": 88,
+        "13": 166,
+        "14": 311,
+        "15": 559,
+        "16": 883,
+        "17": 1231,
+        "18": 1473,
+        "19": 1611,
+        "20": 1547,
+        "21": 1178,
+        "22": 882
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 3,
+          "11": 17,
+          "12": 50,
+          "13": 121,
+          "14": 228,
+          "15": 431,
+          "16": 746,
+          "17": 1063,
+          "18": 1296,
+          "19": 1426,
+          "20": 1335,
+          "21": 1018,
+          "22": 754
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 2,
+          "9": 0,
+          "10": 1,
+          "11": 6,
+          "12": 9,
+          "13": 14,
+          "14": 34,
+          "15": 62,
+          "16": 62,
+          "17": 103,
+          "18": 93,
+          "19": 104,
+          "20": 108,
+          "21": 90,
+          "22": 67
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 10,
+          "11": 13,
+          "12": 16,
+          "13": 25,
+          "14": 35,
+          "15": 47,
+          "16": 53,
+          "17": 43,
+          "18": 53,
+          "19": 57,
+          "20": 80,
+          "21": 53,
+          "22": 41
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 1,
+          "9": 4,
+          "10": 3,
+          "11": 7,
+          "12": 13,
+          "13": 6,
+          "14": 14,
+          "15": 19,
+          "16": 22,
+          "17": 22,
+          "18": 31,
+          "19": 24,
+          "20": 24,
+          "21": 17,
+          "22": 20
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 3,
+          "11": 17,
+          "12": 50,
+          "13": 121,
+          "14": 228,
+          "15": 431,
+          "16": 746,
+          "17": 1063,
+          "18": 1296,
+          "19": 1426,
+          "20": 1335,
+          "21": 1018,
+          "22": 754
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 3,
+          "9": 6,
+          "10": 14,
+          "11": 26,
+          "12": 38,
+          "13": 45,
+          "14": 83,
+          "15": 128,
+          "16": 137,
+          "17": 168,
+          "18": 177,
+          "19": 185,
+          "20": 212,
+          "21": 160,
+          "22": 128
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 18.51,
+          "desvioPadraoPosicaoFinal": 2.26
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 18.15,
+          "desvioPadraoPosicaoFinal": 2.6
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 17.43,
+          "desvioPadraoPosicaoFinal": 3.14
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 17.11,
+          "desvioPadraoPosicaoFinal": 3.31
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -1.162,
+          "scorePilotoMedioChuva": -1.105,
+          "diferencaMediaScorePilotoChuvaMenosSeco": 0.057
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -1.787,
+          "scorePilotoMedioChuva": -1.963,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.176
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -1.154,
+          "scoreEquipe": -1.756,
+          "scorePilotoBruto": 81.95,
+          "scoreEquipeBruto": 81.01,
+          "contribuicaoPiloto": -0.7,
+          "contribuicaoEquipe": -0.689,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 6.59,
+            "probabilidade": 0.06,
+            "penalidade": 0.318,
+            "penalidadeZMinima": 2.416,
+            "penalidadeZMaxima": 7.21
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 5.62,
+            "probabilidade": 0.06,
+            "penalidade": 0.223,
+            "penalidadeZMinima": 1.959,
+            "penalidadeZMaxima": 5.84
+          },
+          "scoreAntesRNG": -1.39,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.168,
+              "valor": -0.001
+            },
+            "carro": {
+              "limite": 1.078,
+              "valor": 0.004
+            },
+            "staff": {
+              "limite": 5.041,
+              "valor": 0.033
+            },
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0.003,
+            "valor": 0.003
+          },
+          "scoreTotal": -1.387
+        },
+        "corrida": {
+          "scorePosInicial": -1.102,
+          "contribuicaoPosInicial": -0.921,
+          "scorePiloto": -1.814,
+          "scoreEquipe": -3.097,
+          "scorePilotoBruto": 82.98,
+          "scoreEquipeBruto": 81.25,
+          "contribuicaoPiloto": -0.202,
+          "contribuicaoEquipe": -0.172,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 34.78,
+            "probabilidade": 0.35,
+            "penalidade": 1.685,
+            "penalidadeZMinima": 2.43,
+            "penalidadeZMaxima": 7.284
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 28.41,
+            "probabilidade": 0.28,
+            "penalidade": 1.198,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -1.295,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.517,
+              "valor": -0.01
+            },
+            "carro": {
+              "limite": 4.761,
+              "valor": -0.019
+            },
+            "staff": {
+              "limite": 10.34,
+              "valor": -0.017
+            },
+            "largada": {
+              "limite": 0.625,
+              "valor": -0.002
+            },
+            "contribuicaoLargada": -0.001,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": -0.001,
+            "valor": -0.003
+          },
+          "scoreTotal": -1.298
+        }
+      }
+    },
+    {
+      "piloto": "Valtteri Bottas",
+      "equipe": "Cadillac",
+      "posicaoMediaLargada": 19.4392,
+      "posicaoMediaFinal": 19.786,
+      "variacaoPosicoesMedia": -0.3468,
+      "melhorPosicaoLargada": 11,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 10,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2538,
+        "percentual": 25.38,
+        "porFalhaDurabilidade": 1579,
+        "porFalhaHumana": 1154
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 3,
+        "12": 10,
+        "13": 24,
+        "14": 77,
+        "15": 162,
+        "16": 410,
+        "17": 801,
+        "18": 1385,
+        "19": 1857,
+        "20": 2058,
+        "21": 1817,
+        "22": 1396
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 7,
+        "11": 8,
+        "12": 21,
+        "13": 41,
+        "14": 100,
+        "15": 200,
+        "16": 391,
+        "17": 641,
+        "18": 989,
+        "19": 1320,
+        "20": 1748,
+        "21": 2226,
+        "22": 2308
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 4,
+          "12": 15,
+          "13": 26,
+          "14": 77,
+          "15": 166,
+          "16": 328,
+          "17": 543,
+          "18": 860,
+          "19": 1135,
+          "20": 1497,
+          "21": 1896,
+          "22": 1940
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 1,
+          "12": 2,
+          "13": 5,
+          "14": 10,
+          "15": 10,
+          "16": 32,
+          "17": 49,
+          "18": 70,
+          "19": 88,
+          "20": 122,
+          "21": 165,
+          "22": 199
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 3,
+          "13": 7,
+          "14": 8,
+          "15": 17,
+          "16": 24,
+          "17": 34,
+          "18": 45,
+          "19": 66,
+          "20": 99,
+          "21": 113,
+          "22": 112
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 3,
+          "12": 1,
+          "13": 3,
+          "14": 5,
+          "15": 7,
+          "16": 7,
+          "17": 15,
+          "18": 14,
+          "19": 31,
+          "20": 30,
+          "21": 52,
+          "22": 57
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 4,
+          "12": 15,
+          "13": 26,
+          "14": 77,
+          "15": 166,
+          "16": 328,
+          "17": 543,
+          "18": 860,
+          "19": 1135,
+          "20": 1497,
+          "21": 1896,
+          "22": 1940
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 4,
+          "11": 4,
+          "12": 6,
+          "13": 15,
+          "14": 23,
+          "15": 34,
+          "16": 63,
+          "17": 98,
+          "18": 129,
+          "19": 185,
+          "20": 251,
+          "21": 330,
+          "22": 368
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 19.8,
+          "desvioPadraoPosicaoFinal": 2
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 19.83,
+          "desvioPadraoPosicaoFinal": 2.16
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 19.58,
+          "desvioPadraoPosicaoFinal": 2.24
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 19.53,
+          "desvioPadraoPosicaoFinal": 2.63
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -1.751,
+          "scorePilotoMedioChuva": -1.895,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.144
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -3.421,
+          "scorePilotoMedioChuva": -3.806,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.385
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -1.773,
+          "scoreEquipe": -1.411,
+          "scorePilotoBruto": 79.12,
+          "scoreEquipeBruto": 82.41,
+          "contribuicaoPiloto": -1.078,
+          "contribuicaoEquipe": -0.554,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 6.38,
+            "probabilidade": 0.06,
+            "penalidade": 0.31,
+            "penalidadeZMinima": 2.429,
+            "penalidadeZMaxima": 7.218
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 7.36,
+            "probabilidade": 0.07,
+            "penalidade": 0.288,
+            "penalidadeZMinima": 1.955,
+            "penalidadeZMaxima": 5.848
+          },
+          "scoreAntesRNG": -1.632,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.418,
+              "valor": -0.011
+            },
+            "carro": {
+              "limite": 1.044,
+              "valor": 0.005
+            },
+            "staff": {
+              "limite": 4.705,
+              "valor": 0.016
+            },
+            "contribuicaoPiloto": -0.007,
+            "contribuicaoEquipe": 0.003,
+            "valor": -0.004
+          },
+          "scoreTotal": -1.636
+        },
+        "corrida": {
+          "scorePosInicial": -1.251,
+          "contribuicaoPosInicial": -1.044,
+          "scorePiloto": -3.479,
+          "scoreEquipe": -2.749,
+          "scorePilotoBruto": 76.92,
+          "scoreEquipeBruto": 82.46,
+          "contribuicaoPiloto": -0.388,
+          "contribuicaoEquipe": -0.153,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 33.48,
+            "probabilidade": 0.33,
+            "penalidade": 1.629,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 38.26,
+            "probabilidade": 0.37,
+            "penalidade": 1.595,
+            "penalidadeZMinima": 2.1,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -1.585,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.842,
+              "valor": -0.008
+            },
+            "carro": {
+              "limite": 4.608,
+              "valor": 0.013
+            },
+            "staff": {
+              "limite": 9.651,
+              "valor": -0.057
+            },
+            "largada": {
+              "limite": 0.833,
+              "valor": 0
+            },
+            "contribuicaoLargada": 0,
+            "contribuicaoPiloto": -0.001,
+            "contribuicaoEquipe": 0,
+            "valor": -0.001
+          },
+          "scoreTotal": -1.586
+        }
+      }
+    },
+    {
+      "piloto": "Lance Stroll",
+      "equipe": "Aston Martin",
+      "posicaoMediaLargada": 20.3688,
+      "posicaoMediaFinal": 20.666,
+      "variacaoPosicoesMedia": -0.2972,
+      "melhorPosicaoLargada": 12,
+      "piorPosicaoLargada": 22,
+      "melhorPosicaoFinal": 7,
+      "piorPosicaoFinal": 22,
+      "dnf": {
+        "total": 2809,
+        "percentual": 28.09,
+        "porFalhaDurabilidade": 1592,
+        "porFalhaHumana": 1435
+      },
+      "posicoesQualificacao": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 2,
+        "13": 11,
+        "14": 25,
+        "15": 62,
+        "16": 102,
+        "17": 315,
+        "18": 650,
+        "19": 1277,
+        "20": 2124,
+        "21": 2693,
+        "22": 2739
+      },
+      "posicoesCorrida": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 3,
+        "12": 5,
+        "13": 12,
+        "14": 32,
+        "15": 73,
+        "16": 111,
+        "17": 286,
+        "18": 549,
+        "19": 906,
+        "20": 1451,
+        "21": 2455,
+        "22": 4116
+      },
+      "posicoesCorridaPorCondicao": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 2,
+          "13": 5,
+          "14": 21,
+          "15": 56,
+          "16": 75,
+          "17": 233,
+          "18": 454,
+          "19": 766,
+          "20": 1227,
+          "21": 2121,
+          "22": 3530
+        },
+        "garoa": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 5,
+          "15": 11,
+          "16": 10,
+          "17": 22,
+          "18": 44,
+          "19": 75,
+          "20": 122,
+          "21": 168,
+          "22": 295
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 3,
+          "14": 4,
+          "15": 6,
+          "16": 18,
+          "17": 23,
+          "18": 37,
+          "19": 45,
+          "20": 67,
+          "21": 108,
+          "22": 215
+        },
+        "tempestade": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 3,
+          "14": 2,
+          "15": 0,
+          "16": 8,
+          "17": 8,
+          "18": 14,
+          "19": 20,
+          "20": 35,
+          "21": 58,
+          "22": 76
+        }
+      },
+      "posicoesCorridaSecoVsChuva": {
+        "seco": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 2,
+          "13": 5,
+          "14": 21,
+          "15": 56,
+          "16": 75,
+          "17": 233,
+          "18": 454,
+          "19": 766,
+          "20": 1227,
+          "21": 2121,
+          "22": 3530
+        },
+        "chuva": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 3,
+          "12": 3,
+          "13": 7,
+          "14": 11,
+          "15": 17,
+          "16": 36,
+          "17": 53,
+          "18": 95,
+          "19": 140,
+          "20": 224,
+          "21": 334,
+          "22": 586
+        }
+      },
+      "estatisticasPosicaoFinalPorCondicao": {
+        "seco": {
+          "participacoes": 8490,
+          "posicaoFinalMedia": 20.71,
+          "desvioPadraoPosicaoFinal": 1.55
+        },
+        "garoa": {
+          "participacoes": 755,
+          "posicaoFinalMedia": 20.5,
+          "desvioPadraoPosicaoFinal": 1.79
+        },
+        "chuva": {
+          "participacoes": 528,
+          "posicaoFinalMedia": 20.35,
+          "desvioPadraoPosicaoFinal": 2.03
+        },
+        "tempestade": {
+          "participacoes": 227,
+          "posicaoFinalMedia": 20.19,
+          "desvioPadraoPosicaoFinal": 2.26
+        }
+      },
+      "condicoesPista": {
+        "qualysNaChuva": 1508,
+        "qualificacao": {
+          "scorePilotoMedioSeco": -2.073,
+          "scorePilotoMedioChuva": -2.135,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.062
+        },
+        "corrida": {
+          "scorePilotoMedioSeco": -3.964,
+          "scorePilotoMedioChuva": -4.325,
+          "diferencaMediaScorePilotoChuvaMenosSeco": -0.361
+        }
+      },
+      "scores": {
+        "qualificacao": {
+          "scorePiloto": -2.082,
+          "scoreEquipe": -1.748,
+          "scorePilotoBruto": 77.91,
+          "scoreEquipeBruto": 81.01,
+          "contribuicaoPiloto": -1.265,
+          "contribuicaoEquipe": -0.687,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 6.45,
+            "probabilidade": 0.06,
+            "penalidade": 0.31,
+            "penalidadeZMinima": 2.409,
+            "penalidadeZMaxima": 7.21
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 9.29,
+            "probabilidade": 0.09,
+            "penalidade": 0.361,
+            "penalidadeZMinima": 1.951,
+            "penalidadeZMaxima": 5.847
+          },
+          "scoreAntesRNG": -1.952,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 1.669,
+              "valor": -0.008
+            },
+            "carro": {
+              "limite": 1.078,
+              "valor": 0
+            },
+            "staff": {
+              "limite": 5.041,
+              "valor": 0.013
+            },
+            "contribuicaoPiloto": -0.005,
+            "contribuicaoEquipe": 0.001,
+            "valor": -0.004
+          },
+          "scoreTotal": -1.956
+        },
+        "corrida": {
+          "scorePosInicial": -1.398,
+          "contribuicaoPosInicial": -1.166,
+          "scorePiloto": -4.019,
+          "scoreEquipe": -3.082,
+          "scorePilotoBruto": 76.08,
+          "scoreEquipeBruto": 81.25,
+          "contribuicaoPiloto": -0.448,
+          "contribuicaoEquipe": -0.172,
+          "falhaDurabilidade": {
+            "taxaOcorrenciaPercentual": 34.49,
+            "probabilidade": 0.35,
+            "penalidade": 1.67,
+            "penalidadeZMinima": 2.428,
+            "penalidadeZMaxima": 7.283
+          },
+          "falhaHumana": {
+            "taxaOcorrenciaPercentual": 46.52,
+            "probabilidade": 0.47,
+            "penalidade": 1.958,
+            "penalidadeZMinima": 2.102,
+            "penalidadeZMaxima": 6.3
+          },
+          "scoreAntesRNG": -1.786,
+          "fatorRNG": {
+            "piloto": {
+              "limite": 2.167,
+              "valor": 0.003
+            },
+            "carro": {
+              "limite": 4.761,
+              "valor": 0.019
+            },
+            "staff": {
+              "limite": 10.34,
+              "valor": 0.017
+            },
+            "largada": {
+              "limite": 0.694,
+              "valor": -0.003
+            },
+            "contribuicaoLargada": -0.003,
+            "contribuicaoPiloto": 0,
+            "contribuicaoEquipe": 0.001,
+            "valor": -0.002
+          },
+          "scoreTotal": -1.788
+        }
+      }
+    }
+  ]
+}

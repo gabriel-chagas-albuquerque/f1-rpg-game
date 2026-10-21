@@ -1,0 +1,1946 @@
+[
+  {
+    "GP": "Monza",
+    "voltas": 53,
+    "pct_chuva": 0.12,
+    "intensidadeOperacoes": 0.9,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.55,
+          "WEquipe": 0.45,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1376,
+          "FatorBaseFalhaHumana": 0.163,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.5,
+          "PenalidadeZMax": 3
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.021,
+          "AeroEficiencia": 0.414,
+          "Chassi": 0.066,
+          "Tracao": 0.056,
+          "Potencia": 0.374,
+          "Operacoes": 0.069,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.3,
+          "WPiloto": 0.35,
+          "WEquipe": 0.35,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.6879,
+          "FatorBaseFalhaHumana": 0.1482,
+          "FracaoDNFMecanica": 0.355,
+          "FracaoDNFHumana": 0.64,
+          "PenalidadeZMin": 3,
+          "PenalidadeZMax": 6
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.3,
+          "Racecraft": 0.26,
+          "Gerenciamento": 0.18,
+          "Adaptabilidade": 0.16,
+          "Fisico": 0.1
+        },
+        "equipe": {
+          "AeroCarga": 0.039,
+          "AeroEficiencia": 0.307,
+          "Chassi": 0.098,
+          "Tracao": 0.083,
+          "Potencia": 0.277,
+          "Operacoes": 0.128,
+          "GestaoPneus": 0.068
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Monaco",
+    "voltas": 78,
+    "pct_chuva": 0.38,
+    "intensidadeOperacoes": 1.25,
+    "multiplicadorSeveridadeFalha": 0.2,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.62,
+          "WEquipe": 0.38,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0659,
+          "FatorBaseFalhaHumana": 0.4533,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 0.25,
+          "PenalidadeZMax": 0.75
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.173,
+          "AeroEficiencia": 0.007,
+          "Chassi": 0.306,
+          "Tracao": 0.277,
+          "Potencia": 0.005,
+          "Operacoes": 0.232,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.8,
+          "WPiloto": 0.136,
+          "WEquipe": 0.064,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1882,
+          "FatorBaseFalhaHumana": 0.6044,
+          "FracaoDNFMecanica": 0.755,
+          "FracaoDNFHumana": 0.96,
+          "PenalidadeZMin": 0.5,
+          "PenalidadeZMax": 1.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.654,
+          "Racecraft": 0.052,
+          "Gerenciamento": 0.131,
+          "Adaptabilidade": 0.111,
+          "Fisico": 0.052
+        },
+        "equipe": {
+          "AeroCarga": 0.156,
+          "AeroEficiencia": 0.022,
+          "Chassi": 0.278,
+          "Tracao": 0.251,
+          "Potencia": 0.021,
+          "Operacoes": 0.21,
+          "GestaoPneus": 0.062
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Austria",
+    "voltas": 71,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 0.85,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.49,
+          "WEquipe": 0.51,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2538,
+          "FatorBaseFalhaHumana": 0.1172,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.044,
+          "AeroEficiencia": 0.206,
+          "Chassi": 0.105,
+          "Tracao": 0.275,
+          "Potencia": 0.322,
+          "Operacoes": 0.048,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.3,
+          "WPiloto": 0.244,
+          "WEquipe": 0.456,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.7251,
+          "FatorBaseFalhaHumana": 0.1562,
+          "FracaoDNFMecanica": 0.355,
+          "FracaoDNFHumana": 0.64,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.439,
+          "Racecraft": 0.254,
+          "Gerenciamento": 0.145,
+          "Adaptabilidade": 0.114,
+          "Fisico": 0.048
+        },
+        "equipe": {
+          "AeroCarga": 0.068,
+          "AeroEficiencia": 0.178,
+          "Chassi": 0.117,
+          "Tracao": 0.214,
+          "Potencia": 0.251,
+          "Operacoes": 0.092,
+          "GestaoPneus": 0.08
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Suzuka",
+    "voltas": 53,
+    "pct_chuva": 0.14,
+    "intensidadeOperacoes": 0.75,
+    "multiplicadorSeveridadeFalha": 0.8,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.65,
+          "WEquipe": 0.35,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1354,
+          "FatorBaseFalhaHumana": 0.2551,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 0.75,
+          "PenalidadeZMax": 1.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.305,
+          "AeroEficiencia": 0.26,
+          "Chassi": 0.304,
+          "Tracao": 0.049,
+          "Potencia": 0.049,
+          "Operacoes": 0.033,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.7,
+          "WPiloto": 0.225,
+          "WEquipe": 0.075,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.387,
+          "FatorBaseFalhaHumana": 0.3401,
+          "FracaoDNFMecanica": 0.43,
+          "FracaoDNFHumana": 0.76,
+          "PenalidadeZMin": 1.5,
+          "PenalidadeZMax": 3
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.4,
+          "Racecraft": 0.088,
+          "Gerenciamento": 0.184,
+          "Adaptabilidade": 0.128,
+          "Fisico": 0.2
+        },
+        "equipe": {
+          "AeroCarga": 0.231,
+          "AeroEficiencia": 0.197,
+          "Chassi": 0.231,
+          "Tracao": 0.074,
+          "Potencia": 0.074,
+          "Operacoes": 0.063,
+          "GestaoPneus": 0.13
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Barcelona",
+    "voltas": 66,
+    "pct_chuva": 0.12,
+    "intensidadeOperacoes": 0.85,
+    "multiplicadorSeveridadeFalha": 0.8,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.61,
+          "WEquipe": 0.39,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0713,
+          "FatorBaseFalhaHumana": 0.1351,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.341,
+          "AeroEficiencia": 0.127,
+          "Chassi": 0.308,
+          "Tracao": 0.111,
+          "Potencia": 0.063,
+          "Operacoes": 0.05,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.6,
+          "WPiloto": 0.26,
+          "WEquipe": 0.14,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2038,
+          "FatorBaseFalhaHumana": 0.1801,
+          "FracaoDNFMecanica": 0.451,
+          "FracaoDNFHumana": 0.78,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 4
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.291,
+          "Racecraft": 0.09,
+          "Gerenciamento": 0.227,
+          "Adaptabilidade": 0.142,
+          "Fisico": 0.25
+        },
+        "equipe": {
+          "AeroCarga": 0.226,
+          "AeroEficiencia": 0.105,
+          "Chassi": 0.204,
+          "Tracao": 0.105,
+          "Potencia": 0.084,
+          "Operacoes": 0.083,
+          "GestaoPneus": 0.193
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Baku",
+    "voltas": 51,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 1.15,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1054,
+          "FatorBaseFalhaHumana": 0.3237,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.5,
+          "PenalidadeZMax": 3
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.04,
+          "AeroEficiencia": 0.25,
+          "Chassi": 0.095,
+          "Tracao": 0.187,
+          "Potencia": 0.293,
+          "Operacoes": 0.135,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.425,
+          "WPiloto": 0.345,
+          "WEquipe": 0.23,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.301,
+          "FatorBaseFalhaHumana": 0.4315,
+          "FracaoDNFMecanica": 0.595,
+          "FracaoDNFHumana": 0.88,
+          "PenalidadeZMin": 3,
+          "PenalidadeZMax": 6
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.364,
+          "Racecraft": 0.276,
+          "Gerenciamento": 0.146,
+          "Adaptabilidade": 0.116,
+          "Fisico": 0.098
+        },
+        "equipe": {
+          "AeroCarga": 0.063,
+          "AeroEficiencia": 0.2,
+          "Chassi": 0.109,
+          "Tracao": 0.165,
+          "Potencia": 0.234,
+          "Operacoes": 0.154,
+          "GestaoPneus": 0.075
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Singapura",
+    "voltas": 62,
+    "pct_chuva": 0.16,
+    "intensidadeOperacoes": 1.35,
+    "multiplicadorSeveridadeFalha": 0.2,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.63,
+          "WEquipe": 0.37,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0657,
+          "FatorBaseFalhaHumana": 0.4016,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 0.5,
+          "PenalidadeZMax": 1.25
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.241,
+          "AeroEficiencia": 0.011,
+          "Chassi": 0.214,
+          "Tracao": 0.282,
+          "Potencia": 0.011,
+          "Operacoes": 0.241,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.9,
+          "WPiloto": 0.07,
+          "WEquipe": 0.03,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1878,
+          "FatorBaseFalhaHumana": 0.5355,
+          "FracaoDNFMecanica": 0.773,
+          "FracaoDNFHumana": 0.968,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.426,
+          "Racecraft": 0.051,
+          "Gerenciamento": 0.174,
+          "Adaptabilidade": 0.123,
+          "Fisico": 0.226
+        },
+        "equipe": {
+          "AeroCarga": 0.202,
+          "AeroEficiencia": 0.03,
+          "Chassi": 0.179,
+          "Tracao": 0.236,
+          "Potencia": 0.03,
+          "Operacoes": 0.202,
+          "GestaoPneus": 0.121
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Spa-Francorchamps",
+    "voltas": 44,
+    "pct_chuva": 0.19,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.63,
+          "WEquipe": 0.37,
+          "RngPiloto": 1.344,
+          "RngCarro": 0.952,
+          "RngOperacoes": 3.36
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0841,
+          "FatorBaseFalhaHumana": 0.2061,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.25,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.095,
+          "AeroEficiencia": 0.293,
+          "Chassi": 0.174,
+          "Tracao": 0.047,
+          "Potencia": 0.292,
+          "Operacoes": 0.099,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.575,
+          "WPiloto": 0.297,
+          "WEquipe": 0.128,
+          "RngPiloto": 1.568,
+          "RngCarro": 1.568,
+          "RngOperacoes": 4.48,
+          "RngLargada": 0.56,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2403,
+          "FatorBaseFalhaHumana": 0.2747,
+          "FracaoDNFMecanica": 0.53,
+          "FracaoDNFHumana": 0.84,
+          "PenalidadeZMin": 2.5,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.364,
+          "Racecraft": 0.156,
+          "Gerenciamento": 0.16,
+          "Adaptabilidade": 0.12,
+          "Fisico": 0.2
+        },
+        "equipe": {
+          "AeroCarga": 0.105,
+          "AeroEficiencia": 0.226,
+          "Chassi": 0.149,
+          "Tracao": 0.073,
+          "Potencia": 0.226,
+          "Operacoes": 0.127,
+          "GestaoPneus": 0.094
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Bahrein",
+    "voltas": 57,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 0.9,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.55,
+          "WEquipe": 0.45,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.095,
+          "FatorBaseFalhaHumana": 0.1396,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.076,
+          "AeroEficiencia": 0.112,
+          "Chassi": 0.123,
+          "Tracao": 0.342,
+          "Potencia": 0.276,
+          "Operacoes": 0.071,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.475,
+          "WPiloto": 0.263,
+          "WEquipe": 0.262,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2714,
+          "FatorBaseFalhaHumana": 0.1861,
+          "FracaoDNFMecanica": 0.43,
+          "FracaoDNFHumana": 0.76,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.14,
+          "Racecraft": 0.23,
+          "Gerenciamento": 0.235,
+          "Adaptabilidade": 0.145,
+          "Fisico": 0.25
+        },
+        "equipe": {
+          "AeroCarga": 0.083,
+          "AeroEficiencia": 0.104,
+          "Chassi": 0.115,
+          "Tracao": 0.223,
+          "Potencia": 0.18,
+          "Operacoes": 0.093,
+          "GestaoPneus": 0.202
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Interlagos",
+    "voltas": 71,
+    "pct_chuva": 0.14,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.61,
+          "WEquipe": 0.39,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1009,
+          "FatorBaseFalhaHumana": 0.2473,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.25,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.169,
+          "AeroEficiencia": 0.138,
+          "Chassi": 0.127,
+          "Tracao": 0.262,
+          "Potencia": 0.183,
+          "Operacoes": 0.121,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.6,
+          "WPiloto": 0.26,
+          "WEquipe": 0.14,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2884,
+          "FatorBaseFalhaHumana": 0.3297,
+          "FracaoDNFMecanica": 0.53,
+          "FracaoDNFHumana": 0.84,
+          "PenalidadeZMin": 2.5,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.32,
+          "Racecraft": 0.141,
+          "Gerenciamento": 0.167,
+          "Adaptabilidade": 0.122,
+          "Fisico": 0.25
+        },
+        "equipe": {
+          "AeroCarga": 0.144,
+          "AeroEficiencia": 0.133,
+          "Chassi": 0.122,
+          "Tracao": 0.202,
+          "Potencia": 0.156,
+          "Operacoes": 0.133,
+          "GestaoPneus": 0.11
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Australia",
+    "voltas": 58,
+    "pct_chuva": 0.14,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.57,
+          "WEquipe": 0.43,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.29,
+          "FatorBaseFalhaHumana": 0.4786,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.5,
+          "PenalidadeZMax": 3
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.148,
+          "AeroEficiencia": 0.105,
+          "Chassi": 0.148,
+          "Tracao": 0.257,
+          "Potencia": 0.257,
+          "Operacoes": 0.085,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.625,
+          "WPiloto": 0.206,
+          "WEquipe": 0.169,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.8286,
+          "FatorBaseFalhaHumana": 0.6382,
+          "FracaoDNFMecanica": 0.43,
+          "FracaoDNFHumana": 0.76,
+          "PenalidadeZMin": 3,
+          "PenalidadeZMax": 6
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.369,
+          "Racecraft": 0.126,
+          "Gerenciamento": 0.199,
+          "Adaptabilidade": 0.133,
+          "Fisico": 0.173
+        },
+        "equipe": {
+          "AeroCarga": 0.13,
+          "AeroEficiencia": 0.108,
+          "Chassi": 0.13,
+          "Tracao": 0.175,
+          "Potencia": 0.175,
+          "Operacoes": 0.13,
+          "GestaoPneus": 0.152
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "China",
+    "voltas": 56,
+    "pct_chuva": 0.06,
+    "intensidadeOperacoes": 1,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.58,
+          "WEquipe": 0.42,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2304,
+          "FatorBaseFalhaHumana": 0.3886,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.194,
+          "AeroEficiencia": 0.157,
+          "Chassi": 0.157,
+          "Tracao": 0.208,
+          "Potencia": 0.208,
+          "Operacoes": 0.076,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.65,
+          "WPiloto": 0.201,
+          "WEquipe": 0.149,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.6584,
+          "FatorBaseFalhaHumana": 0.5182,
+          "FracaoDNFMecanica": 0.451,
+          "FracaoDNFHumana": 0.78,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.351,
+          "Racecraft": 0.112,
+          "Gerenciamento": 0.214,
+          "Adaptabilidade": 0.137,
+          "Fisico": 0.186
+        },
+        "equipe": {
+          "AeroCarga": 0.144,
+          "AeroEficiencia": 0.134,
+          "Chassi": 0.134,
+          "Tracao": 0.155,
+          "Potencia": 0.155,
+          "Operacoes": 0.112,
+          "GestaoPneus": 0.166
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Jeddah",
+    "voltas": 50,
+    "pct_chuva": 0.06,
+    "intensidadeOperacoes": 1.1,
+    "multiplicadorSeveridadeFalha": 0.9,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.61,
+          "WEquipe": 0.39,
+          "RngPiloto": 1.248,
+          "RngCarro": 0.884,
+          "RngOperacoes": 3.12
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0556,
+          "FatorBaseFalhaHumana": 0.209,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.057,
+          "AeroEficiencia": 0.271,
+          "Chassi": 0.129,
+          "Tracao": 0.141,
+          "Potencia": 0.271,
+          "Operacoes": 0.131,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.675,
+          "WPiloto": 0.211,
+          "WEquipe": 0.114,
+          "RngPiloto": 1.456,
+          "RngCarro": 1.456,
+          "RngOperacoes": 4.16,
+          "RngLargada": 0.52,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1589,
+          "FatorBaseFalhaHumana": 0.2786,
+          "FracaoDNFMecanica": 0.711,
+          "FracaoDNFHumana": 0.94,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.445,
+          "Racecraft": 0.102,
+          "Gerenciamento": 0.16,
+          "Adaptabilidade": 0.12,
+          "Fisico": 0.173
+        },
+        "equipe": {
+          "AeroCarga": 0.081,
+          "AeroEficiencia": 0.192,
+          "Chassi": 0.131,
+          "Tracao": 0.143,
+          "Potencia": 0.192,
+          "Operacoes": 0.155,
+          "GestaoPneus": 0.106
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Miami",
+    "voltas": 57,
+    "pct_chuva": 0.06,
+    "intensidadeOperacoes": 1.1,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.57,
+          "WEquipe": 0.43,
+          "RngPiloto": 1.296,
+          "RngCarro": 0.918,
+          "RngOperacoes": 3.24
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1067,
+          "FatorBaseFalhaHumana": 0.2324,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.093,
+          "AeroEficiencia": 0.213,
+          "Chassi": 0.131,
+          "Tracao": 0.176,
+          "Potencia": 0.285,
+          "Operacoes": 0.102,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.5,
+          "WPiloto": 0.275,
+          "WEquipe": 0.225,
+          "RngPiloto": 1.512,
+          "RngCarro": 1.512,
+          "RngOperacoes": 4.32,
+          "RngLargada": 0.54,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.3048,
+          "FatorBaseFalhaHumana": 0.3098,
+          "FracaoDNFMecanica": 0.501,
+          "FracaoDNFHumana": 0.82,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.281,
+          "Racecraft": 0.211,
+          "Gerenciamento": 0.183,
+          "Adaptabilidade": 0.126,
+          "Fisico": 0.199
+        },
+        "equipe": {
+          "AeroCarga": 0.106,
+          "AeroEficiencia": 0.16,
+          "Chassi": 0.127,
+          "Tracao": 0.149,
+          "Potencia": 0.193,
+          "Operacoes": 0.138,
+          "GestaoPneus": 0.127
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Montreal",
+    "voltas": 70,
+    "pct_chuva": 0.14,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.248,
+          "RngCarro": 0.884,
+          "RngOperacoes": 3.12
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1714,
+          "FatorBaseFalhaHumana": 0.3444,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.068,
+          "AeroEficiencia": 0.206,
+          "Chassi": 0.1,
+          "Tracao": 0.277,
+          "Potencia": 0.276,
+          "Operacoes": 0.073,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.625,
+          "WPiloto": 0.225,
+          "WEquipe": 0.15,
+          "RngPiloto": 1.456,
+          "RngCarro": 1.456,
+          "RngOperacoes": 4.16,
+          "RngLargada": 0.52,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.4897,
+          "FatorBaseFalhaHumana": 0.4593,
+          "FracaoDNFMecanica": 0.53,
+          "FracaoDNFHumana": 0.84,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.398,
+          "Racecraft": 0.128,
+          "Gerenciamento": 0.175,
+          "Adaptabilidade": 0.124,
+          "Fisico": 0.175
+        },
+        "equipe": {
+          "AeroCarga": 0.095,
+          "AeroEficiencia": 0.16,
+          "Chassi": 0.116,
+          "Tracao": 0.193,
+          "Potencia": 0.193,
+          "Operacoes": 0.127,
+          "GestaoPneus": 0.116
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Silvestone",
+    "voltas": 52,
+    "pct_chuva": 0.18,
+    "intensidadeOperacoes": 1.1,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.61,
+          "WEquipe": 0.39,
+          "RngPiloto": 1.296,
+          "RngCarro": 0.918,
+          "RngOperacoes": 3.24
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1377,
+          "FatorBaseFalhaHumana": 0.3034,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.25
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.248,
+          "AeroEficiencia": 0.165,
+          "Chassi": 0.22,
+          "Tracao": 0.114,
+          "Potencia": 0.164,
+          "Operacoes": 0.089,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.5,
+          "WPiloto": 0.325,
+          "WEquipe": 0.175,
+          "RngPiloto": 1.512,
+          "RngCarro": 1.512,
+          "RngOperacoes": 4.32,
+          "RngLargada": 0.54,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.3933,
+          "FatorBaseFalhaHumana": 0.4046,
+          "FracaoDNFMecanica": 0.53,
+          "FracaoDNFHumana": 0.84,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 4.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.237,
+          "Racecraft": 0.211,
+          "Gerenciamento": 0.204,
+          "Adaptabilidade": 0.135,
+          "Fisico": 0.213
+        },
+        "equipe": {
+          "AeroCarga": 0.174,
+          "AeroEficiencia": 0.144,
+          "Chassi": 0.154,
+          "Tracao": 0.115,
+          "Potencia": 0.144,
+          "Operacoes": 0.125,
+          "GestaoPneus": 0.144
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Hungria",
+    "voltas": 70,
+    "pct_chuva": 0.2,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.61,
+          "WEquipe": 0.39,
+          "RngPiloto": 1.296,
+          "RngCarro": 0.918,
+          "RngOperacoes": 3.24
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1243,
+          "FatorBaseFalhaHumana": 0.2051,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.321,
+          "AeroEficiencia": 0.099,
+          "Chassi": 0.287,
+          "Tracao": 0.14,
+          "Potencia": 0.053,
+          "Operacoes": 0.1,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.45,
+          "WPiloto": 0.358,
+          "WEquipe": 0.192,
+          "RngPiloto": 1.512,
+          "RngCarro": 1.512,
+          "RngOperacoes": 4.32,
+          "RngLargada": 0.54,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.3551,
+          "FatorBaseFalhaHumana": 0.2735,
+          "FracaoDNFMecanica": 0.43,
+          "FracaoDNFHumana": 0.76,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.233,
+          "Racecraft": 0.253,
+          "Gerenciamento": 0.205,
+          "Adaptabilidade": 0.134,
+          "Fisico": 0.175
+        },
+        "equipe": {
+          "AeroCarga": 0.206,
+          "AeroEficiencia": 0.106,
+          "Chassi": 0.184,
+          "Tracao": 0.129,
+          "Potencia": 0.084,
+          "Operacoes": 0.129,
+          "GestaoPneus": 0.162
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Zandvoort",
+    "voltas": 72,
+    "pct_chuva": 0.16,
+    "intensidadeOperacoes": 0.9,
+    "multiplicadorSeveridadeFalha": 0.3,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.62,
+          "WEquipe": 0.38,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1925,
+          "FatorBaseFalhaHumana": 0.2733,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.359,
+          "AeroEficiencia": 0.079,
+          "Chassi": 0.322,
+          "Tracao": 0.136,
+          "Potencia": 0.041,
+          "Operacoes": 0.063,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.825,
+          "WPiloto": 0.118,
+          "WEquipe": 0.057,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.5501,
+          "FatorBaseFalhaHumana": 0.3644,
+          "FracaoDNFMecanica": 0.411,
+          "FracaoDNFHumana": 0.74,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.436,
+          "Racecraft": 0.057,
+          "Gerenciamento": 0.188,
+          "Adaptabilidade": 0.131,
+          "Fisico": 0.188
+        },
+        "equipe": {
+          "AeroCarga": 0.236,
+          "AeroEficiencia": 0.103,
+          "Chassi": 0.212,
+          "Tracao": 0.127,
+          "Potencia": 0.067,
+          "Operacoes": 0.103,
+          "GestaoPneus": 0.152
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Madrid",
+    "voltas": 57,
+    "pct_chuva": 0.1,
+    "intensidadeOperacoes": 1.05,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0724,
+          "FatorBaseFalhaHumana": 0.1221,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.228,
+          "AeroEficiencia": 0.153,
+          "Chassi": 0.212,
+          "Tracao": 0.153,
+          "Potencia": 0.153,
+          "Operacoes": 0.101,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.65,
+          "WPiloto": 0.21,
+          "WEquipe": 0.14,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2069,
+          "FatorBaseFalhaHumana": 0.1628,
+          "FracaoDNFMecanica": 0.451,
+          "FracaoDNFHumana": 0.78,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.38,
+          "Racecraft": 0.114,
+          "Gerenciamento": 0.19,
+          "Adaptabilidade": 0.129,
+          "Fisico": 0.187
+        },
+        "equipe": {
+          "AeroCarga": 0.162,
+          "AeroEficiencia": 0.14,
+          "Chassi": 0.151,
+          "Tracao": 0.14,
+          "Potencia": 0.14,
+          "Operacoes": 0.128,
+          "GestaoPneus": 0.139
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Austin",
+    "voltas": 56,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 1.4,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1039,
+          "FatorBaseFalhaHumana": 0.1579,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.149,
+          "AeroEficiencia": 0.112,
+          "Chassi": 0.138,
+          "Tracao": 0.18,
+          "Potencia": 0.242,
+          "Operacoes": 0.179,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.575,
+          "WPiloto": 0.255,
+          "WEquipe": 0.17,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2968,
+          "FatorBaseFalhaHumana": 0.2105,
+          "FracaoDNFMecanica": 0.451,
+          "FracaoDNFHumana": 0.78,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.292,
+          "Racecraft": 0.155,
+          "Gerenciamento": 0.205,
+          "Adaptabilidade": 0.135,
+          "Fisico": 0.213
+        },
+        "equipe": {
+          "AeroCarga": 0.132,
+          "AeroEficiencia": 0.112,
+          "Chassi": 0.122,
+          "Tracao": 0.142,
+          "Potencia": 0.171,
+          "Operacoes": 0.18,
+          "GestaoPneus": 0.141
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Mexico",
+    "voltas": 71,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 1,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.58,
+          "WEquipe": 0.42,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.215,
+          "FatorBaseFalhaHumana": 0.2833,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.239,
+          "AeroEficiencia": 0.098,
+          "Chassi": 0.171,
+          "Tracao": 0.138,
+          "Potencia": 0.282,
+          "Operacoes": 0.072,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.575,
+          "WPiloto": 0.244,
+          "WEquipe": 0.181,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.6143,
+          "FatorBaseFalhaHumana": 0.3778,
+          "FracaoDNFMecanica": 0.43,
+          "FracaoDNFHumana": 0.76,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.309,
+          "Racecraft": 0.155,
+          "Gerenciamento": 0.183,
+          "Adaptabilidade": 0.127,
+          "Fisico": 0.226
+        },
+        "equipe": {
+          "AeroCarga": 0.177,
+          "AeroEficiencia": 0.109,
+          "Chassi": 0.143,
+          "Tracao": 0.132,
+          "Potencia": 0.188,
+          "Operacoes": 0.12,
+          "GestaoPneus": 0.131
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "LasVegas",
+    "voltas": 50,
+    "pct_chuva": 0.08,
+    "intensidadeOperacoes": 0.85,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.55,
+          "WEquipe": 0.45,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2552,
+          "FatorBaseFalhaHumana": 0.2318,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1.5,
+          "PenalidadeZMax": 3
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.034,
+          "AeroEficiencia": 0.384,
+          "Chassi": 0.061,
+          "Tracao": 0.08,
+          "Potencia": 0.384,
+          "Operacoes": 0.057,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.575,
+          "WPiloto": 0.213,
+          "WEquipe": 0.212,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.7291,
+          "FatorBaseFalhaHumana": 0.3091,
+          "FracaoDNFMecanica": 0.37,
+          "FracaoDNFHumana": 0.68,
+          "PenalidadeZMin": 3,
+          "PenalidadeZMax": 6
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.459,
+          "Racecraft": 0.156,
+          "Gerenciamento": 0.147,
+          "Adaptabilidade": 0.114,
+          "Fisico": 0.124
+        },
+        "equipe": {
+          "AeroCarga": 0.061,
+          "AeroEficiencia": 0.274,
+          "Chassi": 0.088,
+          "Tracao": 0.114,
+          "Potencia": 0.274,
+          "Operacoes": 0.101,
+          "GestaoPneus": 0.088
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "Catar",
+    "voltas": 57,
+    "pct_chuva": 0.07,
+    "intensidadeOperacoes": 0.95,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.2575,
+          "FatorBaseFalhaHumana": 0.3096,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.144,
+          "AeroEficiencia": 0.156,
+          "Chassi": 0.144,
+          "Tracao": 0.365,
+          "Potencia": 0.123,
+          "Operacoes": 0.068,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.625,
+          "WPiloto": 0.225,
+          "WEquipe": 0.15,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.7358,
+          "FatorBaseFalhaHumana": 0.4128,
+          "FracaoDNFMecanica": 0.395,
+          "FracaoDNFHumana": 0.72,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.238,
+          "Racecraft": 0.125,
+          "Gerenciamento": 0.25,
+          "Adaptabilidade": 0.15,
+          "Fisico": 0.237
+        },
+        "equipe": {
+          "AeroCarga": 0.118,
+          "AeroEficiencia": 0.128,
+          "Chassi": 0.118,
+          "Tracao": 0.21,
+          "Potencia": 0.118,
+          "Operacoes": 0.098,
+          "GestaoPneus": 0.21
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  },
+  {
+    "GP": "AbuDhabi",
+    "voltas": 58,
+    "pct_chuva": 0.05,
+    "intensidadeOperacoes": 1.15,
+    "multiplicadorSeveridadeFalha": 1,
+    "pesos": {
+      "qualificacao": {
+        "pesosGerais": {
+          "WPiloto": 0.59,
+          "WEquipe": 0.41,
+          "RngPiloto": 1.2,
+          "RngCarro": 0.85,
+          "RngOperacoes": 3
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.0651,
+          "FatorBaseFalhaHumana": 0.0818,
+          "FracaoDNFMecanica": 0,
+          "FracaoDNFHumana": 0,
+          "PenalidadeZMin": 1,
+          "PenalidadeZMax": 2.5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0.33,
+          "VelocidadeCorrida": 0,
+          "Racecraft": 0,
+          "Gerenciamento": 0.23,
+          "Adaptabilidade": 0.27,
+          "Fisico": 0.17
+        },
+        "equipe": {
+          "AeroCarga": 0.155,
+          "AeroEficiencia": 0.167,
+          "Chassi": 0.155,
+          "Tracao": 0.216,
+          "Potencia": 0.202,
+          "Operacoes": 0.105,
+          "GestaoPneus": 0
+        }
+      },
+      "corrida": {
+        "pesosGerais": {
+          "WPosInicial": 0.6,
+          "WPiloto": 0.24,
+          "WEquipe": 0.16,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 4,
+          "RngLargada": 0.5,
+          "RngSafetyCar": 0.1
+        },
+        "falhas": {
+          "FatorBaseFalhaMecanica": 0.1859,
+          "FatorBaseFalhaHumana": 0.1091,
+          "FracaoDNFMecanica": 0.411,
+          "FracaoDNFHumana": 0.74,
+          "PenalidadeZMin": 2,
+          "PenalidadeZMax": 5
+        },
+        "piloto": {
+          "VelocidadeQualificacao": 0,
+          "VelocidadeCorrida": 0.33,
+          "Racecraft": 0.139,
+          "Gerenciamento": 0.198,
+          "Adaptabilidade": 0.132,
+          "Fisico": 0.201
+        },
+        "equipe": {
+          "AeroCarga": 0.131,
+          "AeroEficiencia": 0.142,
+          "Chassi": 0.131,
+          "Tracao": 0.162,
+          "Potencia": 0.152,
+          "Operacoes": 0.141,
+          "GestaoPneus": 0.141
+        }
+      }
+    },
+    "pct_safety_car": 0.1
+  }
+]

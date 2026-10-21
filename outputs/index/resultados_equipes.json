@@ -1,0 +1,4876 @@
+{
+  "circuitos": [
+    {
+      "GP": "Monza",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.83,
+              "contribuicaoEquipeSomada": 1.256
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.806,
+              "contribuicaoEquipeSomada": 0.986
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.978,
+              "contribuicaoEquipeSomada": 0.878
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.914,
+              "contribuicaoEquipeSomada": 0.672
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.256,
+              "contribuicaoEquipeSomada": 0.558
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.704,
+              "contribuicaoEquipeSomada": 0.6
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.504,
+              "contribuicaoEquipeSomada": 0.668
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.484,
+              "contribuicaoEquipeSomada": 0.522
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.424,
+              "contribuicaoEquipeSomada": 0.188
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.512,
+              "contribuicaoEquipeSomada": 0.18
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.232,
+              "contribuicaoEquipeSomada": 0.102
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.33,
+              "contribuicaoEquipeSomada": 0.116
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.256,
+              "contribuicaoEquipeSomada": 0.114
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.114,
+              "contribuicaoEquipeSomada": -0.04
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.548,
+              "contribuicaoEquipeSomada": -0.244
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.396,
+              "contribuicaoEquipeSomada": -0.14
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.104,
+              "contribuicaoEquipeSomada": -0.934
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.698,
+              "contribuicaoEquipeSomada": -0.596
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.156,
+              "contribuicaoEquipeSomada": -0.512
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.154,
+              "contribuicaoEquipeSomada": -0.758
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.676,
+              "contribuicaoEquipeSomada": -2.076
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.388,
+              "contribuicaoEquipeSomada": -1.542
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Monaco",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.74,
+              "contribuicaoEquipeSomada": 0.988
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.694,
+              "contribuicaoEquipeSomada": 0.208
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.154,
+              "contribuicaoEquipeSomada": 0.776
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.186,
+              "contribuicaoEquipeSomada": 0.168
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.338,
+              "contribuicaoEquipeSomada": 0.482
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.362,
+              "contribuicaoEquipeSomada": 0.104
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.188,
+              "contribuicaoEquipeSomada": 0.428
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.184,
+              "contribuicaoEquipeSomada": 0.09
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.65,
+              "contribuicaoEquipeSomada": 0.234
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.65,
+              "contribuicaoEquipeSomada": 0.05
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.472,
+              "contribuicaoEquipeSomada": 0.17
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.488,
+              "contribuicaoEquipeSomada": 0.038
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.19,
+              "contribuicaoEquipeSomada": 0.068
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.154,
+              "contribuicaoEquipeSomada": 0.012
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.244,
+              "contribuicaoEquipeSomada": -0.088
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.288,
+              "contribuicaoEquipeSomada": -0.022
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.356,
+              "contribuicaoEquipeSomada": -0.488
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.268,
+              "contribuicaoEquipeSomada": -0.098
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.008,
+              "contribuicaoEquipeSomada": -1.084
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.99,
+              "contribuicaoEquipeSomada": -0.23
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.124,
+              "contribuicaoEquipeSomada": -1.486
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.17,
+              "contribuicaoEquipeSomada": -0.322
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Austria",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.792,
+              "contribuicaoEquipeSomada": 1.416
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.718,
+              "contribuicaoEquipeSomada": 1.24
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.95,
+              "contribuicaoEquipeSomada": 0.99
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.128,
+              "contribuicaoEquipeSomada": 0.972
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.842,
+              "contribuicaoEquipeSomada": 0.934
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.79,
+              "contribuicaoEquipeSomada": 0.818
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.094,
+              "contribuicaoEquipeSomada": 0.554
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.2,
+              "contribuicaoEquipeSomada": 0.548
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.454,
+              "contribuicaoEquipeSomada": 0.23
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.524,
+              "contribuicaoEquipeSomada": 0.24
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.348,
+              "contribuicaoEquipeSomada": 0.176
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.416,
+              "contribuicaoEquipeSomada": 0.19
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.134,
+              "contribuicaoEquipeSomada": -0.068
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.138,
+              "contribuicaoEquipeSomada": -0.062
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.08,
+              "contribuicaoEquipeSomada": -0.04
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.332,
+              "contribuicaoEquipeSomada": -0.152
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.708,
+              "contribuicaoEquipeSomada": -0.866
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.42,
+              "contribuicaoEquipeSomada": -0.648
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.044,
+              "contribuicaoEquipeSomada": -1.036
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.698,
+              "contribuicaoEquipeSomada": -1.232
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.514,
+              "contribuicaoEquipeSomada": -2.29
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.188,
+              "contribuicaoEquipeSomada": -1.912
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Suzuka",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.29,
+              "contribuicaoEquipeSomada": 0.786
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.352,
+              "contribuicaoEquipeSomada": 0.188
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.284,
+              "contribuicaoEquipeSomada": 0.784
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.328,
+              "contribuicaoEquipeSomada": 0.184
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.878,
+              "contribuicaoEquipeSomada": 0.644
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.638,
+              "contribuicaoEquipeSomada": 0.13
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.57,
+              "contribuicaoEquipeSomada": 0.538
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.562,
+              "contribuicaoEquipeSomada": 0.124
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.744,
+              "contribuicaoEquipeSomada": 0.256
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.708,
+              "contribuicaoEquipeSomada": 0.056
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.43,
+              "contribuicaoEquipeSomada": 0.148
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.48,
+              "contribuicaoEquipeSomada": 0.038
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.316,
+              "contribuicaoEquipeSomada": -0.108
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.226,
+              "contribuicaoEquipeSomada": -0.018
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.53,
+              "contribuicaoEquipeSomada": -0.182
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.576,
+              "contribuicaoEquipeSomada": -0.044
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.368,
+              "contribuicaoEquipeSomada": -0.468
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.17,
+              "contribuicaoEquipeSomada": -0.094
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.212,
+              "contribuicaoEquipeSomada": -1.102
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.18,
+              "contribuicaoEquipeSomada": -0.252
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.772,
+              "contribuicaoEquipeSomada": -1.292
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.912,
+              "contribuicaoEquipeSomada": -0.312
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Barcelona",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.542,
+              "contribuicaoEquipeSomada": 0.976
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.5,
+              "contribuicaoEquipeSomada": 0.358
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.158,
+              "contribuicaoEquipeSomada": 0.828
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.258,
+              "contribuicaoEquipeSomada": 0.324
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.478,
+              "contribuicaoEquipeSomada": 0.568
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.498,
+              "contribuicaoEquipeSomada": 0.214
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.648,
+              "contribuicaoEquipeSomada": 0.632
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.436,
+              "contribuicaoEquipeSomada": 0.206
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.702,
+              "contribuicaoEquipeSomada": 0.27
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.674,
+              "contribuicaoEquipeSomada": 0.096
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.55,
+              "contribuicaoEquipeSomada": 0.212
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.566,
+              "contribuicaoEquipeSomada": 0.08
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.178,
+              "contribuicaoEquipeSomada": -0.068
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.128,
+              "contribuicaoEquipeSomada": -0.018
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.492,
+              "contribuicaoEquipeSomada": -0.19
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.55,
+              "contribuicaoEquipeSomada": -0.078
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.376,
+              "contribuicaoEquipeSomada": -0.528
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.112,
+              "contribuicaoEquipeSomada": -0.16
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.138,
+              "contribuicaoEquipeSomada": -1.206
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.078,
+              "contribuicaoEquipeSomada": -0.44
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.894,
+              "contribuicaoEquipeSomada": -1.494
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.062,
+              "contribuicaoEquipeSomada": -0.584
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Baku",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.814,
+              "contribuicaoEquipeSomada": 1.146
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.736,
+              "contribuicaoEquipeSomada": 0.632
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.782,
+              "contribuicaoEquipeSomada": 0.726
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.042,
+              "contribuicaoEquipeSomada": 0.472
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.888,
+              "contribuicaoEquipeSomada": 0.768
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.818,
+              "contribuicaoEquipeSomada": 0.42
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.264,
+              "contribuicaoEquipeSomada": 0.514
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.296,
+              "contribuicaoEquipeSomada": 0.3
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.468,
+              "contribuicaoEquipeSomada": 0.19
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.534,
+              "contribuicaoEquipeSomada": 0.124
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.31,
+              "contribuicaoEquipeSomada": 0.126
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.396,
+              "contribuicaoEquipeSomada": 0.092
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.258,
+              "contribuicaoEquipeSomada": -0.106
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.206,
+              "contribuicaoEquipeSomada": -0.048
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.054,
+              "contribuicaoEquipeSomada": -0.022
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.322,
+              "contribuicaoEquipeSomada": -0.074
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.768,
+              "contribuicaoEquipeSomada": -0.72
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.454,
+              "contribuicaoEquipeSomada": -0.336
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.906,
+              "contribuicaoEquipeSomada": -0.776
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.636,
+              "contribuicaoEquipeSomada": -0.61
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.538,
+              "contribuicaoEquipeSomada": -1.85
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.206,
+              "contribuicaoEquipeSomada": -0.972
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Singapura",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.702,
+              "contribuicaoEquipeSomada": 0.978
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.626,
+              "contribuicaoEquipeSomada": 0.096
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.194,
+              "contribuicaoEquipeSomada": 0.794
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.24,
+              "contribuicaoEquipeSomada": 0.082
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.374,
+              "contribuicaoEquipeSomada": 0.498
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.408,
+              "contribuicaoEquipeSomada": 0.05
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.218,
+              "contribuicaoEquipeSomada": 0.44
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.202,
+              "contribuicaoEquipeSomada": 0.044
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.7,
+              "contribuicaoEquipeSomada": 0.254
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.688,
+              "contribuicaoEquipeSomada": 0.026
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.452,
+              "contribuicaoEquipeSomada": 0.164
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.486,
+              "contribuicaoEquipeSomada": 0.018
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.136,
+              "contribuicaoEquipeSomada": 0.048
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.08,
+              "contribuicaoEquipeSomada": 0.004
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.256,
+              "contribuicaoEquipeSomada": -0.094
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.328,
+              "contribuicaoEquipeSomada": -0.012
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.44,
+              "contribuicaoEquipeSomada": -0.522
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.268,
+              "contribuicaoEquipeSomada": -0.046
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.99,
+              "contribuicaoEquipeSomada": -1.082
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.948,
+              "contribuicaoEquipeSomada": -0.106
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.09,
+              "contribuicaoEquipeSomada": -1.48
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.186,
+              "contribuicaoEquipeSomada": -0.154
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Spa-Francorchamps",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.668,
+              "contribuicaoEquipeSomada": 0.962
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.626,
+              "contribuicaoEquipeSomada": 0.348
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.82,
+              "contribuicaoEquipeSomada": 0.654
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.08,
+              "contribuicaoEquipeSomada": 0.276
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.876,
+              "contribuicaoEquipeSomada": 0.676
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.794,
+              "contribuicaoEquipeSomada": 0.238
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.594,
+              "contribuicaoEquipeSomada": 0.574
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.508,
+              "contribuicaoEquipeSomada": 0.2
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.492,
+              "contribuicaoEquipeSomada": 0.178
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.566,
+              "contribuicaoEquipeSomada": 0.076
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.426,
+              "contribuicaoEquipeSomada": 0.154
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.468,
+              "contribuicaoEquipeSomada": 0.062
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.434,
+              "contribuicaoEquipeSomada": -0.156
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.312,
+              "contribuicaoEquipeSomada": -0.042
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.204,
+              "contribuicaoEquipeSomada": -0.072
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.47,
+              "contribuicaoEquipeSomada": -0.064
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.712,
+              "contribuicaoEquipeSomada": -0.618
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.348,
+              "contribuicaoEquipeSomada": -0.178
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.112,
+              "contribuicaoEquipeSomada": -0.76
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.882,
+              "contribuicaoEquipeSomada": -0.384
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.41,
+              "contribuicaoEquipeSomada": -1.59
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.03,
+              "contribuicaoEquipeSomada": -0.534
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Bahrein",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.718,
+              "contribuicaoEquipeSomada": 1.216
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.58,
+              "contribuicaoEquipeSomada": 0.678
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.242,
+              "contribuicaoEquipeSomada": 1.004
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.378,
+              "contribuicaoEquipeSomada": 0.626
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.754,
+              "contribuicaoEquipeSomada": 0.786
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.658,
+              "contribuicaoEquipeSomada": 0.436
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.968,
+              "contribuicaoEquipeSomada": 0.434
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.12,
+              "contribuicaoEquipeSomada": 0.294
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.482,
+              "contribuicaoEquipeSomada": 0.216
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.582,
+              "contribuicaoEquipeSomada": 0.154
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.404,
+              "contribuicaoEquipeSomada": 0.18
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.488,
+              "contribuicaoEquipeSomada": 0.128
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.018,
+              "contribuicaoEquipeSomada": 0.008
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.028,
+              "contribuicaoEquipeSomada": -0.008
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.302,
+              "contribuicaoEquipeSomada": -0.134
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.6,
+              "contribuicaoEquipeSomada": -0.158
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.464,
+              "contribuicaoEquipeSomada": -0.656
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.01,
+              "contribuicaoEquipeSomada": -0.266
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.492,
+              "contribuicaoEquipeSomada": -1.116
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.484,
+              "contribuicaoEquipeSomada": -0.916
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.328,
+              "contribuicaoEquipeSomada": -1.938
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.684,
+              "contribuicaoEquipeSomada": -0.968
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Interlagos",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.632,
+              "contribuicaoEquipeSomada": 1.008
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.566,
+              "contribuicaoEquipeSomada": 0.368
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.31,
+              "contribuicaoEquipeSomada": 0.884
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.348,
+              "contribuicaoEquipeSomada": 0.338
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.718,
+              "contribuicaoEquipeSomada": 0.658
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.668,
+              "contribuicaoEquipeSomada": 0.24
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.258,
+              "contribuicaoEquipeSomada": 0.482
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.28,
+              "contribuicaoEquipeSomada": 0.184
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.61,
+              "contribuicaoEquipeSomada": 0.234
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.63,
+              "contribuicaoEquipeSomada": 0.09
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.394,
+              "contribuicaoEquipeSomada": 0.152
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.444,
+              "contribuicaoEquipeSomada": 0.064
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.074,
+              "contribuicaoEquipeSomada": -0.028
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.088,
+              "contribuicaoEquipeSomada": -0.012
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.746,
+              "contribuicaoEquipeSomada": -0.286
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.786,
+              "contribuicaoEquipeSomada": -0.114
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.114,
+              "contribuicaoEquipeSomada": -0.428
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.952,
+              "contribuicaoEquipeSomada": -0.136
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.024,
+              "contribuicaoEquipeSomada": -1.158
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.432,
+              "contribuicaoEquipeSomada": -0.494
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.964,
+              "contribuicaoEquipeSomada": -1.52
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.678,
+              "contribuicaoEquipeSomada": -0.528
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Australia",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.6,
+              "contribuicaoEquipeSomada": 1.1
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.52,
+              "contribuicaoEquipeSomada": 0.436
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.336,
+              "contribuicaoEquipeSomada": 0.986
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.396,
+              "contribuicaoEquipeSomada": 0.414
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.726,
+              "contribuicaoEquipeSomada": 0.73
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.652,
+              "contribuicaoEquipeSomada": 0.286
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.144,
+              "contribuicaoEquipeSomada": 0.484
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.238,
+              "contribuicaoEquipeSomada": 0.214
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.516,
+              "contribuicaoEquipeSomada": 0.218
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.596,
+              "contribuicaoEquipeSomada": 0.104
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.494,
+              "contribuicaoEquipeSomada": 0.208
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.52,
+              "contribuicaoEquipeSomada": 0.09
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.068,
+              "contribuicaoEquipeSomada": -0.03
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.088,
+              "contribuicaoEquipeSomada": -0.014
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.478,
+              "contribuicaoEquipeSomada": -0.202
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.694,
+              "contribuicaoEquipeSomada": -0.12
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.372,
+              "contribuicaoEquipeSomada": -0.58
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.002,
+              "contribuicaoEquipeSomada": -0.172
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.722,
+              "contribuicaoEquipeSomada": -1.15
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.47,
+              "contribuicaoEquipeSomada": -0.602
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.178,
+              "contribuicaoEquipeSomada": -1.768
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.666,
+              "contribuicaoEquipeSomada": -0.632
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "China",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.58,
+              "contribuicaoEquipeSomada": 1.076
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.512,
+              "contribuicaoEquipeSomada": 0.378
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.29,
+              "contribuicaoEquipeSomada": 0.954
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.358,
+              "contribuicaoEquipeSomada": 0.356
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.73,
+              "contribuicaoEquipeSomada": 0.722
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.654,
+              "contribuicaoEquipeSomada": 0.25
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.368,
+              "contribuicaoEquipeSomada": 0.57
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.326,
+              "contribuicaoEquipeSomada": 0.2
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.594,
+              "contribuicaoEquipeSomada": 0.248
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.624,
+              "contribuicaoEquipeSomada": 0.094
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.456,
+              "contribuicaoEquipeSomada": 0.19
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.5,
+              "contribuicaoEquipeSomada": 0.076
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.162,
+              "contribuicaoEquipeSomada": -0.068
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.13,
+              "contribuicaoEquipeSomada": -0.02
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.708,
+              "contribuicaoEquipeSomada": -0.296
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.77,
+              "contribuicaoEquipeSomada": -0.116
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.196,
+              "contribuicaoEquipeSomada": -0.5
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.934,
+              "contribuicaoEquipeSomada": -0.14
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.956,
+              "contribuicaoEquipeSomada": -1.232
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.558,
+              "contribuicaoEquipeSomada": -0.538
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.996,
+              "contribuicaoEquipeSomada": -1.666
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.582,
+              "contribuicaoEquipeSomada": -0.54
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Jeddah",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.776,
+              "contribuicaoEquipeSomada": 1.074
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.664,
+              "contribuicaoEquipeSomada": 0.308
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.806,
+              "contribuicaoEquipeSomada": 0.698
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.146,
+              "contribuicaoEquipeSomada": 0.248
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.882,
+              "contribuicaoEquipeSomada": 0.728
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.766,
+              "contribuicaoEquipeSomada": 0.204
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.416,
+              "contribuicaoEquipeSomada": 0.548
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.368,
+              "contribuicaoEquipeSomada": 0.158
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.498,
+              "contribuicaoEquipeSomada": 0.192
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.58,
+              "contribuicaoEquipeSomada": 0.068
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.33,
+              "contribuicaoEquipeSomada": 0.128
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.422,
+              "contribuicaoEquipeSomada": 0.048
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.316,
+              "contribuicaoEquipeSomada": -0.122
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.198,
+              "contribuicaoEquipeSomada": -0.022
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.176,
+              "contribuicaoEquipeSomada": -0.068
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.518,
+              "contribuicaoEquipeSomada": -0.06
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.68,
+              "contribuicaoEquipeSomada": -0.65
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.23,
+              "contribuicaoEquipeSomada": -0.142
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.084,
+              "contribuicaoEquipeSomada": -0.806
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.038,
+              "contribuicaoEquipeSomada": -0.352
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.452,
+              "contribuicaoEquipeSomada": -1.724
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.964,
+              "contribuicaoEquipeSomada": -0.458
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Miami",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.712,
+              "contribuicaoEquipeSomada": 1.158
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.608,
+              "contribuicaoEquipeSomada": 0.59
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.988,
+              "contribuicaoEquipeSomada": 0.848
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.244,
+              "contribuicaoEquipeSomada": 0.508
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.838,
+              "contribuicaoEquipeSomada": 0.784
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.73,
+              "contribuicaoEquipeSomada": 0.392
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.31,
+              "contribuicaoEquipeSomada": 0.56
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.324,
+              "contribuicaoEquipeSomada": 0.3
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.49,
+              "contribuicaoEquipeSomada": 0.21
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.582,
+              "contribuicaoEquipeSomada": 0.132
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.408,
+              "contribuicaoEquipeSomada": 0.174
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.474,
+              "contribuicaoEquipeSomada": 0.108
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.242,
+              "contribuicaoEquipeSomada": -0.104
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.17,
+              "contribuicaoEquipeSomada": -0.038
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.232,
+              "contribuicaoEquipeSomada": -0.098
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.568,
+              "contribuicaoEquipeSomada": -0.13
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.636,
+              "contribuicaoEquipeSomada": -0.698
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.172,
+              "contribuicaoEquipeSomada": -0.266
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.23,
+              "contribuicaoEquipeSomada": -0.952
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.182,
+              "contribuicaoEquipeSomada": -0.722
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.406,
+              "contribuicaoEquipeSomada": -1.882
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.87,
+              "contribuicaoEquipeSomada": -0.876
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Montreal",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.802,
+              "contribuicaoEquipeSomada": 1.13
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.65,
+              "contribuicaoEquipeSomada": 0.408
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.006,
+              "contribuicaoEquipeSomada": 0.808
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.24,
+              "contribuicaoEquipeSomada": 0.346
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.832,
+              "contribuicaoEquipeSomada": 0.738
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.73,
+              "contribuicaoEquipeSomada": 0.266
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.152,
+              "contribuicaoEquipeSomada": 0.464
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.258,
+              "contribuicaoEquipeSomada": 0.194
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.51,
+              "contribuicaoEquipeSomada": 0.206
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.588,
+              "contribuicaoEquipeSomada": 0.09
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.318,
+              "contribuicaoEquipeSomada": 0.128
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.428,
+              "contribuicaoEquipeSomada": 0.066
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.12,
+              "contribuicaoEquipeSomada": -0.05
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.118,
+              "contribuicaoEquipeSomada": -0.018
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.262,
+              "contribuicaoEquipeSomada": -0.104
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.576,
+              "contribuicaoEquipeSomada": -0.09
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.546,
+              "contribuicaoEquipeSomada": -0.624
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.148,
+              "contribuicaoEquipeSomada": -0.176
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.296,
+              "contribuicaoEquipeSomada": -0.924
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.164,
+              "contribuicaoEquipeSomada": -0.488
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.396,
+              "contribuicaoEquipeSomada": -1.772
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.888,
+              "contribuicaoEquipeSomada": -0.598
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Silvestone",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.414,
+              "contribuicaoEquipeSomada": 0.92
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.45,
+              "contribuicaoEquipeSomada": 0.438
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.368,
+              "contribuicaoEquipeSomada": 0.902
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.368,
+              "contribuicaoEquipeSomada": 0.424
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.662,
+              "contribuicaoEquipeSomada": 0.634
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.634,
+              "contribuicaoEquipeSomada": 0.292
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.586,
+              "contribuicaoEquipeSomada": 0.604
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.43,
+              "contribuicaoEquipeSomada": 0.256
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.636,
+              "contribuicaoEquipeSomada": 0.242
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.644,
+              "contribuicaoEquipeSomada": 0.116
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.524,
+              "contribuicaoEquipeSomada": 0.2
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.518,
+              "contribuicaoEquipeSomada": 0.092
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.242,
+              "contribuicaoEquipeSomada": -0.092
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.176,
+              "contribuicaoEquipeSomada": -0.032
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.986,
+              "contribuicaoEquipeSomada": -0.376
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.868,
+              "contribuicaoEquipeSomada": -0.154
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.952,
+              "contribuicaoEquipeSomada": -0.362
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.874,
+              "contribuicaoEquipeSomada": -0.156
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.716,
+              "contribuicaoEquipeSomada": -1.418
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.496,
+              "contribuicaoEquipeSomada": -0.624
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.292,
+              "contribuicaoEquipeSomada": -1.252
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.628,
+              "contribuicaoEquipeSomada": -0.65
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Hungria",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.582,
+              "contribuicaoEquipeSomada": 0.982
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.486,
+              "contribuicaoEquipeSomada": 0.488
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.152,
+              "contribuicaoEquipeSomada": 0.818
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.302,
+              "contribuicaoEquipeSomada": 0.45
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.452,
+              "contribuicaoEquipeSomada": 0.552
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.514,
+              "contribuicaoEquipeSomada": 0.296
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.572,
+              "contribuicaoEquipeSomada": 0.598
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.406,
+              "contribuicaoEquipeSomada": 0.276
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.702,
+              "contribuicaoEquipeSomada": 0.266
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.678,
+              "contribuicaoEquipeSomada": 0.134
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.54,
+              "contribuicaoEquipeSomada": 0.206
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.53,
+              "contribuicaoEquipeSomada": 0.104
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.12,
+              "contribuicaoEquipeSomada": -0.046
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.104,
+              "contribuicaoEquipeSomada": -0.02
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.44,
+              "contribuicaoEquipeSomada": -0.168
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.56,
+              "contribuicaoEquipeSomada": -0.108
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.398,
+              "contribuicaoEquipeSomada": -0.53
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.11,
+              "contribuicaoEquipeSomada": -0.218
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.096,
+              "contribuicaoEquipeSomada": -1.178
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.134,
+              "contribuicaoEquipeSomada": -0.614
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.946,
+              "contribuicaoEquipeSomada": -1.498
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.01,
+              "contribuicaoEquipeSomada": -0.786
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Zandvoort",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.634,
+              "contribuicaoEquipeSomada": 0.98
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.514,
+              "contribuicaoEquipeSomada": 0.158
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.072,
+              "contribuicaoEquipeSomada": 0.77
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.246,
+              "contribuicaoEquipeSomada": 0.14
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.406,
+              "contribuicaoEquipeSomada": 0.524
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.482,
+              "contribuicaoEquipeSomada": 0.092
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.572,
+              "contribuicaoEquipeSomada": 0.586
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.442,
+              "contribuicaoEquipeSomada": 0.09
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.7,
+              "contribuicaoEquipeSomada": 0.26
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.688,
+              "contribuicaoEquipeSomada": 0.044
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.574,
+              "contribuicaoEquipeSomada": 0.214
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.538,
+              "contribuicaoEquipeSomada": 0.034
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.11,
+              "contribuicaoEquipeSomada": -0.042
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.106,
+              "contribuicaoEquipeSomada": -0.006
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.37,
+              "contribuicaoEquipeSomada": -0.138
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.486,
+              "contribuicaoEquipeSomada": -0.03
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.458,
+              "contribuicaoEquipeSomada": -0.542
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.192,
+              "contribuicaoEquipeSomada": -0.076
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.986,
+              "contribuicaoEquipeSomada": -1.112
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.05,
+              "contribuicaoEquipeSomada": -0.19
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.038,
+              "contribuicaoEquipeSomada": -1.5
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.074,
+              "contribuicaoEquipeSomada": -0.258
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Madrid",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.444,
+              "contribuicaoEquipeSomada": 0.99
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.478,
+              "contribuicaoEquipeSomada": 0.354
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.382,
+              "contribuicaoEquipeSomada": 0.964
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.366,
+              "contribuicaoEquipeSomada": 0.338
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.654,
+              "contribuicaoEquipeSomada": 0.67
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.638,
+              "contribuicaoEquipeSomada": 0.234
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.516,
+              "contribuicaoEquipeSomada": 0.614
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.392,
+              "contribuicaoEquipeSomada": 0.198
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.636,
+              "contribuicaoEquipeSomada": 0.258
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.64,
+              "contribuicaoEquipeSomada": 0.092
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.494,
+              "contribuicaoEquipeSomada": 0.2
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.498,
+              "contribuicaoEquipeSomada": 0.07
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.188,
+              "contribuicaoEquipeSomada": -0.076
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.148,
+              "contribuicaoEquipeSomada": -0.02
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.952,
+              "contribuicaoEquipeSomada": -0.384
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.856,
+              "contribuicaoEquipeSomada": -0.122
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.954,
+              "contribuicaoEquipeSomada": -0.386
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.876,
+              "contribuicaoEquipeSomada": -0.124
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.716,
+              "contribuicaoEquipeSomada": -1.506
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.53,
+              "contribuicaoEquipeSomada": -0.504
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.316,
+              "contribuicaoEquipeSomada": -1.342
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.6,
+              "contribuicaoEquipeSomada": -0.516
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Austin",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.574,
+              "contribuicaoEquipeSomada": 1.048
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.52,
+              "contribuicaoEquipeSomada": 0.432
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.286,
+              "contribuicaoEquipeSomada": 0.93
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.364,
+              "contribuicaoEquipeSomada": 0.406
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.75,
+              "contribuicaoEquipeSomada": 0.712
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.674,
+              "contribuicaoEquipeSomada": 0.286
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.25,
+              "contribuicaoEquipeSomada": 0.51
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.292,
+              "contribuicaoEquipeSomada": 0.222
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.51,
+              "contribuicaoEquipeSomada": 0.208
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.594,
+              "contribuicaoEquipeSomada": 0.102
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.528,
+              "contribuicaoEquipeSomada": 0.216
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.534,
+              "contribuicaoEquipeSomada": 0.092
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.158,
+              "contribuicaoEquipeSomada": -0.064
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.138,
+              "contribuicaoEquipeSomada": -0.024
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.446,
+              "contribuicaoEquipeSomada": -0.182
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.668,
+              "contribuicaoEquipeSomada": -0.114
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.45,
+              "contribuicaoEquipeSomada": -0.592
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.06,
+              "contribuicaoEquipeSomada": -0.182
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.63,
+              "contribuicaoEquipeSomada": -1.072
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.4,
+              "contribuicaoEquipeSomada": -0.584
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.212,
+              "contribuicaoEquipeSomada": -1.716
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.712,
+              "contribuicaoEquipeSomada": -0.636
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Mexico",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.446,
+              "contribuicaoEquipeSomada": 1.022
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.466,
+              "contribuicaoEquipeSomada": 0.45
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.382,
+              "contribuicaoEquipeSomada": 0.994
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.404,
+              "contribuicaoEquipeSomada": 0.438
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.72,
+              "contribuicaoEquipeSomada": 0.718
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.662,
+              "contribuicaoEquipeSomada": 0.302
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.348,
+              "contribuicaoEquipeSomada": 0.562
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.338,
+              "contribuicaoEquipeSomada": 0.244
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.512,
+              "contribuicaoEquipeSomada": 0.214
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.592,
+              "contribuicaoEquipeSomada": 0.108
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.644,
+              "contribuicaoEquipeSomada": 0.27
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.576,
+              "contribuicaoEquipeSomada": 0.104
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.228,
+              "contribuicaoEquipeSomada": -0.096
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.166,
+              "contribuicaoEquipeSomada": -0.03
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.526,
+              "contribuicaoEquipeSomada": -0.22
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.712,
+              "contribuicaoEquipeSomada": -0.13
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.446,
+              "contribuicaoEquipeSomada": -0.604
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.068,
+              "contribuicaoEquipeSomada": -0.194
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.728,
+              "contribuicaoEquipeSomada": -1.138
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.394,
+              "contribuicaoEquipeSomada": -0.62
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.126,
+              "contribuicaoEquipeSomada": -1.722
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.7,
+              "contribuicaoEquipeSomada": -0.674
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "LasVegas",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.816,
+              "contribuicaoEquipeSomada": 1.256
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.786,
+              "contribuicaoEquipeSomada": 0.596
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.964,
+              "contribuicaoEquipeSomada": 0.876
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.886,
+              "contribuicaoEquipeSomada": 0.404
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.342,
+              "contribuicaoEquipeSomada": 0.598
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.836,
+              "contribuicaoEquipeSomada": 0.394
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.436,
+              "contribuicaoEquipeSomada": 0.64
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.414,
+              "contribuicaoEquipeSomada": 0.302
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.418,
+              "contribuicaoEquipeSomada": 0.186
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.528,
+              "contribuicaoEquipeSomada": 0.112
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.266,
+              "contribuicaoEquipeSomada": 0.118
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.366,
+              "contribuicaoEquipeSomada": 0.078
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.25,
+              "contribuicaoEquipeSomada": 0.112
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.192,
+              "contribuicaoEquipeSomada": -0.042
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.506,
+              "contribuicaoEquipeSomada": -0.226
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.338,
+              "contribuicaoEquipeSomada": -0.072
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.102,
+              "contribuicaoEquipeSomada": -0.938
+            },
+            "corrida": {
+              "scoreEquipeSomado": -1.614,
+              "contribuicaoEquipeSomada": -0.346
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.202,
+              "contribuicaoEquipeSomada": -0.536
+            },
+            "corrida": {
+              "scoreEquipeSomado": -2.358,
+              "contribuicaoEquipeSomada": -0.506
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.682,
+              "contribuicaoEquipeSomada": -2.088
+            },
+            "corrida": {
+              "scoreEquipeSomado": -4.308,
+              "contribuicaoEquipeSomada": -0.922
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "Catar",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.674,
+              "contribuicaoEquipeSomada": 1.086
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.528,
+              "contribuicaoEquipeSomada": 0.384
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.324,
+              "contribuicaoEquipeSomada": 0.944
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.374,
+              "contribuicaoEquipeSomada": 0.36
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.67,
+              "contribuicaoEquipeSomada": 0.678
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.612,
+              "contribuicaoEquipeSomada": 0.244
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.198,
+              "contribuicaoEquipeSomada": 0.488
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.232,
+              "contribuicaoEquipeSomada": 0.188
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.662,
+              "contribuicaoEquipeSomada": 0.27
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.652,
+              "contribuicaoEquipeSomada": 0.1
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.27,
+              "contribuicaoEquipeSomada": 0.11
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.438,
+              "contribuicaoEquipeSomada": 0.066
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.042,
+              "contribuicaoEquipeSomada": 0.018
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.044,
+              "contribuicaoEquipeSomada": -0.006
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.836,
+              "contribuicaoEquipeSomada": -0.34
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.756,
+              "contribuicaoEquipeSomada": -0.114
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.928,
+              "contribuicaoEquipeSomada": -0.376
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.848,
+              "contribuicaoEquipeSomada": -0.13
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.768,
+              "contribuicaoEquipeSomada": -1.532
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.408,
+              "contribuicaoEquipeSomada": -0.518
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -3.308,
+              "contribuicaoEquipeSomada": -1.344
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.782,
+              "contribuicaoEquipeSomada": -0.576
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GP": "AbuDhabi",
+      "equipes": [
+        {
+          "posicao": 1,
+          "equipe": "Mercedes",
+          "pilotos": [
+            "Kimi Antonelli",
+            "George Russell"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.626,
+              "contribuicaoEquipeSomada": 1.07
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.548,
+              "contribuicaoEquipeSomada": 0.412
+            }
+          }
+        },
+        {
+          "posicao": 2,
+          "equipe": "Ferrari",
+          "pilotos": [
+            "Lewis Hamilton",
+            "Charles Leclerc"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 2.244,
+              "contribuicaoEquipeSomada": 0.914
+            },
+            "corrida": {
+              "scoreEquipeSomado": 2.326,
+              "contribuicaoEquipeSomada": 0.376
+            }
+          }
+        },
+        {
+          "posicao": 3,
+          "equipe": "McLaren",
+          "pilotos": [
+            "Oscar Piastri",
+            "Lando Norris"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.744,
+              "contribuicaoEquipeSomada": 0.712
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.672,
+              "contribuicaoEquipeSomada": 0.27
+            }
+          }
+        },
+        {
+          "posicao": 4,
+          "equipe": "Red Bull Racing",
+          "pilotos": [
+            "Max Verstappen",
+            "Isack Hadjar"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 1.344,
+              "contribuicaoEquipeSomada": 0.548
+            },
+            "corrida": {
+              "scoreEquipeSomado": 1.33,
+              "contribuicaoEquipeSomada": 0.214
+            }
+          }
+        },
+        {
+          "posicao": 5,
+          "equipe": "Racing Bulls",
+          "pilotos": [
+            "Liam Lawson",
+            "Arvid Lindblad"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.586,
+              "contribuicaoEquipeSomada": 0.238
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.624,
+              "contribuicaoEquipeSomada": 0.1
+            }
+          }
+        },
+        {
+          "posicao": 6,
+          "equipe": "Alpine",
+          "pilotos": [
+            "Pierre Gasly",
+            "Franco Colapinto"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": 0.416,
+              "contribuicaoEquipeSomada": 0.17
+            },
+            "corrida": {
+              "scoreEquipeSomado": 0.47,
+              "contribuicaoEquipeSomada": 0.076
+            }
+          }
+        },
+        {
+          "posicao": 7,
+          "equipe": "Haas",
+          "pilotos": [
+            "Oliver Bearman",
+            "Esteban Ocon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.146,
+              "contribuicaoEquipeSomada": -0.06
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.13,
+              "contribuicaoEquipeSomada": -0.02
+            }
+          }
+        },
+        {
+          "posicao": 8,
+          "equipe": "Williams",
+          "pilotos": [
+            "Carlos Sainz",
+            "Alexander Albon"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -0.654,
+              "contribuicaoEquipeSomada": -0.266
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.752,
+              "contribuicaoEquipeSomada": -0.122
+            }
+          }
+        },
+        {
+          "posicao": 9,
+          "equipe": "Audi",
+          "pilotos": [
+            "Gabriel Bortoleto",
+            "Nico Hulkenberg"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -1.22,
+              "contribuicaoEquipeSomada": -0.498
+            },
+            "corrida": {
+              "scoreEquipeSomado": -0.964,
+              "contribuicaoEquipeSomada": -0.156
+            }
+          }
+        },
+        {
+          "posicao": 10,
+          "equipe": "Cadillac",
+          "pilotos": [
+            "Sergio Perez",
+            "Valtteri Bottas"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -2.894,
+              "contribuicaoEquipeSomada": -1.178
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.476,
+              "contribuicaoEquipeSomada": -0.562
+            }
+          }
+        },
+        {
+          "posicao": 11,
+          "equipe": "Aston Martin",
+          "pilotos": [
+            "Fernando Alonso",
+            "Lance Stroll"
+          ],
+          "scores": {
+            "qualificacao": {
+              "scoreEquipeSomado": -4.048,
+              "contribuicaoEquipeSomada": -1.65
+            },
+            "corrida": {
+              "scoreEquipeSomado": -3.648,
+              "contribuicaoEquipeSomada": -0.588
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

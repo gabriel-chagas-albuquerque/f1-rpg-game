@@ -1,0 +1,1357 @@
+{
+  "_comentario": "Descritores V2: cada campo vira um peso/parâmetro direto. Veja o cabeçalho de descritoresParaPesosV2.js.",
+  "padroes": {
+    "escala_rng": 1,
+    "corrida": {
+      "safety_car": {
+        "prob": 0.1,
+        "rng": 0.1
+      }
+    },
+    "quali": {
+      "piloto": {
+        "velocidade": 0.33,
+        "adaptabilidade": 0.27,
+        "gerenciamento": 0.23,
+        "fisico": 0.17
+      },
+      "carro_fatores": {
+        "aero_carga": 0.8,
+        "aero_eficiencia": 0.6,
+        "chassi": 0.8,
+        "tracao": 0.7,
+        "potencia": 0.9,
+        "operacoes": 0.3,
+        "pneus": 0
+      }
+    }
+  },
+  "pistas": [
+    {
+      "GP": "Monza",
+      "voltas": 53,
+      "pct_chuva": 0.12,
+      "corrida": {
+        "peso_largada": 0.3,
+        "piloto_vs_carro": 0.5,
+        "piloto": {
+          "velocidade": 0.6,
+          "racecraft": 0.52,
+          "gerenciamento": 0.36,
+          "fisico": 0.2,
+          "adaptabilidade": 0.32
+        },
+        "carro": {
+          "aero_carga": 0.1,
+          "aero_eficiencia": 1,
+          "chassi": 0.3,
+          "tracao": 0.25,
+          "potencia": 0.9,
+          "operacoes": 0.4,
+          "pneus": 0.2
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.85,
+          "pct_dnf_humano": 0.222,
+          "letalidade_humana": 0.64,
+          "letalidade_mecanica": 0.355,
+          "severidade": 1,
+          "penalidade_z": [
+            3,
+            6
+          ]
+        },
+        "intensidade_operacoes": 0.9
+      },
+      "quali": {
+        "piloto_vs_carro": 0.55,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 1.1,
+            "mecanica": 0.2
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.4,
+          "aero_eficiencia": 1,
+          "chassi": 0.5,
+          "tracao": 0.5,
+          "potencia": 1,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Monaco",
+      "voltas": 78,
+      "pct_chuva": 0.38,
+      "corrida": {
+        "peso_largada": 0.8,
+        "piloto_vs_carro": 0.68,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.08,
+          "gerenciamento": 0.2,
+          "fisico": 0.08,
+          "adaptabilidade": 0.17
+        },
+        "carro": {
+          "aero_carga": 0.55,
+          "aero_eficiencia": 0.05,
+          "chassi": 1,
+          "tracao": 0.9,
+          "potencia": 0.05,
+          "operacoes": 0.75,
+          "pneus": 0.2
+        },
+        "falhas": {
+          "dnf_por_corrida": 3.35,
+          "pct_dnf_humano": 0.75,
+          "letalidade_humana": 0.96,
+          "letalidade_mecanica": 0.755,
+          "severidade": 0.2,
+          "penalidade_z": [
+            0.5,
+            1.5
+          ]
+        },
+        "intensidade_operacoes": 1.25
+      },
+      "quali": {
+        "piloto_vs_carro": 0.62,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.3,
+          "chassi": 1,
+          "tracao": 1,
+          "potencia": 0.2,
+          "operacoes": 1,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Austria",
+      "voltas": 71,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.3,
+        "piloto_vs_carro": 0.349,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.58,
+          "gerenciamento": 0.33,
+          "fisico": 0.11,
+          "adaptabilidade": 0.26
+        },
+        "carro": {
+          "aero_carga": 0.25,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.45,
+          "tracao": 0.85,
+          "potencia": 1,
+          "operacoes": 0.35,
+          "pneus": 0.3
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.95,
+          "pct_dnf_humano": 0.222,
+          "letalidade_humana": 0.64,
+          "letalidade_mecanica": 0.355,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 0.85
+      },
+      "quali": {
+        "piloto_vs_carro": 0.49,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.5,
+          "aero_eficiencia": 0.9,
+          "chassi": 0.7,
+          "tracao": 1,
+          "potencia": 1,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Suzuka",
+      "voltas": 53,
+      "pct_chuva": 0.14,
+      "corrida": {
+        "peso_largada": 0.7,
+        "piloto_vs_carro": 0.75,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.22,
+          "gerenciamento": 0.46,
+          "fisico": 0.5,
+          "adaptabilidade": 0.32
+        },
+        "carro": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.85,
+          "chassi": 1,
+          "tracao": 0.3,
+          "potencia": 0.3,
+          "operacoes": 0.25,
+          "pneus": 0.55
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.1,
+          "pct_dnf_humano": 0.533,
+          "letalidade_humana": 0.76,
+          "letalidade_mecanica": 0.43,
+          "severidade": 0.8,
+          "penalidade_z": [
+            1.5,
+            3
+          ]
+        },
+        "intensidade_operacoes": 0.75
+      },
+      "quali": {
+        "piloto_vs_carro": 0.65,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 1,
+          "chassi": 1,
+          "tracao": 0.5,
+          "potencia": 0.5,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Barcelona",
+      "voltas": 66,
+      "pct_chuva": 0.12,
+      "corrida": {
+        "peso_largada": 0.6,
+        "piloto_vs_carro": 0.65,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.31,
+          "gerenciamento": 0.78,
+          "fisico": 0.86,
+          "adaptabilidade": 0.49
+        },
+        "carro": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.45,
+          "chassi": 0.9,
+          "tracao": 0.45,
+          "potencia": 0.35,
+          "operacoes": 0.35,
+          "pneus": 0.85
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.15,
+          "pct_dnf_humano": 0.529,
+          "letalidade_humana": 0.78,
+          "letalidade_mecanica": 0.451,
+          "severidade": 0.8,
+          "penalidade_z": [
+            2,
+            4
+          ]
+        },
+        "intensidade_operacoes": 0.85
+      },
+      "quali": {
+        "piloto_vs_carro": 0.61,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.8,
+          "chassi": 1,
+          "tracao": 0.7,
+          "potencia": 0.5,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Baku",
+      "voltas": 51,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.425,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.76,
+          "gerenciamento": 0.4,
+          "fisico": 0.27,
+          "adaptabilidade": 0.32
+        },
+        "carro": {
+          "aero_carga": 0.25,
+          "aero_eficiencia": 0.85,
+          "chassi": 0.45,
+          "tracao": 0.7,
+          "potencia": 1,
+          "operacoes": 0.65,
+          "pneus": 0.3
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.7,
+          "pct_dnf_humano": 0.609,
+          "letalidade_humana": 0.88,
+          "letalidade_mecanica": 0.595,
+          "severidade": 1,
+          "penalidade_z": [
+            3,
+            6
+          ]
+        },
+        "intensidade_operacoes": 1.15
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.5,
+          "aero_eficiencia": 1,
+          "chassi": 0.7,
+          "tracao": 0.9,
+          "potencia": 1,
+          "operacoes": 0.7,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Singapura",
+      "voltas": 62,
+      "pct_chuva": 0.16,
+      "corrida": {
+        "peso_largada": 0.9,
+        "piloto_vs_carro": 0.7,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.12,
+          "gerenciamento": 0.41,
+          "fisico": 0.53,
+          "adaptabilidade": 0.29
+        },
+        "carro": {
+          "aero_carga": 0.85,
+          "aero_eficiencia": 0.1,
+          "chassi": 0.75,
+          "tracao": 1,
+          "potencia": 0.1,
+          "operacoes": 0.85,
+          "pneus": 0.5
+        },
+        "falhas": {
+          "dnf_por_corrida": 3.1,
+          "pct_dnf_humano": 0.724,
+          "letalidade_humana": 0.968,
+          "letalidade_mecanica": 0.773,
+          "severidade": 0.2,
+          "penalidade_z": [
+            1,
+            2.5
+          ]
+        },
+        "intensidade_operacoes": 1.35
+      },
+      "quali": {
+        "piloto_vs_carro": 0.63,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.3,
+          "chassi": 1,
+          "tracao": 1,
+          "potencia": 0.3,
+          "operacoes": 1,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Spa-Francorchamps",
+      "voltas": 44,
+      "pct_chuva": 0.19,
+      "escala_rng": 1.12,
+      "corrida": {
+        "peso_largada": 0.575,
+        "piloto_vs_carro": 0.699,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.43,
+          "gerenciamento": 0.44,
+          "fisico": 0.55,
+          "adaptabilidade": 0.33
+        },
+        "carro": {
+          "aero_carga": 0.45,
+          "aero_eficiencia": 1,
+          "chassi": 0.65,
+          "tracao": 0.3,
+          "potencia": 1,
+          "operacoes": 0.55,
+          "pneus": 0.4
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.75,
+          "pct_dnf_humano": 0.571,
+          "letalidade_humana": 0.84,
+          "letalidade_mecanica": 0.53,
+          "severidade": 1,
+          "penalidade_z": [
+            2.5,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.63,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.7,
+          "aero_eficiencia": 1,
+          "chassi": 0.9,
+          "tracao": 0.5,
+          "potencia": 1,
+          "operacoes": 0.6,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Bahrein",
+      "voltas": 57,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.475,
+        "piloto_vs_carro": 0.501,
+        "piloto": {
+          "velocidade": 0.56,
+          "racecraft": 0.92,
+          "gerenciamento": 0.94,
+          "fisico": 1,
+          "adaptabilidade": 0.58
+        },
+        "carro": {
+          "aero_carga": 0.35,
+          "aero_eficiencia": 0.45,
+          "chassi": 0.5,
+          "tracao": 1,
+          "potencia": 0.8,
+          "operacoes": 0.4,
+          "pneus": 0.9
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.3,
+          "pct_dnf_humano": 0.471,
+          "letalidade_humana": 0.76,
+          "letalidade_mecanica": 0.43,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 0.9
+      },
+      "quali": {
+        "piloto_vs_carro": 0.55,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.6,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.7,
+          "tracao": 1,
+          "potencia": 1,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Interlagos",
+      "voltas": 71,
+      "pct_chuva": 0.14,
+      "corrida": {
+        "peso_largada": 0.6,
+        "piloto_vs_carro": 0.65,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.44,
+          "gerenciamento": 0.52,
+          "fisico": 0.78,
+          "adaptabilidade": 0.38
+        },
+        "carro": {
+          "aero_carga": 0.6,
+          "aero_eficiencia": 0.55,
+          "chassi": 0.5,
+          "tracao": 0.85,
+          "potencia": 0.65,
+          "operacoes": 0.55,
+          "pneus": 0.45
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.1,
+          "pct_dnf_humano": 0.571,
+          "letalidade_humana": 0.84,
+          "letalidade_mecanica": 0.53,
+          "severidade": 1,
+          "penalidade_z": [
+            2.5,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.61,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.9,
+          "aero_eficiencia": 0.8,
+          "chassi": 0.8,
+          "tracao": 1,
+          "potencia": 0.9,
+          "operacoes": 0.7,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Australia",
+      "voltas": 58,
+      "pct_chuva": 0.14,
+      "corrida": {
+        "peso_largada": 0.625,
+        "piloto_vs_carro": 0.549,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.34,
+          "gerenciamento": 0.54,
+          "fisico": 0.47,
+          "adaptabilidade": 0.36
+        },
+        "carro": {
+          "aero_carga": 0.55,
+          "aero_eficiencia": 0.45,
+          "chassi": 0.55,
+          "tracao": 0.75,
+          "potencia": 0.75,
+          "operacoes": 0.55,
+          "pneus": 0.65
+        },
+        "falhas": {
+          "dnf_por_corrida": 4.2,
+          "pct_dnf_humano": 0.5,
+          "letalidade_humana": 0.76,
+          "letalidade_mecanica": 0.43,
+          "severidade": 1,
+          "penalidade_z": [
+            3,
+            6
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.57,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.7,
+          "aero_eficiencia": 0.6,
+          "chassi": 0.7,
+          "tracao": 0.9,
+          "potencia": 0.9,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "China",
+      "voltas": 56,
+      "pct_chuva": 0.06,
+      "corrida": {
+        "peso_largada": 0.65,
+        "piloto_vs_carro": 0.574,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.32,
+          "gerenciamento": 0.61,
+          "fisico": 0.53,
+          "adaptabilidade": 0.39
+        },
+        "carro": {
+          "aero_carga": 0.65,
+          "aero_eficiencia": 0.6,
+          "chassi": 0.6,
+          "tracao": 0.7,
+          "potencia": 0.7,
+          "operacoes": 0.5,
+          "pneus": 0.75
+        },
+        "falhas": {
+          "dnf_por_corrida": 3.5,
+          "pct_dnf_humano": 0.5,
+          "letalidade_humana": 0.78,
+          "letalidade_mecanica": 0.451,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1
+      },
+      "quali": {
+        "piloto_vs_carro": 0.58,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.8,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.7,
+          "tracao": 0.8,
+          "potencia": 0.8,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Jeddah",
+      "voltas": 50,
+      "pct_chuva": 0.06,
+      "escala_rng": 1.04,
+      "corrida": {
+        "peso_largada": 0.675,
+        "piloto_vs_carro": 0.649,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.23,
+          "gerenciamento": 0.36,
+          "fisico": 0.39,
+          "adaptabilidade": 0.27
+        },
+        "carro": {
+          "aero_carga": 0.3,
+          "aero_eficiencia": 0.75,
+          "chassi": 0.5,
+          "tracao": 0.55,
+          "potencia": 0.75,
+          "operacoes": 0.6,
+          "pneus": 0.4
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.8,
+          "pct_dnf_humano": 0.63,
+          "letalidade_humana": 0.94,
+          "letalidade_mecanica": 0.711,
+          "severidade": 0.9,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.1
+      },
+      "quali": {
+        "piloto_vs_carro": 0.61,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.5,
+          "aero_eficiencia": 1,
+          "chassi": 0.7,
+          "tracao": 0.7,
+          "potencia": 1,
+          "operacoes": 0.6,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Miami",
+      "voltas": 57,
+      "pct_chuva": 0.06,
+      "escala_rng": 1.08,
+      "corrida": {
+        "peso_largada": 0.5,
+        "piloto_vs_carro": 0.55,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.75,
+          "gerenciamento": 0.65,
+          "fisico": 0.71,
+          "adaptabilidade": 0.45
+        },
+        "carro": {
+          "aero_carga": 0.45,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.55,
+          "tracao": 0.65,
+          "potencia": 0.85,
+          "operacoes": 0.6,
+          "pneus": 0.55
+        },
+        "falhas": {
+          "dnf_por_corrida": 2,
+          "pct_dnf_humano": 0.55,
+          "letalidade_humana": 0.82,
+          "letalidade_mecanica": 0.501,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.1
+      },
+      "quali": {
+        "piloto_vs_carro": 0.57,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.6,
+          "aero_eficiencia": 0.9,
+          "chassi": 0.7,
+          "tracao": 0.8,
+          "potencia": 1,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Montreal",
+      "voltas": 70,
+      "pct_chuva": 0.14,
+      "escala_rng": 1.04,
+      "corrida": {
+        "peso_largada": 0.625,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.32,
+          "gerenciamento": 0.44,
+          "fisico": 0.44,
+          "adaptabilidade": 0.31
+        },
+        "carro": {
+          "aero_carga": 0.4,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.5,
+          "tracao": 0.85,
+          "potencia": 0.85,
+          "operacoes": 0.55,
+          "pneus": 0.5
+        },
+        "falhas": {
+          "dnf_por_corrida": 3.2,
+          "pct_dnf_humano": 0.522,
+          "letalidade_humana": 0.84,
+          "letalidade_mecanica": 0.53,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.5,
+          "aero_eficiencia": 0.9,
+          "chassi": 0.6,
+          "tracao": 1,
+          "potencia": 1,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Silvestone",
+      "voltas": 52,
+      "pct_chuva": 0.18,
+      "escala_rng": 1.08,
+      "corrida": {
+        "peso_largada": 0.5,
+        "piloto_vs_carro": 0.65,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.89,
+          "gerenciamento": 0.86,
+          "fisico": 0.9,
+          "adaptabilidade": 0.57
+        },
+        "carro": {
+          "aero_carga": 0.85,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.75,
+          "tracao": 0.55,
+          "potencia": 0.7,
+          "operacoes": 0.6,
+          "pneus": 0.7
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.7,
+          "pct_dnf_humano": 0.545,
+          "letalidade_humana": 0.84,
+          "letalidade_mecanica": 0.53,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            4.5
+          ]
+        },
+        "intensidade_operacoes": 1.1
+      },
+      "quali": {
+        "piloto_vs_carro": 0.61,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.8,
+          "chassi": 1,
+          "tracao": 0.7,
+          "potencia": 0.8,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Hungria",
+      "voltas": 70,
+      "pct_chuva": 0.2,
+      "escala_rng": 1.08,
+      "corrida": {
+        "peso_largada": 0.45,
+        "piloto_vs_carro": 0.651,
+        "piloto": {
+          "velocidade": 0.92,
+          "racecraft": 1,
+          "gerenciamento": 0.81,
+          "fisico": 0.69,
+          "adaptabilidade": 0.53
+        },
+        "carro": {
+          "aero_carga": 0.9,
+          "aero_eficiencia": 0.45,
+          "chassi": 0.8,
+          "tracao": 0.55,
+          "potencia": 0.35,
+          "operacoes": 0.55,
+          "pneus": 0.7
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.8,
+          "pct_dnf_humano": 0.5,
+          "letalidade_humana": 0.76,
+          "letalidade_mecanica": 0.43,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.61,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.6,
+          "chassi": 1,
+          "tracao": 0.7,
+          "potencia": 0.4,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Zandvoort",
+      "voltas": 72,
+      "pct_chuva": 0.16,
+      "corrida": {
+        "peso_largada": 0.825,
+        "piloto_vs_carro": 0.674,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.13,
+          "gerenciamento": 0.43,
+          "fisico": 0.43,
+          "adaptabilidade": 0.3
+        },
+        "carro": {
+          "aero_carga": 0.95,
+          "aero_eficiencia": 0.4,
+          "chassi": 0.85,
+          "tracao": 0.5,
+          "potencia": 0.25,
+          "operacoes": 0.4,
+          "pneus": 0.6
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.5,
+          "pct_dnf_humano": 0.467,
+          "letalidade_humana": 0.74,
+          "letalidade_mecanica": 0.411,
+          "severidade": 0.3,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 0.9
+      },
+      "quali": {
+        "piloto_vs_carro": 0.62,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 1,
+          "aero_eficiencia": 0.5,
+          "chassi": 1,
+          "tracao": 0.7,
+          "potencia": 0.4,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Madrid",
+      "voltas": 57,
+      "pct_chuva": 0.1,
+      "corrida": {
+        "peso_largada": 0.65,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.3,
+          "gerenciamento": 0.5,
+          "fisico": 0.49,
+          "adaptabilidade": 0.34
+        },
+        "carro": {
+          "aero_carga": 0.7,
+          "aero_eficiencia": 0.6,
+          "chassi": 0.65,
+          "tracao": 0.6,
+          "potencia": 0.6,
+          "operacoes": 0.55,
+          "pneus": 0.6
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.1,
+          "pct_dnf_humano": 0.5,
+          "letalidade_humana": 0.78,
+          "letalidade_mecanica": 0.451,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.05
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.9,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.9,
+          "tracao": 0.7,
+          "potencia": 0.7,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Austin",
+      "voltas": 56,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.575,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.53,
+          "gerenciamento": 0.7,
+          "fisico": 0.73,
+          "adaptabilidade": 0.46
+        },
+        "carro": {
+          "aero_carga": 0.65,
+          "aero_eficiencia": 0.55,
+          "chassi": 0.6,
+          "tracao": 0.7,
+          "potencia": 0.85,
+          "operacoes": 0.9,
+          "pneus": 0.7
+        },
+        "falhas": {
+          "dnf_por_corrida": 1.5,
+          "pct_dnf_humano": 0.474,
+          "letalidade_humana": 0.78,
+          "letalidade_mecanica": 0.451,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.4
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.8,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.8,
+          "tracao": 0.9,
+          "potencia": 1,
+          "operacoes": 0.7,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Mexico",
+      "voltas": 71,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.575,
+        "piloto_vs_carro": 0.574,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.5,
+          "gerenciamento": 0.59,
+          "fisico": 0.73,
+          "adaptabilidade": 0.41
+        },
+        "carro": {
+          "aero_carga": 0.75,
+          "aero_eficiencia": 0.45,
+          "chassi": 0.6,
+          "tracao": 0.55,
+          "potencia": 0.8,
+          "operacoes": 0.5,
+          "pneus": 0.55
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.8,
+          "pct_dnf_humano": 0.444,
+          "letalidade_humana": 0.76,
+          "letalidade_mecanica": 0.43,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1
+      },
+      "quali": {
+        "piloto_vs_carro": 0.58,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.9,
+          "aero_eficiencia": 0.6,
+          "chassi": 0.8,
+          "tracao": 0.7,
+          "potencia": 1,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "LasVegas",
+      "voltas": 50,
+      "pct_chuva": 0.08,
+      "corrida": {
+        "peso_largada": 0.575,
+        "piloto_vs_carro": 0.501,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.34,
+          "gerenciamento": 0.32,
+          "fisico": 0.27,
+          "adaptabilidade": 0.25
+        },
+        "carro": {
+          "aero_carga": 0.2,
+          "aero_eficiencia": 1,
+          "chassi": 0.3,
+          "tracao": 0.4,
+          "potencia": 1,
+          "operacoes": 0.35,
+          "pneus": 0.3
+        },
+        "falhas": {
+          "dnf_por_corrida": 2.5,
+          "pct_dnf_humano": 0.364,
+          "letalidade_humana": 0.68,
+          "letalidade_mecanica": 0.37,
+          "severidade": 1,
+          "penalidade_z": [
+            3,
+            6
+          ]
+        },
+        "intensidade_operacoes": 0.85
+      },
+      "quali": {
+        "piloto_vs_carro": 0.55,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.4,
+          "aero_eficiencia": 1,
+          "chassi": 0.5,
+          "tracao": 0.5,
+          "potencia": 1,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "Catar",
+      "voltas": 57,
+      "pct_chuva": 0.07,
+      "corrida": {
+        "peso_largada": 0.625,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 0.95,
+          "racecraft": 0.5,
+          "gerenciamento": 1,
+          "fisico": 0.95,
+          "adaptabilidade": 0.6
+        },
+        "carro": {
+          "aero_carga": 0.55,
+          "aero_eficiencia": 0.6,
+          "chassi": 0.55,
+          "tracao": 1,
+          "potencia": 0.55,
+          "operacoes": 0.45,
+          "pneus": 1
+        },
+        "falhas": {
+          "dnf_por_corrida": 3,
+          "pct_dnf_humano": 0.429,
+          "letalidade_humana": 0.72,
+          "letalidade_mecanica": 0.395,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 0.95
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.7,
+          "aero_eficiencia": 0.7,
+          "chassi": 0.7,
+          "tracao": 1,
+          "potencia": 0.6,
+          "operacoes": 0.4,
+          "pneus": 0
+        }
+      }
+    },
+    {
+      "GP": "AbuDhabi",
+      "voltas": 58,
+      "pct_chuva": 0.05,
+      "corrida": {
+        "peso_largada": 0.6,
+        "piloto_vs_carro": 0.6,
+        "piloto": {
+          "velocidade": 1,
+          "racecraft": 0.42,
+          "gerenciamento": 0.6,
+          "fisico": 0.61,
+          "adaptabilidade": 0.4
+        },
+        "carro": {
+          "aero_carga": 0.6,
+          "aero_eficiencia": 0.65,
+          "chassi": 0.6,
+          "tracao": 0.75,
+          "potencia": 0.7,
+          "operacoes": 0.65,
+          "pneus": 0.65
+        },
+        "falhas": {
+          "dnf_por_corrida": 0.8,
+          "pct_dnf_humano": 0.437,
+          "letalidade_humana": 0.74,
+          "letalidade_mecanica": 0.411,
+          "severidade": 1,
+          "penalidade_z": [
+            2,
+            5
+          ]
+        },
+        "intensidade_operacoes": 1.15
+      },
+      "quali": {
+        "piloto_vs_carro": 0.59,
+        "falhas": {
+          "multiplicador_vs_corrida": {
+            "humana": 0.75,
+            "mecanica": 0.35
+          }
+        },
+        "carro_fatores": {
+          "aero_carga": 0.8,
+          "aero_eficiencia": 0.8,
+          "chassi": 0.8,
+          "tracao": 0.9,
+          "potencia": 0.9,
+          "operacoes": 0.5,
+          "pneus": 0
+        }
+      }
+    }
+  ]
+}

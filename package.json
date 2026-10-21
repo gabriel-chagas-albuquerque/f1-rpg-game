@@ -1,0 +1,23 @@
+{
+  "name": "f1-rpg-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "races": "node index.js",
+    "race": "node classificar-resultados.js",
+    "readweights": "node descritoresParaPesos.js",
+    "writeweights": "node descritoresParaPesos.js --escrever",
+    "expectativas-pe": "node calibrar-expectativas.js",
+    "calibrar-pe": "node calibrar-pe-builds.js",
+    "temporada-pe": "node simular-temporada-pe.js",
+    "tests": "node tests/atributos-equipe.test.js && node tests/chuva.test.js && node tests/safety-car.test.js && node tests/teto-dnf.test.js && node tests/timeline-corrida.test.js && node tests/calcularClassificacaoCampeonato.test.js && node tests/calcularMetricasDuplaPilotos.test.js && node tests/validarAtributosEquipe.test.js && node tests/sistemaPE.test.js && node tests/bonus-operacoes.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,193 @@
+{
+  "classificacaoPilotos": [
+    {
+      "posicao": 1,
+      "piloto": "Kimi Antonelli",
+      "equipe": "Mercedes",
+      "pontos": 430
+    },
+    {
+      "posicao": 2,
+      "piloto": "Lewis Hamilton",
+      "equipe": "Ferrari",
+      "pontos": 354
+    },
+    {
+      "posicao": 3,
+      "piloto": "George Russell",
+      "equipe": "Mercedes",
+      "pontos": 328
+    },
+    {
+      "posicao": 4,
+      "piloto": "Charles Leclerc",
+      "equipe": "Ferrari",
+      "pontos": 322
+    },
+    {
+      "posicao": 5,
+      "piloto": "Max Verstappen",
+      "equipe": "Red Bull Racing",
+      "pontos": 316
+    },
+    {
+      "posicao": 6,
+      "piloto": "Lando Norris",
+      "equipe": "McLaren",
+      "pontos": 212
+    },
+    {
+      "posicao": 7,
+      "piloto": "Oscar Piastri",
+      "equipe": "McLaren",
+      "pontos": 201
+    },
+    {
+      "posicao": 8,
+      "piloto": "Isack Hadjar",
+      "equipe": "Red Bull Racing",
+      "pontos": 125
+    },
+    {
+      "posicao": 9,
+      "piloto": "Pierre Gasly",
+      "equipe": "Alpine",
+      "pontos": 44
+    },
+    {
+      "posicao": 10,
+      "piloto": "Liam Lawson",
+      "equipe": "Racing Bulls",
+      "pontos": 26
+    },
+    {
+      "posicao": 11,
+      "piloto": "Franco Colapinto",
+      "equipe": "Alpine",
+      "pontos": 24
+    },
+    {
+      "posicao": 12,
+      "piloto": "Arvid Lindblad",
+      "equipe": "Racing Bulls",
+      "pontos": 19
+    },
+    {
+      "posicao": 13,
+      "piloto": "Gabriel Bortoleto",
+      "equipe": "Audi",
+      "pontos": 9
+    },
+    {
+      "posicao": 14,
+      "piloto": "Carlos Sainz",
+      "equipe": "Williams",
+      "pontos": 8
+    },
+    {
+      "posicao": 15,
+      "piloto": "Alexander Albon",
+      "equipe": "Williams",
+      "pontos": 3
+    },
+    {
+      "posicao": 16,
+      "piloto": "Oliver Bearman",
+      "equipe": "Haas",
+      "pontos": 3
+    },
+    {
+      "posicao": 17,
+      "piloto": "Nico Hulkenberg",
+      "equipe": "Audi",
+      "pontos": 0
+    },
+    {
+      "posicao": 18,
+      "piloto": "Esteban Ocon",
+      "equipe": "Haas",
+      "pontos": 0
+    },
+    {
+      "posicao": 19,
+      "piloto": "Fernando Alonso",
+      "equipe": "Aston Martin",
+      "pontos": 0
+    },
+    {
+      "posicao": 20,
+      "piloto": "Lance Stroll",
+      "equipe": "Aston Martin",
+      "pontos": 0
+    },
+    {
+      "posicao": 21,
+      "piloto": "Sergio Perez",
+      "equipe": "Cadillac",
+      "pontos": 0
+    },
+    {
+      "posicao": 22,
+      "piloto": "Valtteri Bottas",
+      "equipe": "Cadillac",
+      "pontos": 0
+    }
+  ],
+  "classificacaoEquipes": [
+    {
+      "posicao": 1,
+      "equipe": "Mercedes",
+      "pontos": 758
+    },
+    {
+      "posicao": 2,
+      "equipe": "Ferrari",
+      "pontos": 676
+    },
+    {
+      "posicao": 3,
+      "equipe": "Red Bull Racing",
+      "pontos": 441
+    },
+    {
+      "posicao": 4,
+      "equipe": "McLaren",
+      "pontos": 413
+    },
+    {
+      "posicao": 5,
+      "equipe": "Alpine",
+      "pontos": 68
+    },
+    {
+      "posicao": 6,
+      "equipe": "Racing Bulls",
+      "pontos": 45
+    },
+    {
+      "posicao": 7,
+      "equipe": "Williams",
+      "pontos": 11
+    },
+    {
+      "posicao": 8,
+      "equipe": "Audi",
+      "pontos": 9
+    },
+    {
+      "posicao": 9,
+      "equipe": "Haas",
+      "pontos": 3
+    },
+    {
+      "posicao": 10,
+      "equipe": "Aston Martin",
+      "pontos": 0
+    },
+    {
+      "posicao": 11,
+      "equipe": "Cadillac",
+      "pontos": 0
+    }
+  ]
+}
