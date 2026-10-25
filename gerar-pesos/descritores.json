@@ -1,11 +1,9 @@
 {
   "_comentario": "Descritores V2: cada campo vira um peso/parâmetro direto. Veja o cabeçalho de descritoresParaPesosV2.js.",
   "padroes": {
-    "escala_rng": 1,
     "corrida": {
       "safety_car": {
-        "prob": 0.1,
-        "rng": 0.1
+        "prob": 0.1
       }
     },
     "quali": {
@@ -32,7 +30,7 @@
       "voltas": 53,
       "pct_chuva": 0.12,
       "corrida": {
-        "peso_largada": 0.3,
+        "peso_largada": 0.5,
         "piloto_vs_carro": 0.5,
         "piloto": {
           "velocidade": 0.6,
@@ -52,24 +50,36 @@
         },
         "falhas": {
           "dnf_por_corrida": 1.85,
-          "pct_dnf_humano": 0.222,
-          "letalidade_humana": 0.64,
-          "letalidade_mecanica": 0.355,
+          "pct_dnf_humano": 0.3,
+          "letalidade_humana": 0.25,
+          "letalidade_mecanica": 0.4,
           "severidade": 1,
           "penalidade_z": [
             3,
             6
           ]
         },
-        "intensidade_operacoes": 0.9
+        "intensidade_operacoes": 0.9,
+        "rng": {
+          "piloto": 3,
+          "carro": 3,
+          "operacoes": 2,
+          "largada": 0.6,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.55,
         "falhas": {
           "multiplicador_vs_corrida": {
             "humana": 1.1,
-            "mecanica": 0.2
+            "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 2.5,
+          "carro": 1,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.4,
@@ -87,14 +97,14 @@
       "voltas": 78,
       "pct_chuva": 0.38,
       "corrida": {
-        "peso_largada": 0.8,
+        "peso_largada": 0.85,
         "piloto_vs_carro": 0.68,
         "piloto": {
-          "velocidade": 1,
-          "racecraft": 0.08,
-          "gerenciamento": 0.2,
-          "fisico": 0.08,
-          "adaptabilidade": 0.17
+          "velocidade": 0.77,
+          "racecraft": 0.105,
+          "gerenciamento": 0.3,
+          "fisico": 0.105,
+          "adaptabilidade": 0.25
         },
         "carro": {
           "aero_carga": 0.55,
@@ -107,24 +117,36 @@
         },
         "falhas": {
           "dnf_por_corrida": 3.35,
-          "pct_dnf_humano": 0.75,
-          "letalidade_humana": 0.96,
-          "letalidade_mecanica": 0.755,
+          "pct_dnf_humano": 0.6,
+          "letalidade_humana": 0.6,
+          "letalidade_mecanica": 0.3,
           "severidade": 0.2,
           "penalidade_z": [
             0.5,
             1.5
           ]
         },
-        "intensidade_operacoes": 1.25
+        "intensidade_operacoes": 1.25,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 2,
+          "largada": 0.4,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.62,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 3,
+          "carro": 0.85,
+          "operacoes": 1.5
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -142,7 +164,7 @@
       "voltas": 71,
       "pct_chuva": 0.05,
       "corrida": {
-        "peso_largada": 0.3,
+        "peso_largada": 0.6,
         "piloto_vs_carro": 0.349,
         "piloto": {
           "velocidade": 1,
@@ -171,15 +193,27 @@
             5
           ]
         },
-        "intensidade_operacoes": 0.85
+        "intensidade_operacoes": 0.85,
+        "rng": {
+          "piloto": 3,
+          "carro": 4.5,
+          "operacoes": 2,
+          "largada": 0.6,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.49,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 2.5,
+          "carro": 1,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.5,
@@ -226,15 +260,27 @@
             3
           ]
         },
-        "intensidade_operacoes": 0.75
+        "intensidade_operacoes": 0.75,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.65,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 2.3,
+          "carro": 1.15,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -252,14 +298,14 @@
       "voltas": 66,
       "pct_chuva": 0.12,
       "corrida": {
-        "peso_largada": 0.6,
+        "peso_largada": 0.65,
         "piloto_vs_carro": 0.65,
         "piloto": {
-          "velocidade": 1,
+          "velocidade": 0.75,
           "racecraft": 0.31,
-          "gerenciamento": 0.78,
-          "fisico": 0.86,
-          "adaptabilidade": 0.49
+          "gerenciamento": 0.7,
+          "fisico": 0.75,
+          "adaptabilidade": 0.7
         },
         "carro": {
           "aero_carga": 1,
@@ -273,23 +319,35 @@
         "falhas": {
           "dnf_por_corrida": 1.15,
           "pct_dnf_humano": 0.529,
-          "letalidade_humana": 0.78,
-          "letalidade_mecanica": 0.451,
+          "letalidade_humana": 0.5,
+          "letalidade_mecanica": 0.4,
           "severidade": 0.8,
           "penalidade_z": [
             2,
             4
           ]
         },
-        "intensidade_operacoes": 0.85
+        "intensidade_operacoes": 0.85,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.61,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 4.5,
+          "carro": 1.8,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -307,8 +365,8 @@
       "voltas": 51,
       "pct_chuva": 0.05,
       "corrida": {
-        "peso_largada": 0.425,
-        "piloto_vs_carro": 0.6,
+        "peso_largada": 0.35,
+        "piloto_vs_carro": 0.5,
         "piloto": {
           "velocidade": 1,
           "racecraft": 0.76,
@@ -328,23 +386,35 @@
         "falhas": {
           "dnf_por_corrida": 2.7,
           "pct_dnf_humano": 0.609,
-          "letalidade_humana": 0.88,
-          "letalidade_mecanica": 0.595,
+          "letalidade_humana": 0.6,
+          "letalidade_mecanica": 0.4,
           "severidade": 1,
           "penalidade_z": [
             3,
             6
           ]
         },
-        "intensidade_operacoes": 1.15
+        "intensidade_operacoes": 1.15,
+        "rng": {
+          "piloto": 1.9,
+          "carro": 1.5,
+          "operacoes": 4.0,
+          "largada": 0.3,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 3,
+          "carro": 0.5,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.5,
@@ -383,23 +453,35 @@
         "falhas": {
           "dnf_por_corrida": 3.1,
           "pct_dnf_humano": 0.724,
-          "letalidade_humana": 0.968,
-          "letalidade_mecanica": 0.773,
+          "letalidade_humana": 0.6,
+          "letalidade_mecanica": 0.35,
           "severidade": 0.2,
           "penalidade_z": [
             1,
             2.5
           ]
         },
-        "intensidade_operacoes": 1.35
+        "intensidade_operacoes": 1.35,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.63,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 3,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -416,16 +498,15 @@
       "GP": "Spa-Francorchamps",
       "voltas": 44,
       "pct_chuva": 0.19,
-      "escala_rng": 1.12,
       "corrida": {
-        "peso_largada": 0.575,
-        "piloto_vs_carro": 0.699,
+        "peso_largada": 0.53,
+        "piloto_vs_carro": 0.65,
         "piloto": {
-          "velocidade": 1,
-          "racecraft": 0.43,
-          "gerenciamento": 0.44,
-          "fisico": 0.55,
-          "adaptabilidade": 0.33
+          "velocidade": 0.8,
+          "racecraft": 0.45,
+          "gerenciamento": 0.4,
+          "fisico": 0.6,
+          "adaptabilidade": 0.55
         },
         "carro": {
           "aero_carga": 0.45,
@@ -439,23 +520,35 @@
         "falhas": {
           "dnf_por_corrida": 1.75,
           "pct_dnf_humano": 0.571,
-          "letalidade_humana": 0.84,
-          "letalidade_mecanica": 0.53,
+          "letalidade_humana": 0.4,
+          "letalidade_mecanica": 0.4,
           "severidade": 1,
           "penalidade_z": [
             2.5,
             5
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 3,
+          "carro": 1.8,
+          "operacoes": 4.48,
+          "largada": 0.35,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.63,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 2.5,
+          "carro": 0.952,
+          "operacoes": 3.36
         },
         "carro_fatores": {
           "aero_carga": 0.7,
@@ -502,15 +595,27 @@
             5
           ]
         },
-        "intensidade_operacoes": 0.9
+        "intensidade_operacoes": 0.9,
+        "rng": {
+          "piloto": 1.8,
+          "carro": 1.5,
+          "operacoes": 4.0,
+          "largada": 0.6,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.55,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 2.3,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.6,
@@ -528,14 +633,14 @@
       "voltas": 71,
       "pct_chuva": 0.14,
       "corrida": {
-        "peso_largada": 0.6,
-        "piloto_vs_carro": 0.65,
+        "peso_largada": 0.55,
+        "piloto_vs_carro": 0.6,
         "piloto": {
-          "velocidade": 1,
-          "racecraft": 0.44,
-          "gerenciamento": 0.52,
-          "fisico": 0.78,
-          "adaptabilidade": 0.38
+          "velocidade": 0.7,
+          "racecraft": 0.54,
+          "gerenciamento": 0.62,
+          "fisico": 0.68,
+          "adaptabilidade": 0.58
         },
         "carro": {
           "aero_carga": 0.6,
@@ -549,23 +654,35 @@
         "falhas": {
           "dnf_por_corrida": 2.1,
           "pct_dnf_humano": 0.571,
-          "letalidade_humana": 0.84,
-          "letalidade_mecanica": 0.53,
+          "letalidade_humana": 0.68,
+          "letalidade_mecanica": 0.42,
           "severidade": 1,
           "penalidade_z": [
             2.5,
             5
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 2.8,
+          "carro": 1.5,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
-        "piloto_vs_carro": 0.61,
+        "piloto_vs_carro": 0.65,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 3.4,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.9,
@@ -583,7 +700,7 @@
       "voltas": 58,
       "pct_chuva": 0.14,
       "corrida": {
-        "peso_largada": 0.625,
+        "peso_largada": 0.58,
         "piloto_vs_carro": 0.549,
         "piloto": {
           "velocidade": 1,
@@ -612,15 +729,27 @@
             6
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.57,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.7,
@@ -638,7 +767,7 @@
       "voltas": 56,
       "pct_chuva": 0.06,
       "corrida": {
-        "peso_largada": 0.65,
+        "peso_largada": 0.57,
         "piloto_vs_carro": 0.574,
         "piloto": {
           "velocidade": 1,
@@ -667,15 +796,27 @@
             5
           ]
         },
-        "intensidade_operacoes": 1
+        "intensidade_operacoes": 1,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.58,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.8,
@@ -692,10 +833,9 @@
       "GP": "Jeddah",
       "voltas": 50,
       "pct_chuva": 0.06,
-      "escala_rng": 1.04,
       "corrida": {
-        "peso_largada": 0.675,
-        "piloto_vs_carro": 0.649,
+        "peso_largada": 0.65,
+        "piloto_vs_carro": 0.55,
         "piloto": {
           "velocidade": 1,
           "racecraft": 0.23,
@@ -715,23 +855,35 @@
         "falhas": {
           "dnf_por_corrida": 1.8,
           "pct_dnf_humano": 0.63,
-          "letalidade_humana": 0.94,
-          "letalidade_mecanica": 0.711,
+          "letalidade_humana": 0.7,
+          "letalidade_mecanica": 0.5,
           "severidade": 0.9,
           "penalidade_z": [
             2,
             5
           ]
         },
-        "intensidade_operacoes": 1.1
+        "intensidade_operacoes": 1.1,
+        "rng": {
+          "piloto": 1.6,
+          "carro": 1.5,
+          "operacoes": 4.16,
+          "largada": 0.52,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.61,
         "falhas": {
           "multiplicador_vs_corrida": {
-            "humana": 0.75,
+            "humana": 1.1,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 3.2,
+          "carro": 0.884,
+          "operacoes": 3.12
         },
         "carro_fatores": {
           "aero_carga": 0.5,
@@ -748,7 +900,6 @@
       "GP": "Miami",
       "voltas": 57,
       "pct_chuva": 0.06,
-      "escala_rng": 1.08,
       "corrida": {
         "peso_largada": 0.5,
         "piloto_vs_carro": 0.55,
@@ -779,7 +930,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.1
+        "intensidade_operacoes": 1.1,
+        "rng": {
+          "piloto": 1.512,
+          "carro": 1.512,
+          "operacoes": 4.32,
+          "largada": 0.54,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.57,
@@ -788,6 +946,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.296,
+          "carro": 0.918,
+          "operacoes": 3.24
         },
         "carro_fatores": {
           "aero_carga": 0.6,
@@ -804,7 +967,6 @@
       "GP": "Montreal",
       "voltas": 70,
       "pct_chuva": 0.14,
-      "escala_rng": 1.04,
       "corrida": {
         "peso_largada": 0.625,
         "piloto_vs_carro": 0.6,
@@ -835,7 +997,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 1.456,
+          "carro": 1.456,
+          "operacoes": 4.16,
+          "largada": 0.52,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
@@ -844,6 +1013,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.248,
+          "carro": 0.884,
+          "operacoes": 3.12
         },
         "carro_fatores": {
           "aero_carga": 0.5,
@@ -860,7 +1034,6 @@
       "GP": "Silvestone",
       "voltas": 52,
       "pct_chuva": 0.18,
-      "escala_rng": 1.08,
       "corrida": {
         "peso_largada": 0.5,
         "piloto_vs_carro": 0.65,
@@ -891,7 +1064,14 @@
             4.5
           ]
         },
-        "intensidade_operacoes": 1.1
+        "intensidade_operacoes": 1.1,
+        "rng": {
+          "piloto": 1.512,
+          "carro": 1.512,
+          "operacoes": 4.32,
+          "largada": 0.54,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.61,
@@ -900,6 +1080,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.296,
+          "carro": 0.918,
+          "operacoes": 3.24
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -916,7 +1101,6 @@
       "GP": "Hungria",
       "voltas": 70,
       "pct_chuva": 0.2,
-      "escala_rng": 1.08,
       "corrida": {
         "peso_largada": 0.45,
         "piloto_vs_carro": 0.651,
@@ -947,7 +1131,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 1.512,
+          "carro": 1.512,
+          "operacoes": 4.32,
+          "largada": 0.54,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.61,
@@ -956,6 +1147,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.296,
+          "carro": 0.918,
+          "operacoes": 3.24
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -1002,7 +1198,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 0.9
+        "intensidade_operacoes": 0.9,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.62,
@@ -1011,6 +1214,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 1,
@@ -1057,7 +1265,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.05
+        "intensidade_operacoes": 1.05,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
@@ -1066,6 +1281,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.9,
@@ -1112,7 +1332,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.4
+        "intensidade_operacoes": 1.4,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
@@ -1121,6 +1348,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.8,
@@ -1167,7 +1399,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1
+        "intensidade_operacoes": 1,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.58,
@@ -1176,6 +1415,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.9,
@@ -1222,7 +1466,14 @@
             6
           ]
         },
-        "intensidade_operacoes": 0.85
+        "intensidade_operacoes": 0.85,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.55,
@@ -1231,6 +1482,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.4,
@@ -1277,7 +1533,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 0.95
+        "intensidade_operacoes": 0.95,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
@@ -1286,6 +1549,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.7,
@@ -1332,7 +1600,14 @@
             5
           ]
         },
-        "intensidade_operacoes": 1.15
+        "intensidade_operacoes": 1.15,
+        "rng": {
+          "piloto": 1.4,
+          "carro": 1.4,
+          "operacoes": 4.0,
+          "largada": 0.5,
+          "safety_car": 0.1
+        }
       },
       "quali": {
         "piloto_vs_carro": 0.59,
@@ -1341,6 +1616,11 @@
             "humana": 0.75,
             "mecanica": 0.35
           }
+        },
+        "rng": {
+          "piloto": 1.2,
+          "carro": 0.85,
+          "operacoes": 3.0
         },
         "carro_fatores": {
           "aero_carga": 0.8,

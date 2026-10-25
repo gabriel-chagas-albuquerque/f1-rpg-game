@@ -20,14 +20,16 @@
 // corrida.falhas.severidade              multiplicadorSeveridadeFalha (direto)
 // corrida.falhas.penalidade_z            [min, max] de PenalidadeZ (direto)
 // corrida.intensidade_operacoes          intensidadeOperacoes (direto)
-// corrida.safety_car.prob / .rng         pct_safety_car e RngSafetyCar (direto)
+// corrida.safety_car.prob (opcional)     pct_safety_car (direto); padrão em padroes.corrida.safety_car.prob
+// corrida.rng.piloto/carro/operacoes/    RngPiloto, RngCarro, RngOperacoes, RngLargada, RngSafetyCar da corrida
+//   largada/safety_car                   (direto; obrigatório em cada pista)
+// quali.rng.piloto/carro/operacoes       RngPiloto, RngCarro, RngOperacoes da quali (direto; obrigatório em cada pista)
 // quali.piloto_vs_carro                  WPiloto da quali (direto; WEquipe = 1 - WPiloto)
 // quali.piloto.* (opcional)              vetor do piloto na quali; senão usa padroes
 // quali.carro_fatores.* (opcional)       multiplicadores do carro na quali; senão usa padroes
 // quali.penalidade_z (opcional)          senão = corrida.penalidade_z * fatorPenalidadeQuali
 // quali.falhas.multiplicador_vs_corrida  { humana, mecanica } (obrigatório em cada pista): fator de falha da
 //                                        quali = fator da corrida x multiplicador (1 = igual; 1,1 = +10%; 0,2 = -80%)
-// escala_rng                             multiplica TODAS as bases de RNG (1 = padrão)
 //
 // FALHAS: probabilidade por piloto e corrida = min(1, fatorBase x faixa(atributo)).
 //   - faixa(atributo): sigmoide de configuracaoFalhas.json (humana: consistência; mecânica: durabilidade).
@@ -52,10 +54,6 @@ const desvioNormalTruncada = require("./funcoes/gerarNormalTruncada"); // só re
 
 const CFG = {
   pisoCarro: 0.03, // soma ao descritor do carro antes de normalizar (nenhum atributo some)
-  rngBases: {
-    corrida: { piloto: 1.4, carro: 1.4, operacoes: 4.0, largada: 0.5 },
-    quali: { piloto: 1.2, carro: 0.85, operacoes: 3.0 },
-  },
   fatorPenalidadeQuali: 0.5,
 };
 
@@ -192,22 +190,30 @@ const multiplicadores = (v, onde, base = {}) => {
   };
 };
 
+// Valores de RNG definidos por pista. Sem padrão: cada pista declara os seus.
+const rngBloco = (v, chaves, onde) => {
+  if (v === undefined) {
+    erro(onde, `ausente. Adicione: "rng": { ${chaves.map((k) => `"${k}": 1`).join(", ")} }`);
+  }
+  const obj = objeto(v, onde);
+  checarChaves(obj, chaves, onde);
+  return Object.fromEntries(chaves.map((k) => [k, numero(obj[k], `${onde}.${k}`, 0, 20)]));
+};
+
 const validarPadroes = (p) => {
   objeto(p, "padroes");
-  checarChaves(p, ["escala_rng", "corrida", "quali"], "padroes");
+  if (p.escala_rng !== undefined) erro("padroes.escala_rng", "removido: defina corrida.rng e quali.rng em cada pista.");
+  checarChaves(p, ["corrida", "quali"], "padroes");
   const sc = objeto(objeto(p.corrida, "padroes.corrida").safety_car, "padroes.corrida.safety_car");
-  checarChaves(sc, ["prob", "rng"], "padroes.corrida.safety_car");
+  if (sc.rng !== undefined) erro("padroes.corrida.safety_car.rng", "removido: use corrida.rng.safety_car em cada pista.");
+  checarChaves(sc, ["prob"], "padroes.corrida.safety_car");
   const q = objeto(p.quali, "padroes.quali");
   if (q.falhas !== undefined) {
     erro("padroes.quali.falhas", "removido: defina quali.falhas.multiplicador_vs_corrida em cada pista.");
   }
   checarChaves(q, ["piloto", "carro_fatores"], "padroes.quali");
   return {
-    escala_rng: numero(p.escala_rng, "padroes.escala_rng", 0, 3, { minExclusivo: true }),
-    safetyCar: {
-      prob: numero(sc.prob, "padroes.corrida.safety_car.prob", 0, 1),
-      rng: numero(sc.rng, "padroes.corrida.safety_car.rng", 0, 5),
-    },
+    safetyCarProb: numero(sc.prob, "padroes.corrida.safety_car.prob", 0, 1),
     qualiPiloto: importancias(q.piloto, PILOTO_QUALI, "padroes.quali.piloto"),
     qualiCarroFatores: importancias(q.carro_fatores, CARRO, "padroes.quali.carro_fatores"),
   };
@@ -217,39 +223,38 @@ const normalizarPista = (p, padroes) => {
   objeto(p, "pista");
   const gp = p.GP;
   if (typeof gp !== "string" || gp.trim() === "") erro("pista", "GP ausente");
-  checarChaves(p, ["GP", "voltas", "pct_chuva", "escala_rng", "corrida", "quali"], gp);
+  if (p.escala_rng !== undefined) erro(`${gp}.escala_rng`, "removido: defina corrida.rng e quali.rng em cada pista.");
+  checarChaves(p, ["GP", "voltas", "pct_chuva", "corrida", "quali"], gp);
   if (!Number.isInteger(p.voltas) || p.voltas < 1) erro(gp, "voltas inválidas");
 
   const c = objeto(p.corrida, `${gp}.corrida`);
-  checarChaves(c, ["peso_largada", "piloto_vs_carro", "piloto", "carro", "falhas", "intensidade_operacoes", "safety_car"], `${gp}.corrida`);
+  checarChaves(c, ["peso_largada", "piloto_vs_carro", "piloto", "carro", "falhas", "intensidade_operacoes", "safety_car", "rng"], `${gp}.corrida`);
   const f = objeto(c.falhas, `${gp}.corrida.falhas`);
   checarChaves(f, ["dnf_por_corrida", "pct_dnf_humano", "letalidade_humana", "letalidade_mecanica", "fator_base_falha", "severidade", "penalidade_z"], `${gp}.corrida.falhas`);
   const q = objeto(p.quali, `${gp}.quali`);
-  checarChaves(q, ["piloto_vs_carro", "piloto", "carro_fatores", "penalidade_z", "falhas"], `${gp}.quali`);
+  checarChaves(q, ["piloto_vs_carro", "piloto", "carro_fatores", "penalidade_z", "falhas", "rng"], `${gp}.quali`);
   if (q.falhas === undefined) {
     erro(`${gp}.quali.falhas`, 'ausente. Adicione: "falhas": { "multiplicador_vs_corrida": { "humana": 0.75, "mecanica": 0.35 } }');
   }
   const qfBruto = objeto(q.falhas, `${gp}.quali.falhas`);
   checarChaves(qfBruto, ["multiplicador_vs_corrida"], `${gp}.quali.falhas`);
   const scBruto = c.safety_car === undefined ? {} : objeto(c.safety_car, `${gp}.corrida.safety_car`);
-  checarChaves(scBruto, ["prob", "rng"], `${gp}.corrida.safety_car`);
-  const sc = { ...padroes.safetyCar, ...scBruto };
+  if (scBruto.rng !== undefined) erro(`${gp}.corrida.safety_car.rng`, "removido: use corrida.rng.safety_car.");
+  checarChaves(scBruto, ["prob"], `${gp}.corrida.safety_car`);
+  const scProb = scBruto.prob ?? padroes.safetyCarProb;
 
   return {
     GP: gp,
     voltas: p.voltas,
     pct_chuva: numero(p.pct_chuva, `${gp}.pct_chuva`, 0, 1),
-    escala_rng: numero(p.escala_rng ?? padroes.escala_rng, `${gp}.escala_rng`, 0, 3, { minExclusivo: true }),
     corrida: {
       pesoLargada: numero(c.peso_largada, `${gp}.corrida.peso_largada`, 0, 0.95),
       pilotoVsCarro: numero(c.piloto_vs_carro, `${gp}.corrida.piloto_vs_carro`, 0, 1),
       piloto: importancias(c.piloto, PILOTO_CORRIDA, `${gp}.corrida.piloto`),
       carro: importancias(c.carro, CARRO, `${gp}.corrida.carro`),
       intensidadeOperacoes: numero(c.intensidade_operacoes, `${gp}.corrida.intensidade_operacoes`, 0, 2),
-      safetyCar: {
-        prob: numero(sc.prob, `${gp}.corrida.safety_car.prob`, 0, 1),
-        rng: numero(sc.rng, `${gp}.corrida.safety_car.rng`, 0, 5),
-      },
+      safetyCarProb: numero(scProb, `${gp}.corrida.safety_car.prob`, 0, 1),
+      rng: rngBloco(c.rng, ["piloto", "carro", "operacoes", "largada", "safety_car"], `${gp}.corrida.rng`),
       falhas: {
         dnfPorCorrida: numero(f.dnf_por_corrida, `${gp}.falhas.dnf_por_corrida`, 0, Infinity, { minExclusivo: true }),
         pctDnfHumano: numero(f.pct_dnf_humano, `${gp}.falhas.pct_dnf_humano`, 0, 1),
@@ -262,6 +267,7 @@ const normalizarPista = (p, padroes) => {
     },
     quali: {
       pilotoVsCarro: numero(q.piloto_vs_carro, `${gp}.quali.piloto_vs_carro`, 0, 1),
+      rng: rngBloco(q.rng, ["piloto", "carro", "operacoes"], `${gp}.quali.rng`),
       piloto: importancias(q.piloto, PILOTO_QUALI, `${gp}.quali.piloto`, padroes.qualiPiloto),
       carroFatores: importancias(q.carro_fatores, CARRO, `${gp}.quali.carro_fatores`, padroes.qualiCarroFatores),
       penalidadeZ: q.penalidade_z === undefined ? null : faixa(q.penalidade_z, `${gp}.quali.penalidade_z`),
@@ -284,9 +290,9 @@ const gerarPesos = (d, ctx) => {
   const wPiloto = resto * c.pilotoVsCarro;
   const wEquipe = resto - wPiloto;
 
-  // RNG: bases globais x escala da pista
-  const rngC = mapear(CFG.rngBases.corrida, (b) => r3(b * d.escala_rng));
-  const rngQ = mapear(CFG.rngBases.quali, (b) => r3(b * d.escala_rng));
+  // RNG: valores definidos por pista nos descritores (corrida.rng e quali.rng)
+  const rngC = mapear(c.rng, r3);
+  const rngQ = mapear(q.rng, r3);
 
   // falhas: probabilidade média por piloto que faz o grid render dnf_por_corrida (com a proporção pedida)
   const alvoH = (f.dnfPorCorrida * f.pctDnfHumano) / (n * f.letalidadeHumana);
@@ -321,7 +327,7 @@ const gerarPesos = (d, ctx) => {
         pesosGerais: {
           ...arredondarSomaUm({ WPosInicial: c.pesoLargada, WPiloto: wPiloto, WEquipe: wEquipe }),
           RngPiloto: rngC.piloto, RngCarro: rngC.carro, RngOperacoes: rngC.operacoes, RngLargada: rngC.largada,
-          RngSafetyCar: c.safetyCar.rng,
+          RngSafetyCar: rngC.safety_car,
         },
         falhas: {
           FatorBaseFalhaMecanica: r4(fatorM), FatorBaseFalhaHumana: r4(fatorH),
@@ -332,7 +338,7 @@ const gerarPesos = (d, ctx) => {
         equipe: arredondarSomaUm(vetor(c.carro, CARRO, { piso: CFG.pisoCarro })),
       },
     },
-    pct_safety_car: c.safetyCar.prob,
+    pct_safety_car: c.safetyCarProb,
   };
 };
 

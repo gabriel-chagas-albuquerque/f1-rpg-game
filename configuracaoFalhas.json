@@ -3,9 +3,9 @@
   "mecanica": {
     "porcentagemMinima": 15,
     "porcentagemMaxima": 45,
-    "atributoMinimo": 35,
+    "atributoMinimo": 60,
     "atributoMaximo": 94,
-    "centro": 64.5,
+    "centro": 77,
     "escala": 12
   },
   "humana": {

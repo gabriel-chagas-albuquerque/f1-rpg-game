@@ -92,6 +92,56 @@ teste("quali: multiplicador que estoura 100%, pista sem o bloco e padroes.quali.
   assert.throws(() => gerador.gerarConfiguracoes(e, ctx), /mecanica: número ausente/);
 });
 
+teste("RNG: cada valor do descritor chega ao pesos.json (corrida e quali, todas as pistas)", () => {
+  const r3 = (v) => Math.round(v * 1000) / 1000;
+  const geradas = gerador.gerarConfiguracoes(arquivo, ctx);
+  arquivo.pistas.forEach((pista, i) => {
+    const c = pista.corrida.rng, q = pista.quali.rng;
+    const { corrida, qualificacao } = geradas[i].pesos;
+    const g = corrida.pesosGerais, gq = qualificacao.pesosGerais;
+    assert.deepEqual(
+      [g.RngPiloto, g.RngCarro, g.RngOperacoes, g.RngLargada, g.RngSafetyCar],
+      [c.piloto, c.carro, c.operacoes, c.largada, c.safety_car].map(r3),
+      `${pista.GP} corrida`,
+    );
+    assert.deepEqual(
+      [gq.RngPiloto, gq.RngCarro, gq.RngOperacoes],
+      [q.piloto, q.carro, q.operacoes].map(r3),
+      `${pista.GP} quali`,
+    );
+  });
+});
+
+teste("RNG: valor por pista é independente; campos antigos, faltantes ou inválidos falham com mensagem clara", () => {
+  const base = gerador.gerarConfiguracoes(arquivo, ctx);
+  const a = clonar(arquivo);
+  a.pistas[1].corrida.rng.largada = 0.9;
+  a.pistas[1].quali.rng.carro = 2.5;
+  const g = gerador.gerarConfiguracoes(a, ctx);
+  assert.equal(g[1].pesos.corrida.pesosGerais.RngLargada, 0.9);
+  assert.equal(g[1].pesos.qualificacao.pesosGerais.RngCarro, 2.5);
+  assert.equal(g[0].pesos.corrida.pesosGerais.RngLargada, base[0].pesos.corrida.pesosGerais.RngLargada);
+
+  const b = clonar(arquivo);
+  delete b.pistas[2].corrida.rng;
+  assert.throws(() => gerador.gerarConfiguracoes(b, ctx), new RegExp(`${b.pistas[2].GP}\\.corrida\\.rng: ausente`));
+  const c = clonar(arquivo);
+  c.pistas[0].escala_rng = 1.1;
+  assert.throws(() => gerador.gerarConfiguracoes(c, ctx), /escala_rng: removido/);
+  const e = clonar(arquivo);
+  e.pistas[0].corrida.safety_car = { prob: 0.1, rng: 0.5 };
+  assert.throws(() => gerador.gerarConfiguracoes(e, ctx), /safety_car\.rng: removido/);
+  const f = clonar(arquivo);
+  delete f.pistas[0].quali.rng.operacoes;
+  assert.throws(() => gerador.gerarConfiguracoes(f, ctx), /quali\.rng\.operacoes: número ausente/);
+  const h = clonar(arquivo);
+  h.pistas[0].corrida.rng.piloto = -1;
+  assert.throws(() => gerador.gerarConfiguracoes(h, ctx), /corrida\.rng\.piloto: deve estar entre/);
+  const k = clonar(arquivo);
+  k.pistas[0].quali.rng.largada = 0.5;
+  assert.throws(() => gerador.gerarConfiguracoes(k, ctx), /campo desconhecido "largada"/);
+});
+
 teste("fator_base_falha manual vale só para o tipo informado", () => {
   const a = clonar(arquivo);
   a.pistas[0].corrida.falhas.fator_base_falha = { humana: 0.5 };

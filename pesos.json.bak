@@ -10,13 +10,13 @@
         "pesosGerais": {
           "WPiloto": 0.55,
           "WEquipe": 0.45,
-          "RngPiloto": 2.4,
-          "RngCarro": 0.5,
+          "RngPiloto": 2.5,
+          "RngCarro": 1,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.35,
-          "FatorBaseFalhaHumana": 1.2,
+          "FatorBaseFalhaMecanica": 0.1962,
+          "FatorBaseFalhaHumana": 0.564,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.5,
@@ -42,20 +42,20 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.45,
-          "WPiloto": 0.33,
-          "WEquipe": 0.22,
-          "RngPiloto": 1.6,
-          "RngCarro": 1.8,
-          "RngOperacoes": 4,
-          "RngLargada": 0.5,
+          "WPosInicial": 0.5,
+          "WPiloto": 0.25,
+          "WEquipe": 0.25,
+          "RngPiloto": 3,
+          "RngCarro": 3,
+          "RngOperacoes": 2,
+          "RngLargada": 0.6,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 1,
-          "FatorBaseFalhaHumana": 1,
-          "FracaoDNFMecanica": 0.64,
-          "FracaoDNFHumana": 0.36,
+          "FatorBaseFalhaMecanica": 0.5605,
+          "FatorBaseFalhaHumana": 0.5127,
+          "FracaoDNFMecanica": 0.4,
+          "FracaoDNFHumana": 0.25,
           "PenalidadeZMin": 3,
           "PenalidadeZMax": 6
         },
@@ -92,12 +92,12 @@
           "WPiloto": 0.62,
           "WEquipe": 0.38,
           "RngPiloto": 3,
-          "RngCarro": 0.3,
-          "RngOperacoes": 3
+          "RngCarro": 0.85,
+          "RngOperacoes": 1.5
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.35,
-          "FatorBaseFalhaHumana": 1.2,
+          "FatorBaseFalhaMecanica": 0.2707,
+          "FatorBaseFalhaHumana": 0.8511,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 0.25,
@@ -124,29 +124,29 @@
       "corrida": {
         "pesosGerais": {
           "WPosInicial": 0.85,
-          "WPiloto": 0.105,
-          "WEquipe": 0.045,
-          "RngPiloto": 1.3,
-          "RngCarro": 0.8,
-          "RngOperacoes": 4,
-          "RngLargada": 0.5,
+          "WPiloto": 0.102,
+          "WEquipe": 0.048,
+          "RngPiloto": 1.4,
+          "RngCarro": 1.4,
+          "RngOperacoes": 2,
+          "RngLargada": 0.4,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 1,
-          "FatorBaseFalhaHumana": 1,
-          "FracaoDNFMecanica": 0.44,
-          "FracaoDNFHumana": 0.56,
+          "FatorBaseFalhaMecanica": 0.7734,
+          "FatorBaseFalhaHumana": 0.7737,
+          "FracaoDNFMecanica": 0.3,
+          "FracaoDNFHumana": 0.6,
           "PenalidadeZMin": 0.5,
           "PenalidadeZMax": 1.5
         },
         "piloto": {
           "VelocidadeQualificacao": 0,
-          "VelocidadeCorrida": 0.654,
-          "Racecraft": 0.052,
-          "Gerenciamento": 0.131,
-          "Adaptabilidade": 0.111,
-          "Fisico": 0.052
+          "VelocidadeCorrida": 0.503,
+          "Racecraft": 0.069,
+          "Gerenciamento": 0.196,
+          "Adaptabilidade": 0.163,
+          "Fisico": 0.069
         },
         "equipe": {
           "AeroCarga": 0.156,
@@ -172,13 +172,13 @@
         "pesosGerais": {
           "WPiloto": 0.49,
           "WEquipe": 0.51,
-          "RngPiloto": 1.2,
-          "RngCarro": 0.85,
+          "RngPiloto": 2.5,
+          "RngCarro": 1,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2538,
-          "FatorBaseFalhaHumana": 0.1875,
+          "FatorBaseFalhaMecanica": 0.259,
+          "FatorBaseFalhaHumana": 0.1718,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -204,17 +204,17 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.3,
-          "WPiloto": 0.244,
-          "WEquipe": 0.456,
-          "RngPiloto": 1.4,
-          "RngCarro": 1.4,
-          "RngOperacoes": 4,
-          "RngLargada": 0.5,
+          "WPosInicial": 0.6,
+          "WPiloto": 0.14,
+          "WEquipe": 0.26,
+          "RngPiloto": 3,
+          "RngCarro": 4.5,
+          "RngOperacoes": 2,
+          "RngLargada": 0.6,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.7251,
+          "FatorBaseFalhaMecanica": 0.7399,
           "FatorBaseFalhaHumana": 0.1562,
           "FracaoDNFMecanica": 0.355,
           "FracaoDNFHumana": 0.64,
@@ -253,13 +253,13 @@
         "pesosGerais": {
           "WPiloto": 0.65,
           "WEquipe": 0.35,
-          "RngPiloto": 1.2,
-          "RngCarro": 0.85,
+          "RngPiloto": 2.3,
+          "RngCarro": 1.15,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1354,
-          "FatorBaseFalhaHumana": 0.4082,
+          "FatorBaseFalhaMecanica": 0.1382,
+          "FatorBaseFalhaHumana": 0.3741,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 0.75,
@@ -295,7 +295,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.387,
+          "FatorBaseFalhaMecanica": 0.3949,
           "FatorBaseFalhaHumana": 0.3401,
           "FracaoDNFMecanica": 0.43,
           "FracaoDNFHumana": 0.76,
@@ -334,13 +334,13 @@
         "pesosGerais": {
           "WPiloto": 0.61,
           "WEquipe": 0.39,
-          "RngPiloto": 1.2,
-          "RngCarro": 0.85,
+          "RngPiloto": 4.5,
+          "RngCarro": 1.8,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0713,
-          "FatorBaseFalhaHumana": 0.2162,
+          "FatorBaseFalhaMecanica": 0.0821,
+          "FatorBaseFalhaHumana": 0.3091,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -366,9 +366,9 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.6,
-          "WPiloto": 0.26,
-          "WEquipe": 0.14,
+          "WPosInicial": 0.65,
+          "WPiloto": 0.227,
+          "WEquipe": 0.123,
           "RngPiloto": 1.4,
           "RngCarro": 1.4,
           "RngOperacoes": 4,
@@ -376,20 +376,20 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2038,
-          "FatorBaseFalhaHumana": 0.1801,
-          "FracaoDNFMecanica": 0.451,
-          "FracaoDNFHumana": 0.78,
+          "FatorBaseFalhaMecanica": 0.2345,
+          "FatorBaseFalhaHumana": 0.281,
+          "FracaoDNFMecanica": 0.4,
+          "FracaoDNFHumana": 0.5,
           "PenalidadeZMin": 2,
           "PenalidadeZMax": 4
         },
         "piloto": {
           "VelocidadeQualificacao": 0,
-          "VelocidadeCorrida": 0.291,
-          "Racecraft": 0.09,
-          "Gerenciamento": 0.227,
-          "Adaptabilidade": 0.142,
-          "Fisico": 0.25
+          "VelocidadeCorrida": 0.234,
+          "Racecraft": 0.096,
+          "Gerenciamento": 0.218,
+          "Adaptabilidade": 0.218,
+          "Fisico": 0.234
         },
         "equipe": {
           "AeroCarga": 0.226,
@@ -415,13 +415,13 @@
         "pesosGerais": {
           "WPiloto": 0.59,
           "WEquipe": 0.41,
-          "RngPiloto": 1.2,
-          "RngCarro": 0.85,
+          "RngPiloto": 3,
+          "RngCarro": 0.5,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1054,
-          "FatorBaseFalhaHumana": 0.5178,
+          "FatorBaseFalhaMecanica": 0.1599,
+          "FatorBaseFalhaHumana": 0.6962,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.5,
@@ -447,20 +447,20 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.425,
-          "WPiloto": 0.345,
-          "WEquipe": 0.23,
-          "RngPiloto": 1.4,
-          "RngCarro": 1.4,
+          "WPosInicial": 0.35,
+          "WPiloto": 0.325,
+          "WEquipe": 0.325,
+          "RngPiloto": 1.9,
+          "RngCarro": 1.5,
           "RngOperacoes": 4,
-          "RngLargada": 0.5,
+          "RngLargada": 0.3,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.301,
-          "FatorBaseFalhaHumana": 0.4315,
-          "FracaoDNFMecanica": 0.595,
-          "FracaoDNFHumana": 0.88,
+          "FatorBaseFalhaMecanica": 0.457,
+          "FatorBaseFalhaHumana": 0.6329,
+          "FracaoDNFMecanica": 0.4,
+          "FracaoDNFHumana": 0.6,
           "PenalidadeZMin": 3,
           "PenalidadeZMax": 6
         },
@@ -496,13 +496,13 @@
         "pesosGerais": {
           "WPiloto": 0.63,
           "WEquipe": 0.37,
-          "RngPiloto": 1.2,
+          "RngPiloto": 3,
           "RngCarro": 0.85,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0657,
-          "FatorBaseFalhaHumana": 0.6426,
+          "FatorBaseFalhaMecanica": 0.1481,
+          "FatorBaseFalhaHumana": 0.9503,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 0.5,
@@ -538,10 +538,10 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1878,
-          "FatorBaseFalhaHumana": 0.5355,
-          "FracaoDNFMecanica": 0.773,
-          "FracaoDNFHumana": 0.968,
+          "FatorBaseFalhaMecanica": 0.4233,
+          "FatorBaseFalhaHumana": 0.8639,
+          "FracaoDNFMecanica": 0.35,
+          "FracaoDNFHumana": 0.6,
           "PenalidadeZMin": 1,
           "PenalidadeZMax": 2.5
         },
@@ -577,13 +577,13 @@
         "pesosGerais": {
           "WPiloto": 0.63,
           "WEquipe": 0.37,
-          "RngPiloto": 1.344,
+          "RngPiloto": 2.5,
           "RngCarro": 0.952,
           "RngOperacoes": 3.36
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0841,
-          "FatorBaseFalhaHumana": 0.3297,
+          "FatorBaseFalhaMecanica": 0.1137,
+          "FatorBaseFalhaHumana": 0.6346,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.25,
@@ -609,30 +609,30 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.575,
-          "WPiloto": 0.297,
-          "WEquipe": 0.128,
-          "RngPiloto": 1.568,
-          "RngCarro": 1.568,
+          "WPosInicial": 0.53,
+          "WPiloto": 0.306,
+          "WEquipe": 0.164,
+          "RngPiloto": 3,
+          "RngCarro": 1.8,
           "RngOperacoes": 4.48,
-          "RngLargada": 0.56,
+          "RngLargada": 0.35,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2403,
-          "FatorBaseFalhaHumana": 0.2747,
-          "FracaoDNFMecanica": 0.53,
-          "FracaoDNFHumana": 0.84,
+          "FatorBaseFalhaMecanica": 0.325,
+          "FatorBaseFalhaHumana": 0.5769,
+          "FracaoDNFMecanica": 0.4,
+          "FracaoDNFHumana": 0.4,
           "PenalidadeZMin": 2.5,
           "PenalidadeZMax": 5
         },
         "piloto": {
           "VelocidadeQualificacao": 0,
-          "VelocidadeCorrida": 0.364,
-          "Racecraft": 0.156,
-          "Gerenciamento": 0.16,
-          "Adaptabilidade": 0.12,
-          "Fisico": 0.2
+          "VelocidadeCorrida": 0.286,
+          "Racecraft": 0.161,
+          "Gerenciamento": 0.143,
+          "Adaptabilidade": 0.196,
+          "Fisico": 0.214
         },
         "equipe": {
           "AeroCarga": 0.105,
@@ -658,13 +658,13 @@
         "pesosGerais": {
           "WPiloto": 0.55,
           "WEquipe": 0.45,
-          "RngPiloto": 1.2,
+          "RngPiloto": 2.3,
           "RngCarro": 0.85,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.095,
-          "FatorBaseFalhaHumana": 0.2233,
+          "FatorBaseFalhaMecanica": 0.0969,
+          "FatorBaseFalhaHumana": 0.2047,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -693,14 +693,14 @@
           "WPosInicial": 0.475,
           "WPiloto": 0.263,
           "WEquipe": 0.262,
-          "RngPiloto": 1.4,
-          "RngCarro": 1.4,
+          "RngPiloto": 1.8,
+          "RngCarro": 1.5,
           "RngOperacoes": 4,
-          "RngLargada": 0.5,
+          "RngLargada": 0.6,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2714,
+          "FatorBaseFalhaMecanica": 0.2769,
           "FatorBaseFalhaHumana": 0.1861,
           "FracaoDNFMecanica": 0.43,
           "FracaoDNFHumana": 0.76,
@@ -737,15 +737,15 @@
     "pesos": {
       "qualificacao": {
         "pesosGerais": {
-          "WPiloto": 0.61,
-          "WEquipe": 0.39,
-          "RngPiloto": 1.2,
+          "WPiloto": 0.65,
+          "WEquipe": 0.35,
+          "RngPiloto": 3.4,
           "RngCarro": 0.85,
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1009,
-          "FatorBaseFalhaHumana": 0.3956,
+          "FatorBaseFalhaMecanica": 0.13,
+          "FatorBaseFalhaHumana": 0.448,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.25,
@@ -771,30 +771,30 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.6,
-          "WPiloto": 0.26,
-          "WEquipe": 0.14,
-          "RngPiloto": 1.4,
-          "RngCarro": 1.4,
+          "WPosInicial": 0.55,
+          "WPiloto": 0.27,
+          "WEquipe": 0.18,
+          "RngPiloto": 2.8,
+          "RngCarro": 1.5,
           "RngOperacoes": 4,
           "RngLargada": 0.5,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2884,
-          "FatorBaseFalhaHumana": 0.3297,
-          "FracaoDNFMecanica": 0.53,
-          "FracaoDNFHumana": 0.84,
+          "FatorBaseFalhaMecanica": 0.3714,
+          "FatorBaseFalhaHumana": 0.4073,
+          "FracaoDNFMecanica": 0.42,
+          "FracaoDNFHumana": 0.68,
           "PenalidadeZMin": 2.5,
           "PenalidadeZMax": 5
         },
         "piloto": {
           "VelocidadeQualificacao": 0,
-          "VelocidadeCorrida": 0.32,
-          "Racecraft": 0.141,
-          "Gerenciamento": 0.167,
-          "Adaptabilidade": 0.122,
-          "Fisico": 0.25
+          "VelocidadeCorrida": 0.224,
+          "Racecraft": 0.173,
+          "Gerenciamento": 0.199,
+          "Adaptabilidade": 0.186,
+          "Fisico": 0.218
         },
         "equipe": {
           "AeroCarga": 0.144,
@@ -825,8 +825,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.29,
-          "FatorBaseFalhaHumana": 0.7658,
+          "FatorBaseFalhaMecanica": 0.2959,
+          "FatorBaseFalhaHumana": 0.702,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.5,
@@ -852,9 +852,9 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.625,
-          "WPiloto": 0.206,
-          "WEquipe": 0.169,
+          "WPosInicial": 0.58,
+          "WPiloto": 0.231,
+          "WEquipe": 0.189,
           "RngPiloto": 1.4,
           "RngCarro": 1.4,
           "RngOperacoes": 4,
@@ -862,7 +862,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.8286,
+          "FatorBaseFalhaMecanica": 0.8456,
           "FatorBaseFalhaHumana": 0.6382,
           "FracaoDNFMecanica": 0.43,
           "FracaoDNFHumana": 0.76,
@@ -906,8 +906,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2304,
-          "FatorBaseFalhaHumana": 0.6218,
+          "FatorBaseFalhaMecanica": 0.2351,
+          "FatorBaseFalhaHumana": 0.57,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -933,9 +933,9 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.65,
-          "WPiloto": 0.201,
-          "WEquipe": 0.149,
+          "WPosInicial": 0.57,
+          "WPiloto": 0.247,
+          "WEquipe": 0.183,
           "RngPiloto": 1.4,
           "RngCarro": 1.4,
           "RngOperacoes": 4,
@@ -943,7 +943,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.6584,
+          "FatorBaseFalhaMecanica": 0.6718,
           "FatorBaseFalhaHumana": 0.5182,
           "FracaoDNFMecanica": 0.451,
           "FracaoDNFHumana": 0.78,
@@ -982,13 +982,13 @@
         "pesosGerais": {
           "WPiloto": 0.61,
           "WEquipe": 0.39,
-          "RngPiloto": 1.248,
+          "RngPiloto": 2.7,
           "RngCarro": 0.884,
           "RngOperacoes": 3.12
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0556,
-          "FatorBaseFalhaHumana": 0.3343,
+          "FatorBaseFalhaMecanica": 0.0807,
+          "FatorBaseFalhaHumana": 0.4116,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1014,20 +1014,20 @@
       },
       "corrida": {
         "pesosGerais": {
-          "WPosInicial": 0.675,
-          "WPiloto": 0.211,
-          "WEquipe": 0.114,
-          "RngPiloto": 1.456,
-          "RngCarro": 1.456,
+          "WPosInicial": 0.65,
+          "WPiloto": 0.193,
+          "WEquipe": 0.157,
+          "RngPiloto": 1.6,
+          "RngCarro": 1.5,
           "RngOperacoes": 4.16,
           "RngLargada": 0.52,
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1589,
-          "FatorBaseFalhaHumana": 0.2786,
-          "FracaoDNFMecanica": 0.711,
-          "FracaoDNFHumana": 0.94,
+          "FatorBaseFalhaMecanica": 0.2306,
+          "FatorBaseFalhaHumana": 0.3741,
+          "FracaoDNFMecanica": 0.5,
+          "FracaoDNFHumana": 0.7,
           "PenalidadeZMin": 2,
           "PenalidadeZMax": 5
         },
@@ -1068,8 +1068,8 @@
           "RngOperacoes": 3.24
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1067,
-          "FatorBaseFalhaHumana": 0.3718,
+          "FatorBaseFalhaMecanica": 0.1089,
+          "FatorBaseFalhaHumana": 0.2324,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1105,7 +1105,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.3048,
+          "FatorBaseFalhaMecanica": 0.311,
           "FatorBaseFalhaHumana": 0.3098,
           "FracaoDNFMecanica": 0.501,
           "FracaoDNFHumana": 0.82,
@@ -1149,8 +1149,8 @@
           "RngOperacoes": 3.12
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1714,
-          "FatorBaseFalhaHumana": 0.5511,
+          "FatorBaseFalhaMecanica": 0.1749,
+          "FatorBaseFalhaHumana": 0.3444,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1186,7 +1186,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.4897,
+          "FatorBaseFalhaMecanica": 0.4997,
           "FatorBaseFalhaHumana": 0.4593,
           "FracaoDNFMecanica": 0.53,
           "FracaoDNFHumana": 0.84,
@@ -1230,8 +1230,8 @@
           "RngOperacoes": 3.24
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1377,
-          "FatorBaseFalhaHumana": 0.4855,
+          "FatorBaseFalhaMecanica": 0.1405,
+          "FatorBaseFalhaHumana": 0.3034,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1267,7 +1267,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.3933,
+          "FatorBaseFalhaMecanica": 0.4013,
           "FatorBaseFalhaHumana": 0.4046,
           "FracaoDNFMecanica": 0.53,
           "FracaoDNFHumana": 0.84,
@@ -1311,8 +1311,8 @@
           "RngOperacoes": 3.24
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1243,
-          "FatorBaseFalhaHumana": 0.3282,
+          "FatorBaseFalhaMecanica": 0.1268,
+          "FatorBaseFalhaHumana": 0.2051,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1348,7 +1348,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.3551,
+          "FatorBaseFalhaMecanica": 0.3624,
           "FatorBaseFalhaHumana": 0.2735,
           "FracaoDNFMecanica": 0.43,
           "FracaoDNFHumana": 0.76,
@@ -1392,8 +1392,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1925,
-          "FatorBaseFalhaHumana": 0.4372,
+          "FatorBaseFalhaMecanica": 0.1965,
+          "FatorBaseFalhaHumana": 0.2733,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1429,7 +1429,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.5501,
+          "FatorBaseFalhaMecanica": 0.5613,
           "FatorBaseFalhaHumana": 0.3644,
           "FracaoDNFMecanica": 0.411,
           "FracaoDNFHumana": 0.74,
@@ -1473,8 +1473,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0724,
-          "FatorBaseFalhaHumana": 0.1954,
+          "FatorBaseFalhaMecanica": 0.0739,
+          "FatorBaseFalhaHumana": 0.1221,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1510,7 +1510,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2069,
+          "FatorBaseFalhaMecanica": 0.2111,
           "FatorBaseFalhaHumana": 0.1628,
           "FracaoDNFMecanica": 0.451,
           "FracaoDNFHumana": 0.78,
@@ -1554,8 +1554,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1039,
-          "FatorBaseFalhaHumana": 0.2526,
+          "FatorBaseFalhaMecanica": 0.106,
+          "FatorBaseFalhaHumana": 0.1579,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1591,7 +1591,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2968,
+          "FatorBaseFalhaMecanica": 0.3029,
           "FatorBaseFalhaHumana": 0.2105,
           "FracaoDNFMecanica": 0.451,
           "FracaoDNFHumana": 0.78,
@@ -1635,8 +1635,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.215,
-          "FatorBaseFalhaHumana": 0.4533,
+          "FatorBaseFalhaMecanica": 0.2194,
+          "FatorBaseFalhaHumana": 0.2833,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1672,7 +1672,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.6143,
+          "FatorBaseFalhaMecanica": 0.6268,
           "FatorBaseFalhaHumana": 0.3778,
           "FracaoDNFMecanica": 0.43,
           "FracaoDNFHumana": 0.76,
@@ -1716,8 +1716,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2552,
-          "FatorBaseFalhaHumana": 0.3709,
+          "FatorBaseFalhaMecanica": 0.2604,
+          "FatorBaseFalhaHumana": 0.2318,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1.5,
@@ -1753,7 +1753,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.7291,
+          "FatorBaseFalhaMecanica": 0.744,
           "FatorBaseFalhaHumana": 0.3091,
           "FracaoDNFMecanica": 0.37,
           "FracaoDNFHumana": 0.68,
@@ -1797,8 +1797,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.2575,
-          "FatorBaseFalhaHumana": 0.4954,
+          "FatorBaseFalhaMecanica": 0.2628,
+          "FatorBaseFalhaHumana": 0.3096,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1834,7 +1834,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.7358,
+          "FatorBaseFalhaMecanica": 0.7509,
           "FatorBaseFalhaHumana": 0.4128,
           "FracaoDNFMecanica": 0.395,
           "FracaoDNFHumana": 0.72,
@@ -1878,8 +1878,8 @@
           "RngOperacoes": 3
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.0651,
-          "FatorBaseFalhaHumana": 0.1309,
+          "FatorBaseFalhaMecanica": 0.0664,
+          "FatorBaseFalhaHumana": 0.0818,
           "FracaoDNFMecanica": 0,
           "FracaoDNFHumana": 0,
           "PenalidadeZMin": 1,
@@ -1915,7 +1915,7 @@
           "RngSafetyCar": 0.1
         },
         "falhas": {
-          "FatorBaseFalhaMecanica": 0.1859,
+          "FatorBaseFalhaMecanica": 0.1897,
           "FatorBaseFalhaHumana": 0.1091,
           "FracaoDNFMecanica": 0.411,
           "FracaoDNFHumana": 0.74,
